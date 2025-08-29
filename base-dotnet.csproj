@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>BaseDotnet</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.9.0" />
+    <PackageReference Include="HtmlSanitizer" Version="8.0.843" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Identity.Web" Version="2.17.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.0" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL.Design" Version="1.1.0" />
+    <PackageReference Include="Serilog" Version="3.1.1" />
+    <PackageReference Include="Serilog.Extensions.Hosting" Version="8.0.0" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="5.0.1" />
+    <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+    <PackageReference Include="SkiaSharp" Version="2.88.8" />
+    <PackageReference Include="SkiaSharp.NativeAssets.Linux" Version="2.88.8" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.4.0" />
+    <Content Include="Uploads\**"> 
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory> 
+    </Content> 
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="BaseDotnet\appsettings.Development.json" />
+    <_ContentIncludedByDefault Remove="BaseDotnet\appsettings.json" />
+    <_ContentIncludedByDefault Remove="BaseDotnet\bin\Debug\net8.0\appsettings.Development.json" />
+    <_ContentIncludedByDefault Remove="BaseDotnet\bin\Debug\net8.0\appsettings.json" />
+    <_ContentIncludedByDefault Remove="BaseDotnet\bin\Debug\net8.0\BaseDotnet.deps.json" />
+    <_ContentIncludedByDefault Remove="BaseDotnet\bin\Debug\net8.0\BaseDotnet.runtimeconfig.json" />
+    <_ContentIncludedByDefault Remove="BaseDotnet\bin\Debug\net8.0\RSSMBackend.deps.json" />
+    <_ContentIncludedByDefault Remove="BaseDotnet\bin\Debug\net8.0\RSSMBackend.runtimeconfig.json" />
+    <_ContentIncludedByDefault Remove="BaseDotnet\obj\BaseDotnet.csproj.nuget.dgspec.json" />
+    <_ContentIncludedByDefault Remove="BaseDotnet\obj\Debug\net8.0\RSSMBackend.sourcelink.json" />
+    <_ContentIncludedByDefault Remove="BaseDotnet\obj\Debug\net8.0\staticwebassets.build.json" />
+    <_ContentIncludedByDefault Remove="BaseDotnet\obj\project.assets.json" />
+    <_ContentIncludedByDefault Remove="BaseDotnet\obj\project.packagespec.json" />
+    <_ContentIncludedByDefault Remove="BaseDotnet\obj\RSSMBackend.csproj.nuget.dgspec.json" />
+    <_ContentIncludedByDefault Remove="BaseDotnet\obj\SMBackend.csproj.nuget.dgspec.json" />
+    <_ContentIncludedByDefault Remove="BaseDotnet\Properties\launchSettings.json" />
+  </ItemGroup>
+
+</Project>

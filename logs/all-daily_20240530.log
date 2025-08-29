@@ -1,0 +1,1346 @@
+2024-05-30 00:10:17.593 +07:00 [DBG] Connection id "0HN4008RBB185" accepted.
+2024-05-30 00:10:17.598 +07:00 [DBG] Connection id "0HN4008RBB185" started.
+2024-05-30 00:10:17.618 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/ - null null
+2024-05-30 00:10:17.620 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-05-30 00:10:17.629 +07:00 [DBG] No candidates found for the request path '/'
+2024-05-30 00:10:17.629 +07:00 [DBG] Request did not match any endpoints
+2024-05-30 00:10:17.641 +07:00 [DBG] The request path  does not match the path filter
+2024-05-30 00:10:17.642 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-05-30 00:10:17.701 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-05-30 00:10:17.709 +07:00 [INF] [null]
+2024-05-30 00:10:17.711 +07:00 [DBG] Connection id "0HN4008RBB185" completed keep alive response.
+2024-05-30 00:10:17.712 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/ - 404 0 null 94.9875ms
+2024-05-30 00:10:17.716 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5245/, Response status code: 404
+2024-05-30 00:10:18.733 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/swagger/index.html - null null
+2024-05-30 00:10:18.734 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-05-30 00:10:18.734 +07:00 [DBG] Request did not match any endpoints
+2024-05-30 00:10:18.765 +07:00 [DBG] Connection id "0HN4008RBB185" completed keep alive response.
+2024-05-30 00:10:18.765 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/swagger/index.html - 200 null text/html;charset=utf-8 31.6755ms
+2024-05-30 00:10:18.770 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/swagger/swagger-ui.css - null null
+2024-05-30 00:10:18.771 +07:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2024-05-30 00:10:18.772 +07:00 [DBG] Request did not match any endpoints
+2024-05-30 00:10:18.780 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-30 00:10:18.781 +07:00 [DBG] Connection id "0HN4008RBB185" completed keep alive response.
+2024-05-30 00:10:18.781 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/swagger/swagger-ui.css - 200 143943 text/css 10.8862ms
+2024-05-30 00:10:18.870 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/swagger/v1/swagger.json - null null
+2024-05-30 00:10:18.870 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-05-30 00:10:18.870 +07:00 [DBG] Request did not match any endpoints
+2024-05-30 00:10:18.921 +07:00 [DBG] Connection id "0HN4008RBB185" completed keep alive response.
+2024-05-30 00:10:18.921 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 51.0142ms
+2024-05-30 00:10:25.998 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/swagger/index.html - null null
+2024-05-30 00:10:25.999 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-05-30 00:10:25.999 +07:00 [DBG] Request did not match any endpoints
+2024-05-30 00:10:26.000 +07:00 [DBG] Connection id "0HN4008RBB185" completed keep alive response.
+2024-05-30 00:10:26.000 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/swagger/index.html - 200 null text/html;charset=utf-8 2.0146ms
+2024-05-30 00:10:26.051 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/swagger/v1/swagger.json - null null
+2024-05-30 00:10:26.051 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-05-30 00:10:26.051 +07:00 [DBG] Request did not match any endpoints
+2024-05-30 00:10:26.056 +07:00 [DBG] Connection id "0HN4008RBB185" completed keep alive response.
+2024-05-30 00:10:26.056 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.5707ms
+2024-05-30 00:10:28.578 +07:00 [INF] Application is shutting down...
+2024-05-30 00:10:28.579 +07:00 [DBG] Hosting stopping
+2024-05-30 00:10:28.592 +07:00 [DBG] Connection id "0HN4008RBB185" disconnecting.
+2024-05-30 00:10:28.593 +07:00 [DBG] Connection id "0HN4008RBB185" stopped.
+2024-05-30 00:10:28.594 +07:00 [DBG] Connection id "0HN4008RBB185" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-30 00:10:28.597 +07:00 [DBG] Hosting stopped
+2024-05-30 00:10:32.510 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-05-30 00:10:32.563 +07:00 [DBG] Hosting starting
+2024-05-30 00:10:32.582 +07:00 [INF] Now listening on: http://localhost:5245
+2024-05-30 00:10:32.583 +07:00 [DBG] Loaded hosting startup assembly BaseDotnet
+2024-05-30 00:10:32.583 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-30 00:10:32.583 +07:00 [INF] Hosting environment: Development
+2024-05-30 00:10:32.583 +07:00 [INF] Content root path: /Users/reihanrenaldi/Documents/ReihanSigma/projects/DOTNET/BaseDotnet
+2024-05-30 00:10:32.583 +07:00 [DBG] Hosting started
+2024-05-30 00:10:34.507 +07:00 [DBG] Connection id "0HN40090CL04B" accepted.
+2024-05-30 00:10:34.508 +07:00 [DBG] Connection id "0HN40090CL04B" started.
+2024-05-30 00:10:34.532 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/swagger/index.html - null null
+2024-05-30 00:10:34.535 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-05-30 00:10:34.545 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-05-30 00:10:34.545 +07:00 [DBG] Request did not match any endpoints
+2024-05-30 00:10:34.579 +07:00 [DBG] Connection id "0HN40090CL04B" completed keep alive response.
+2024-05-30 00:10:34.579 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/swagger/index.html - 200 null text/html;charset=utf-8 48.7215ms
+2024-05-30 00:10:34.630 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/swagger/v1/swagger.json - null null
+2024-05-30 00:10:34.631 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-05-30 00:10:34.631 +07:00 [DBG] Request did not match any endpoints
+2024-05-30 00:10:34.675 +07:00 [DBG] Connection id "0HN40090CL04B" completed keep alive response.
+2024-05-30 00:10:34.675 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 44.6944ms
+2024-05-30 00:11:19.014 +07:00 [DBG] Connection id "0HN40090CL04B" received FIN.
+2024-05-30 00:11:19.017 +07:00 [DBG] Connection id "0HN40090CL04B" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-30 00:11:19.022 +07:00 [DBG] Connection id "0HN40090CL04B" disconnecting.
+2024-05-30 00:11:19.024 +07:00 [DBG] Connection id "0HN40090CL04B" stopped.
+2024-05-30 00:11:28.941 +07:00 [DBG] Connection id "0HN40090CL04C" accepted.
+2024-05-30 00:11:28.942 +07:00 [DBG] Connection id "0HN40090CL04C" started.
+2024-05-30 00:11:28.943 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5245/Auth/signup - application/json 145
+2024-05-30 00:11:28.947 +07:00 [DBG] 1 candidate(s) found for the request path '/Auth/signup'
+2024-05-30 00:11:28.950 +07:00 [DBG] Endpoint 'BaseDotnet.Controllers.AuthController.Create (BaseDotnet)' with route pattern 'Auth/signup' is valid for the request path '/Auth/signup'
+2024-05-30 00:11:28.951 +07:00 [DBG] Request matched endpoint 'BaseDotnet.Controllers.AuthController.Create (BaseDotnet)'
+2024-05-30 00:11:28.953 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-05-30 00:11:28.954 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-05-30 00:11:28.958 +07:00 [DBG] The request has an origin header: 'http://localhost:5245'.
+2024-05-30 00:11:28.958 +07:00 [INF] CORS policy execution successful.
+2024-05-30 00:11:29.026 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-05-30 00:11:29.034 +07:00 [INF] [null]
+2024-05-30 00:11:29.035 +07:00 [INF] Executing endpoint 'BaseDotnet.Controllers.AuthController.Create (BaseDotnet)'
+2024-05-30 00:11:29.043 +07:00 [INF] Route matched with {action = "Create", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(BaseDotnet.Entities.User) on controller BaseDotnet.Controllers.AuthController (BaseDotnet).
+2024-05-30 00:11:29.043 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-05-30 00:11:29.044 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-05-30 00:11:29.044 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-05-30 00:11:29.044 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-05-30 00:11:29.044 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-05-30 00:11:29.044 +07:00 [DBG] Executing controller factory for controller BaseDotnet.Controllers.AuthController (BaseDotnet)
+2024-05-30 00:11:29.044 +07:00 [DBG] Executed controller factory for controller BaseDotnet.Controllers.AuthController (BaseDotnet)
+2024-05-30 00:11:29.046 +07:00 [DBG] Attempting to bind parameter 'item' of type 'BaseDotnet.Entities.User' ...
+2024-05-30 00:11:29.046 +07:00 [DBG] Attempting to bind parameter 'item' of type 'BaseDotnet.Entities.User' using the name '' in request data ...
+2024-05-30 00:11:29.046 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-05-30 00:11:29.051 +07:00 [DBG] Connection id "0HN40090CL04C", Request id "0HN40090CL04C:00000001": started reading request body.
+2024-05-30 00:11:29.051 +07:00 [DBG] Connection id "0HN40090CL04C", Request id "0HN40090CL04C:00000001": done reading request body.
+2024-05-30 00:11:29.054 +07:00 [DBG] JSON input formatter threw an exception: The JSON object contains a trailing comma at the end which is not supported in this mode. Change the reader options. Path: $ | LineNumber: 7 | BytePositionInLine: 0.
+2024-05-30 00:11:29.054 +07:00 [DBG] Done attempting to bind parameter 'item' of type 'BaseDotnet.Entities.User'.
+2024-05-30 00:11:29.054 +07:00 [DBG] Done attempting to bind parameter 'item' of type 'BaseDotnet.Entities.User'.
+2024-05-30 00:11:29.054 +07:00 [DBG] Attempting to validate the bound parameter 'item' of type 'BaseDotnet.Entities.User' ...
+2024-05-30 00:11:29.056 +07:00 [DBG] Done attempting to validate the bound parameter 'item' of type 'BaseDotnet.Entities.User'.
+2024-05-30 00:11:29.056 +07:00 [DBG] The request has model state errors, returning an error response.
+2024-05-30 00:11:29.057 +07:00 [DBG] Request was short circuited at action filter 'Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter'.
+2024-05-30 00:11:29.057 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-05-30 00:11:29.058 +07:00 [DBG] No information found on request to perform content negotiation.
+2024-05-30 00:11:29.058 +07:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2024-05-30 00:11:29.058 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2024-05-30 00:11:29.058 +07:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-05-30 00:11:29.063 +07:00 [INF] Executed action BaseDotnet.Controllers.AuthController.Create (BaseDotnet) in 18.3197ms
+2024-05-30 00:11:29.063 +07:00 [INF] Executed endpoint 'BaseDotnet.Controllers.AuthController.Create (BaseDotnet)'
+2024-05-30 00:11:29.063 +07:00 [DBG] Connection id "0HN40090CL04C" completed keep alive response.
+2024-05-30 00:11:29.064 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5245/Auth/signup - 400 null application/problem+json; charset=utf-8 121.0908ms
+2024-05-30 00:11:50.883 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5245/Auth/signup - application/json 144
+2024-05-30 00:11:50.884 +07:00 [DBG] 1 candidate(s) found for the request path '/Auth/signup'
+2024-05-30 00:11:50.884 +07:00 [DBG] Endpoint 'BaseDotnet.Controllers.AuthController.Create (BaseDotnet)' with route pattern 'Auth/signup' is valid for the request path '/Auth/signup'
+2024-05-30 00:11:50.884 +07:00 [DBG] Request matched endpoint 'BaseDotnet.Controllers.AuthController.Create (BaseDotnet)'
+2024-05-30 00:11:50.884 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-05-30 00:11:50.885 +07:00 [DBG] The request has an origin header: 'http://localhost:5245'.
+2024-05-30 00:11:50.885 +07:00 [INF] CORS policy execution successful.
+2024-05-30 00:11:50.898 +07:00 [INF] [null]
+2024-05-30 00:11:50.898 +07:00 [INF] Executing endpoint 'BaseDotnet.Controllers.AuthController.Create (BaseDotnet)'
+2024-05-30 00:11:50.898 +07:00 [INF] Route matched with {action = "Create", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(BaseDotnet.Entities.User) on controller BaseDotnet.Controllers.AuthController (BaseDotnet).
+2024-05-30 00:11:50.899 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-05-30 00:11:50.899 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-05-30 00:11:50.899 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-05-30 00:11:50.899 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-05-30 00:11:50.899 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-05-30 00:11:50.899 +07:00 [DBG] Executing controller factory for controller BaseDotnet.Controllers.AuthController (BaseDotnet)
+2024-05-30 00:11:50.900 +07:00 [DBG] Executed controller factory for controller BaseDotnet.Controllers.AuthController (BaseDotnet)
+2024-05-30 00:11:50.900 +07:00 [DBG] Attempting to bind parameter 'item' of type 'BaseDotnet.Entities.User' ...
+2024-05-30 00:11:50.900 +07:00 [DBG] Attempting to bind parameter 'item' of type 'BaseDotnet.Entities.User' using the name '' in request data ...
+2024-05-30 00:11:50.901 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-05-30 00:11:50.901 +07:00 [DBG] Connection id "0HN40090CL04C", Request id "0HN40090CL04C:00000002": started reading request body.
+2024-05-30 00:11:50.901 +07:00 [DBG] Connection id "0HN40090CL04C", Request id "0HN40090CL04C:00000002": done reading request body.
+2024-05-30 00:11:50.902 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'BaseDotnet.Entities.User'
+2024-05-30 00:11:50.902 +07:00 [DBG] Done attempting to bind parameter 'item' of type 'BaseDotnet.Entities.User'.
+2024-05-30 00:11:50.902 +07:00 [DBG] Done attempting to bind parameter 'item' of type 'BaseDotnet.Entities.User'.
+2024-05-30 00:11:50.902 +07:00 [DBG] Attempting to validate the bound parameter 'item' of type 'BaseDotnet.Entities.User' ...
+2024-05-30 00:11:50.907 +07:00 [DBG] Done attempting to validate the bound parameter 'item' of type 'BaseDotnet.Entities.User'.
+2024-05-30 00:11:51.138 +07:00 [DBG] Entity Framework Core 8.0.1 initialized 'BaseDotnetDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:8.0.0+2539d1f4bd0d429cbae20336d531d14938a54297' with options: None
+2024-05-30 00:11:51.148 +07:00 [DBG] Compiling query expression: 
+'DbSet<User>()
+    .Any(u => u.Email == __item_Email_0)'
+2024-05-30 00:11:51.218 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT EXISTS (
+            SELECT 1
+            FROM master.mst_users AS m
+            WHERE m.email == @__item_Email_0)), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+    BaseDotnet.DbContext.BaseDotnetDbContext, 
+    False, 
+    False, 
+    True
+)
+    .Single()'
+2024-05-30 00:11:51.231 +07:00 [DBG] Creating DbConnection.
+2024-05-30 00:11:51.243 +07:00 [DBG] Created DbConnection. (12ms).
+2024-05-30 00:11:51.243 +07:00 [DBG] Opening connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:11:51.292 +07:00 [DBG] Opened connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:11:51.293 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-05-30 00:11:51.295 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2024-05-30 00:11:51.297 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (4ms).
+2024-05-30 00:11:51.300 +07:00 [DBG] Executing DbCommand [Parameters=[@__item_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM master.mst_users AS m
+    WHERE m.email = @__item_Email_0)
+2024-05-30 00:11:51.325 +07:00 [INF] Executed DbCommand (25ms) [Parameters=[@__item_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM master.mst_users AS m
+    WHERE m.email = @__item_Email_0)
+2024-05-30 00:11:51.329 +07:00 [DBG] Closing data reader to 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:11:51.332 +07:00 [DBG] A data reader for 'my_app' on server 'tcp://localhost:5432' is being disposed after spending 5ms reading results.
+2024-05-30 00:11:51.333 +07:00 [DBG] Closing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:11:51.334 +07:00 [DBG] Closed connection to database 'my_app' on server 'tcp://localhost:5432' (1ms).
+2024-05-30 00:11:51.335 +07:00 [DBG] Compiling query expression: 
+'DbSet<User>()
+    .Any(u => u.UserName == __item_UserName_0)'
+2024-05-30 00:11:51.336 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT EXISTS (
+            SELECT 1
+            FROM master.mst_users AS m
+            WHERE m.username == @__item_UserName_0)), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+    BaseDotnet.DbContext.BaseDotnetDbContext, 
+    False, 
+    False, 
+    True
+)
+    .Single()'
+2024-05-30 00:11:51.336 +07:00 [DBG] Opening connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:11:51.336 +07:00 [DBG] Opened connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:11:51.336 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-05-30 00:11:51.336 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-05-30 00:11:51.336 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-05-30 00:11:51.336 +07:00 [DBG] Executing DbCommand [Parameters=[@__item_UserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM master.mst_users AS m
+    WHERE m.username = @__item_UserName_0)
+2024-05-30 00:11:51.337 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__item_UserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM master.mst_users AS m
+    WHERE m.username = @__item_UserName_0)
+2024-05-30 00:11:51.337 +07:00 [DBG] Closing data reader to 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:11:51.337 +07:00 [DBG] A data reader for 'my_app' on server 'tcp://localhost:5432' is being disposed after spending 0ms reading results.
+2024-05-30 00:11:51.337 +07:00 [DBG] Closing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:11:51.337 +07:00 [DBG] Closed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2024-05-30 00:11:51.349 +07:00 [DBG] 'BaseDotnetDbContext' generated a temporary value for the property 'User.UserID'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-05-30 00:11:51.368 +07:00 [DBG] Context 'BaseDotnetDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-05-30 00:11:51.369 +07:00 [DBG] SaveChanges starting for 'BaseDotnetDbContext'.
+2024-05-30 00:11:51.369 +07:00 [DBG] DetectChanges starting for 'BaseDotnetDbContext'.
+2024-05-30 00:11:51.374 +07:00 [DBG] DetectChanges completed for 'BaseDotnetDbContext'.
+2024-05-30 00:11:51.391 +07:00 [DBG] Opening connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:11:51.391 +07:00 [DBG] Opened connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:11:51.392 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-05-30 00:11:51.392 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-05-30 00:11:51.392 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-05-30 00:11:51.392 +07:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = DateTime), @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Int32), @p6='?', @p7='?', @p8='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO master.mst_users (created_date, display_name, email, last_login, password, role_id, salt, status, username)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8)
+RETURNING user_id;
+2024-05-30 00:11:51.399 +07:00 [INF] Executed DbCommand (7ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Int32), @p6='?', @p7='?', @p8='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO master.mst_users (created_date, display_name, email, last_login, password, role_id, salt, status, username)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8)
+RETURNING user_id;
+2024-05-30 00:11:51.402 +07:00 [DBG] The foreign key property 'User.UserID' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-05-30 00:11:51.404 +07:00 [DBG] Closing data reader to 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:11:51.404 +07:00 [DBG] A data reader for 'my_app' on server 'tcp://localhost:5432' is being disposed after spending 5ms reading results.
+2024-05-30 00:11:51.404 +07:00 [DBG] Closing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:11:51.404 +07:00 [DBG] Closed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2024-05-30 00:11:51.408 +07:00 [DBG] An entity of type 'User' tracked by 'BaseDotnetDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-05-30 00:11:51.408 +07:00 [DBG] SaveChanges completed for 'BaseDotnetDbContext' with 1 entities written to the database.
+2024-05-30 00:11:51.413 +07:00 [ERR] User System.FormatException: Input string was not in a correct format. Failure to parse near offset 6. Expected an ASCII digit.
+   at System.Text.ValueStringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ReadOnlySpan`1 args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ReadOnlySpan`1 args)
+   at System.String.Format(String format, Object arg0)
+   at BaseDotnet.Controllers.AuthController.Create(User item) in /Users/reihanrenaldi/Documents/ReihanSigma/projects/DOTNET/BaseDotnet/Controllers/AuthController.cs:line 74
+2024-05-30 00:11:51.413 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-05-30 00:11:51.414 +07:00 [DBG] No information found on request to perform content negotiation.
+2024-05-30 00:11:51.414 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-05-30 00:11:51.414 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-05-30 00:11:51.414 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-05-30 00:11:51.414 +07:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType2`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-30 00:11:51.415 +07:00 [INF] Executed action BaseDotnet.Controllers.AuthController.Create (BaseDotnet) in 515.2072ms
+2024-05-30 00:11:51.415 +07:00 [INF] Executed endpoint 'BaseDotnet.Controllers.AuthController.Create (BaseDotnet)'
+2024-05-30 00:11:51.415 +07:00 [DBG] Connection id "0HN40090CL04C" completed keep alive response.
+2024-05-30 00:11:51.415 +07:00 [DBG] 'BaseDotnetDbContext' disposed.
+2024-05-30 00:11:51.416 +07:00 [DBG] Disposing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:11:51.417 +07:00 [DBG] Disposed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2024-05-30 00:11:51.417 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5245/Auth/signup - 400 null application/json; charset=utf-8 534.2799ms
+2024-05-30 00:12:03.713 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5245/Auth/signup - application/json 144
+2024-05-30 00:12:03.713 +07:00 [DBG] 1 candidate(s) found for the request path '/Auth/signup'
+2024-05-30 00:12:03.713 +07:00 [DBG] Endpoint 'BaseDotnet.Controllers.AuthController.Create (BaseDotnet)' with route pattern 'Auth/signup' is valid for the request path '/Auth/signup'
+2024-05-30 00:12:03.713 +07:00 [DBG] Request matched endpoint 'BaseDotnet.Controllers.AuthController.Create (BaseDotnet)'
+2024-05-30 00:12:03.714 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-05-30 00:12:03.716 +07:00 [DBG] The request has an origin header: 'http://localhost:5245'.
+2024-05-30 00:12:03.716 +07:00 [INF] CORS policy execution successful.
+2024-05-30 00:12:03.717 +07:00 [INF] [null]
+2024-05-30 00:12:03.718 +07:00 [INF] Executing endpoint 'BaseDotnet.Controllers.AuthController.Create (BaseDotnet)'
+2024-05-30 00:12:03.718 +07:00 [INF] Route matched with {action = "Create", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(BaseDotnet.Entities.User) on controller BaseDotnet.Controllers.AuthController (BaseDotnet).
+2024-05-30 00:12:03.719 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-05-30 00:12:03.719 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-05-30 00:12:03.719 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-05-30 00:12:03.719 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-05-30 00:12:03.719 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-05-30 00:12:03.720 +07:00 [DBG] Executing controller factory for controller BaseDotnet.Controllers.AuthController (BaseDotnet)
+2024-05-30 00:12:03.722 +07:00 [DBG] Executed controller factory for controller BaseDotnet.Controllers.AuthController (BaseDotnet)
+2024-05-30 00:12:03.722 +07:00 [DBG] Attempting to bind parameter 'item' of type 'BaseDotnet.Entities.User' ...
+2024-05-30 00:12:03.722 +07:00 [DBG] Attempting to bind parameter 'item' of type 'BaseDotnet.Entities.User' using the name '' in request data ...
+2024-05-30 00:12:03.722 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-05-30 00:12:03.723 +07:00 [DBG] Connection id "0HN40090CL04C", Request id "0HN40090CL04C:00000003": started reading request body.
+2024-05-30 00:12:03.723 +07:00 [DBG] Connection id "0HN40090CL04C", Request id "0HN40090CL04C:00000003": done reading request body.
+2024-05-30 00:12:03.723 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'BaseDotnet.Entities.User'
+2024-05-30 00:12:03.723 +07:00 [DBG] Done attempting to bind parameter 'item' of type 'BaseDotnet.Entities.User'.
+2024-05-30 00:12:03.723 +07:00 [DBG] Done attempting to bind parameter 'item' of type 'BaseDotnet.Entities.User'.
+2024-05-30 00:12:03.723 +07:00 [DBG] Attempting to validate the bound parameter 'item' of type 'BaseDotnet.Entities.User' ...
+2024-05-30 00:12:03.724 +07:00 [DBG] Done attempting to validate the bound parameter 'item' of type 'BaseDotnet.Entities.User'.
+2024-05-30 00:12:03.738 +07:00 [DBG] Entity Framework Core 8.0.1 initialized 'BaseDotnetDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:8.0.0+2539d1f4bd0d429cbae20336d531d14938a54297' with options: None
+2024-05-30 00:12:03.742 +07:00 [DBG] Creating DbConnection.
+2024-05-30 00:12:03.742 +07:00 [DBG] Created DbConnection. (0ms).
+2024-05-30 00:12:03.742 +07:00 [DBG] Opening connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:12:03.742 +07:00 [DBG] Opened connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:12:03.742 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-05-30 00:12:03.742 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-05-30 00:12:03.742 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-05-30 00:12:03.743 +07:00 [DBG] Executing DbCommand [Parameters=[@__item_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM master.mst_users AS m
+    WHERE m.email = @__item_Email_0)
+2024-05-30 00:12:03.743 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__item_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM master.mst_users AS m
+    WHERE m.email = @__item_Email_0)
+2024-05-30 00:12:03.744 +07:00 [DBG] Closing data reader to 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:12:03.744 +07:00 [DBG] A data reader for 'my_app' on server 'tcp://localhost:5432' is being disposed after spending 0ms reading results.
+2024-05-30 00:12:03.744 +07:00 [DBG] Closing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:12:03.744 +07:00 [DBG] Closed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2024-05-30 00:12:03.745 +07:00 [ERR] User System.ApplicationException: Email is already in use.
+   at BaseDotnet.Services.UserService.Add(User item) in /Users/reihanrenaldi/Documents/ReihanSigma/projects/DOTNET/BaseDotnet/Services/User/UserService.cs:line 119
+   at BaseDotnet.Controllers.AuthController.Create(User item) in /Users/reihanrenaldi/Documents/ReihanSigma/projects/DOTNET/BaseDotnet/Controllers/AuthController.cs:line 73
+2024-05-30 00:12:03.745 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-05-30 00:12:03.745 +07:00 [DBG] No information found on request to perform content negotiation.
+2024-05-30 00:12:03.745 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-05-30 00:12:03.745 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-05-30 00:12:03.745 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-05-30 00:12:03.745 +07:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType2`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-30 00:12:03.745 +07:00 [INF] Executed action BaseDotnet.Controllers.AuthController.Create (BaseDotnet) in 25.8057ms
+2024-05-30 00:12:03.746 +07:00 [INF] Executed endpoint 'BaseDotnet.Controllers.AuthController.Create (BaseDotnet)'
+2024-05-30 00:12:03.746 +07:00 [DBG] Connection id "0HN40090CL04C" completed keep alive response.
+2024-05-30 00:12:03.746 +07:00 [DBG] 'BaseDotnetDbContext' disposed.
+2024-05-30 00:12:03.746 +07:00 [DBG] Disposing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:12:03.746 +07:00 [DBG] Disposed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2024-05-30 00:12:03.746 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5245/Auth/signup - 400 null application/json; charset=utf-8 33.7514ms
+2024-05-30 00:12:10.055 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5245/Auth/signup - application/json 144
+2024-05-30 00:12:10.056 +07:00 [DBG] 1 candidate(s) found for the request path '/Auth/signup'
+2024-05-30 00:12:10.056 +07:00 [DBG] Endpoint 'BaseDotnet.Controllers.AuthController.Create (BaseDotnet)' with route pattern 'Auth/signup' is valid for the request path '/Auth/signup'
+2024-05-30 00:12:10.056 +07:00 [DBG] Request matched endpoint 'BaseDotnet.Controllers.AuthController.Create (BaseDotnet)'
+2024-05-30 00:12:10.056 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-05-30 00:12:10.056 +07:00 [DBG] The request has an origin header: 'http://localhost:5245'.
+2024-05-30 00:12:10.056 +07:00 [INF] CORS policy execution successful.
+2024-05-30 00:12:10.057 +07:00 [INF] [null]
+2024-05-30 00:12:10.057 +07:00 [INF] Executing endpoint 'BaseDotnet.Controllers.AuthController.Create (BaseDotnet)'
+2024-05-30 00:12:10.057 +07:00 [INF] Route matched with {action = "Create", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(BaseDotnet.Entities.User) on controller BaseDotnet.Controllers.AuthController (BaseDotnet).
+2024-05-30 00:12:10.057 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-05-30 00:12:10.057 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-05-30 00:12:10.057 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-05-30 00:12:10.057 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-05-30 00:12:10.058 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-05-30 00:12:10.058 +07:00 [DBG] Executing controller factory for controller BaseDotnet.Controllers.AuthController (BaseDotnet)
+2024-05-30 00:12:10.058 +07:00 [DBG] Executed controller factory for controller BaseDotnet.Controllers.AuthController (BaseDotnet)
+2024-05-30 00:12:10.058 +07:00 [DBG] Attempting to bind parameter 'item' of type 'BaseDotnet.Entities.User' ...
+2024-05-30 00:12:10.058 +07:00 [DBG] Attempting to bind parameter 'item' of type 'BaseDotnet.Entities.User' using the name '' in request data ...
+2024-05-30 00:12:10.058 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-05-30 00:12:10.058 +07:00 [DBG] Connection id "0HN40090CL04C", Request id "0HN40090CL04C:00000004": started reading request body.
+2024-05-30 00:12:10.059 +07:00 [DBG] Connection id "0HN40090CL04C", Request id "0HN40090CL04C:00000004": done reading request body.
+2024-05-30 00:12:10.059 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'BaseDotnet.Entities.User'
+2024-05-30 00:12:10.059 +07:00 [DBG] Done attempting to bind parameter 'item' of type 'BaseDotnet.Entities.User'.
+2024-05-30 00:12:10.059 +07:00 [DBG] Done attempting to bind parameter 'item' of type 'BaseDotnet.Entities.User'.
+2024-05-30 00:12:10.059 +07:00 [DBG] Attempting to validate the bound parameter 'item' of type 'BaseDotnet.Entities.User' ...
+2024-05-30 00:12:10.060 +07:00 [DBG] Done attempting to validate the bound parameter 'item' of type 'BaseDotnet.Entities.User'.
+2024-05-30 00:12:10.113 +07:00 [DBG] Entity Framework Core 8.0.1 initialized 'BaseDotnetDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:8.0.0+2539d1f4bd0d429cbae20336d531d14938a54297' with options: None
+2024-05-30 00:12:10.114 +07:00 [DBG] Creating DbConnection.
+2024-05-30 00:12:10.114 +07:00 [DBG] Created DbConnection. (0ms).
+2024-05-30 00:12:10.114 +07:00 [DBG] Opening connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:12:10.114 +07:00 [DBG] Opened connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:12:10.114 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-05-30 00:12:10.114 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-05-30 00:12:10.115 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-05-30 00:12:10.115 +07:00 [DBG] Executing DbCommand [Parameters=[@__item_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM master.mst_users AS m
+    WHERE m.email = @__item_Email_0)
+2024-05-30 00:12:10.116 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__item_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM master.mst_users AS m
+    WHERE m.email = @__item_Email_0)
+2024-05-30 00:12:10.116 +07:00 [DBG] Closing data reader to 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:12:10.116 +07:00 [DBG] A data reader for 'my_app' on server 'tcp://localhost:5432' is being disposed after spending 0ms reading results.
+2024-05-30 00:12:10.116 +07:00 [DBG] Closing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:12:10.116 +07:00 [DBG] Closed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2024-05-30 00:12:10.116 +07:00 [ERR] User System.ApplicationException: Email is already in use.
+   at BaseDotnet.Services.UserService.Add(User item) in /Users/reihanrenaldi/Documents/ReihanSigma/projects/DOTNET/BaseDotnet/Services/User/UserService.cs:line 119
+   at BaseDotnet.Controllers.AuthController.Create(User item) in /Users/reihanrenaldi/Documents/ReihanSigma/projects/DOTNET/BaseDotnet/Controllers/AuthController.cs:line 73
+2024-05-30 00:12:10.116 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-05-30 00:12:10.117 +07:00 [DBG] No information found on request to perform content negotiation.
+2024-05-30 00:12:10.117 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-05-30 00:12:10.117 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-05-30 00:12:10.117 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-05-30 00:12:10.117 +07:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType2`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-30 00:12:10.117 +07:00 [INF] Executed action BaseDotnet.Controllers.AuthController.Create (BaseDotnet) in 59.2819ms
+2024-05-30 00:12:10.117 +07:00 [INF] Executed endpoint 'BaseDotnet.Controllers.AuthController.Create (BaseDotnet)'
+2024-05-30 00:12:10.117 +07:00 [DBG] Connection id "0HN40090CL04C" completed keep alive response.
+2024-05-30 00:12:10.117 +07:00 [DBG] 'BaseDotnetDbContext' disposed.
+2024-05-30 00:12:10.117 +07:00 [DBG] Disposing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:12:10.117 +07:00 [DBG] Disposed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2024-05-30 00:12:10.117 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5245/Auth/signup - 400 null application/json; charset=utf-8 62.0562ms
+2024-05-30 00:12:40.565 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5245/Auth/login - application/json 58
+2024-05-30 00:12:40.565 +07:00 [DBG] 1 candidate(s) found for the request path '/Auth/login'
+2024-05-30 00:12:40.565 +07:00 [DBG] Endpoint 'BaseDotnet.Controllers.AuthController.Authenticate (BaseDotnet)' with route pattern 'Auth/login' is valid for the request path '/Auth/login'
+2024-05-30 00:12:40.566 +07:00 [DBG] Request matched endpoint 'BaseDotnet.Controllers.AuthController.Authenticate (BaseDotnet)'
+2024-05-30 00:12:40.566 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-05-30 00:12:40.566 +07:00 [DBG] The request has an origin header: 'http://localhost:5245'.
+2024-05-30 00:12:40.566 +07:00 [INF] CORS policy execution successful.
+2024-05-30 00:12:40.566 +07:00 [INF] [null]
+2024-05-30 00:12:40.566 +07:00 [INF] Executing endpoint 'BaseDotnet.Controllers.AuthController.Authenticate (BaseDotnet)'
+2024-05-30 00:12:40.574 +07:00 [INF] Route matched with {action = "Authenticate", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authenticate(BaseDotnet.Models.AuthenticateRequest) on controller BaseDotnet.Controllers.AuthController (BaseDotnet).
+2024-05-30 00:12:40.575 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-05-30 00:12:40.575 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-05-30 00:12:40.575 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-05-30 00:12:40.575 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-05-30 00:12:40.575 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-05-30 00:12:40.575 +07:00 [DBG] Executing controller factory for controller BaseDotnet.Controllers.AuthController (BaseDotnet)
+2024-05-30 00:12:40.575 +07:00 [DBG] Executed controller factory for controller BaseDotnet.Controllers.AuthController (BaseDotnet)
+2024-05-30 00:12:40.576 +07:00 [DBG] Attempting to bind parameter 'model' of type 'BaseDotnet.Models.AuthenticateRequest' ...
+2024-05-30 00:12:40.576 +07:00 [DBG] Attempting to bind parameter 'model' of type 'BaseDotnet.Models.AuthenticateRequest' using the name '' in request data ...
+2024-05-30 00:12:40.576 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-05-30 00:12:40.577 +07:00 [DBG] Connection id "0HN40090CL04C", Request id "0HN40090CL04C:00000005": started reading request body.
+2024-05-30 00:12:40.577 +07:00 [DBG] Connection id "0HN40090CL04C", Request id "0HN40090CL04C:00000005": done reading request body.
+2024-05-30 00:12:40.578 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'BaseDotnet.Models.AuthenticateRequest'
+2024-05-30 00:12:40.578 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'BaseDotnet.Models.AuthenticateRequest'.
+2024-05-30 00:12:40.578 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'BaseDotnet.Models.AuthenticateRequest'.
+2024-05-30 00:12:40.578 +07:00 [DBG] Attempting to validate the bound parameter 'model' of type 'BaseDotnet.Models.AuthenticateRequest' ...
+2024-05-30 00:12:40.579 +07:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'BaseDotnet.Models.AuthenticateRequest'.
+2024-05-30 00:12:40.588 +07:00 [DBG] Entity Framework Core 8.0.1 initialized 'BaseDotnetDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:8.0.0+2539d1f4bd0d429cbae20336d531d14938a54297' with options: None
+2024-05-30 00:12:40.592 +07:00 [DBG] Compiling query expression: 
+'DbSet<User>()
+    .SingleOrDefault(x => x.Email.Equals(__model_Email_0))'
+2024-05-30 00:12:40.642 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<User>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.UserID (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.CreatedDate (DateTime) Required, 1], [Property: User.DisplayName (string) Required, 2], [Property: User.Email (string) Required, 3], [Property: User.LastLogin (DateTime?), 4], [Property: User.Password (string), 5], [Property: User.RoleID (int) Required, 6], [Property: User.Salt (string), 7], [Property: User.Status (string) Required, 8], [Property: User.UserName (string) Required, 9] }
+        SELECT TOP(2) m.user_id, m.created_date, m.display_name, m.email, m.last_login, m.password, m.role_id, m.salt, m.status, m.username
+        FROM master.mst_users AS m
+        WHERE m.email == @__model_Email_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, User>, 
+    BaseDotnet.DbContext.BaseDotnetDbContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2024-05-30 00:12:40.643 +07:00 [DBG] Creating DbConnection.
+2024-05-30 00:12:40.643 +07:00 [DBG] Created DbConnection. (0ms).
+2024-05-30 00:12:40.643 +07:00 [DBG] Opening connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:12:40.643 +07:00 [DBG] Opened connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:12:40.643 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-05-30 00:12:40.643 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-05-30 00:12:40.644 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-05-30 00:12:40.644 +07:00 [DBG] Executing DbCommand [Parameters=[@__model_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT m.user_id, m.created_date, m.display_name, m.email, m.last_login, m.password, m.role_id, m.salt, m.status, m.username
+FROM master.mst_users AS m
+WHERE m.email = @__model_Email_0
+LIMIT 2
+2024-05-30 00:12:40.645 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__model_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT m.user_id, m.created_date, m.display_name, m.email, m.last_login, m.password, m.role_id, m.salt, m.status, m.username
+FROM master.mst_users AS m
+WHERE m.email = @__model_Email_0
+LIMIT 2
+2024-05-30 00:12:40.647 +07:00 [DBG] Context 'BaseDotnetDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-05-30 00:12:40.647 +07:00 [DBG] Closing data reader to 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:12:40.648 +07:00 [DBG] A data reader for 'my_app' on server 'tcp://localhost:5432' is being disposed after spending 2ms reading results.
+2024-05-30 00:12:40.648 +07:00 [DBG] Closing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:12:40.648 +07:00 [DBG] Closed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2024-05-30 00:12:40.662 +07:00 [DBG] An entity of type 'User' tracked by 'BaseDotnetDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-05-30 00:12:40.662 +07:00 [DBG] SaveChanges starting for 'BaseDotnetDbContext'.
+2024-05-30 00:12:40.662 +07:00 [DBG] DetectChanges starting for 'BaseDotnetDbContext'.
+2024-05-30 00:12:40.662 +07:00 [DBG] DetectChanges completed for 'BaseDotnetDbContext'.
+2024-05-30 00:12:40.664 +07:00 [DBG] Opening connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:12:40.664 +07:00 [DBG] Opened connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:12:40.664 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-05-30 00:12:40.664 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-05-30 00:12:40.664 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-05-30 00:12:40.664 +07:00 [DBG] Executing DbCommand [Parameters=[@p9='?' (DbType = Int32), @p0='?' (DbType = DateTime), @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Int32), @p6='?', @p7='?', @p8='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE master.mst_users SET created_date = @p0, display_name = @p1, email = @p2, last_login = @p3, password = @p4, role_id = @p5, salt = @p6, status = @p7, username = @p8
+WHERE user_id = @p9;
+2024-05-30 00:12:40.666 +07:00 [ERR] Failed executing DbCommand (1ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (DbType = DateTime), @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Int32), @p6='?', @p7='?', @p8='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE master.mst_users SET created_date = @p0, display_name = @p1, email = @p2, last_login = @p3, password = @p4, role_id = @p5, salt = @p6, status = @p7, username = @p8
+WHERE user_id = @p9;
+2024-05-30 00:12:40.666 +07:00 [DBG] Closing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:12:40.666 +07:00 [DBG] Closed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2024-05-30 00:12:40.668 +07:00 [ERR] An exception occurred in the database while saving changes for context type 'BaseDotnet.DbContext.BaseDotnetDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> System.ArgumentException: Cannot write DateTime with Kind=Unspecified to PostgreSQL type 'timestamp with time zone', only UTC is supported. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> System.ArgumentException: Cannot write DateTime with Kind=Unspecified to PostgreSQL type 'timestamp with time zone', only UTC is supported. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2024-05-30 00:12:40.669 +07:00 [ERR] Auth Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> System.ArgumentException: Cannot write DateTime with Kind=Unspecified to PostgreSQL type 'timestamp with time zone', only UTC is supported. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at BaseDotnet.Services.UserService.Authenticate(AuthenticateRequest model) in /Users/reihanrenaldi/Documents/ReihanSigma/projects/DOTNET/BaseDotnet/Services/User/UserService.cs:line 181
+   at BaseDotnet.Controllers.AuthController.Authenticate(AuthenticateRequest model) in /Users/reihanrenaldi/Documents/ReihanSigma/projects/DOTNET/BaseDotnet/Controllers/AuthController.cs:line 32
+2024-05-30 00:12:40.669 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-05-30 00:12:40.669 +07:00 [DBG] No information found on request to perform content negotiation.
+2024-05-30 00:12:40.669 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-05-30 00:12:40.669 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-05-30 00:12:40.669 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-05-30 00:12:40.669 +07:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType2`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-30 00:12:40.690 +07:00 [INF] Executed action BaseDotnet.Controllers.AuthController.Authenticate (BaseDotnet) in 114.4132ms
+2024-05-30 00:12:40.690 +07:00 [INF] Executed endpoint 'BaseDotnet.Controllers.AuthController.Authenticate (BaseDotnet)'
+2024-05-30 00:12:40.690 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Text.Json.JsonException: A possible object cycle was detected. This can either be due to a cycle or if the object depth is larger than the maximum allowed depth of 32. Consider using ReferenceHandler.Preserve on JsonSerializerOptions to support cycles. Path: $.message.Entries.Context.ChangeTracker.Context.ChangeTracker.Context.ChangeTracker.Context.ChangeTracker.Context.ChangeTracker.Context.ChangeTracker.Context.ChangeTracker.Context.ChangeTracker.Context.ChangeTracker.Context.ChangeTracker.Context.ChangeTracker.Context.ChangeTracker.Context.ChangeTracker.Context.Database.AutoTransactionsEnabled.
+   at System.Text.Json.ThrowHelper.ThrowJsonException_SerializerCycleDetected(Int32 maxDepth)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWriteAsObject(Utf8JsonWriter writer, Object value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at BaseDotnet.Helpers.JwtMiddleware.Invoke(HttpContext context, IUserService userService) in /Users/reihanrenaldi/Documents/ReihanSigma/projects/DOTNET/BaseDotnet/Helpers/JwtMiddleware.cs:line 28
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-30 00:12:40.694 +07:00 [DBG] Connection id "0HN40090CL04C" completed keep alive response.
+2024-05-30 00:12:40.694 +07:00 [DBG] 'BaseDotnetDbContext' disposed.
+2024-05-30 00:12:40.694 +07:00 [DBG] Disposing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:12:40.694 +07:00 [DBG] Disposed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2024-05-30 00:12:40.694 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5245/Auth/login - 500 null text/plain; charset=utf-8 129.1528ms
+2024-05-30 00:13:30.136 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5245/Auth/login - application/json 58
+2024-05-30 00:13:30.136 +07:00 [DBG] 1 candidate(s) found for the request path '/Auth/login'
+2024-05-30 00:13:30.136 +07:00 [DBG] Endpoint 'BaseDotnet.Controllers.AuthController.Authenticate (BaseDotnet)' with route pattern 'Auth/login' is valid for the request path '/Auth/login'
+2024-05-30 00:13:30.136 +07:00 [DBG] Request matched endpoint 'BaseDotnet.Controllers.AuthController.Authenticate (BaseDotnet)'
+2024-05-30 00:13:30.136 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-05-30 00:13:30.137 +07:00 [DBG] The request has an origin header: 'http://localhost:5245'.
+2024-05-30 00:13:30.137 +07:00 [INF] CORS policy execution successful.
+2024-05-30 00:13:30.137 +07:00 [INF] [null]
+2024-05-30 00:13:30.137 +07:00 [INF] Executing endpoint 'BaseDotnet.Controllers.AuthController.Authenticate (BaseDotnet)'
+2024-05-30 00:13:30.137 +07:00 [INF] Route matched with {action = "Authenticate", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authenticate(BaseDotnet.Models.AuthenticateRequest) on controller BaseDotnet.Controllers.AuthController (BaseDotnet).
+2024-05-30 00:13:30.137 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-05-30 00:13:30.137 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-05-30 00:13:30.138 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-05-30 00:13:30.138 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-05-30 00:13:30.138 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-05-30 00:13:30.138 +07:00 [DBG] Executing controller factory for controller BaseDotnet.Controllers.AuthController (BaseDotnet)
+2024-05-30 00:13:30.138 +07:00 [DBG] Executed controller factory for controller BaseDotnet.Controllers.AuthController (BaseDotnet)
+2024-05-30 00:13:30.138 +07:00 [DBG] Attempting to bind parameter 'model' of type 'BaseDotnet.Models.AuthenticateRequest' ...
+2024-05-30 00:13:30.138 +07:00 [DBG] Attempting to bind parameter 'model' of type 'BaseDotnet.Models.AuthenticateRequest' using the name '' in request data ...
+2024-05-30 00:13:30.138 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-05-30 00:13:30.139 +07:00 [DBG] Connection id "0HN40090CL04C", Request id "0HN40090CL04C:00000006": started reading request body.
+2024-05-30 00:13:30.139 +07:00 [DBG] Connection id "0HN40090CL04C", Request id "0HN40090CL04C:00000006": done reading request body.
+2024-05-30 00:13:30.139 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'BaseDotnet.Models.AuthenticateRequest'
+2024-05-30 00:13:30.139 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'BaseDotnet.Models.AuthenticateRequest'.
+2024-05-30 00:13:30.139 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'BaseDotnet.Models.AuthenticateRequest'.
+2024-05-30 00:13:30.139 +07:00 [DBG] Attempting to validate the bound parameter 'model' of type 'BaseDotnet.Models.AuthenticateRequest' ...
+2024-05-30 00:13:30.139 +07:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'BaseDotnet.Models.AuthenticateRequest'.
+2024-05-30 00:13:30.140 +07:00 [DBG] Entity Framework Core 8.0.1 initialized 'BaseDotnetDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:8.0.0+2539d1f4bd0d429cbae20336d531d14938a54297' with options: None
+2024-05-30 00:13:30.142 +07:00 [DBG] Creating DbConnection.
+2024-05-30 00:13:30.142 +07:00 [DBG] Created DbConnection. (0ms).
+2024-05-30 00:13:30.142 +07:00 [DBG] Opening connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:13:30.142 +07:00 [DBG] Opened connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:13:30.142 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-05-30 00:13:30.142 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-05-30 00:13:30.142 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-05-30 00:13:30.143 +07:00 [DBG] Executing DbCommand [Parameters=[@__model_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT m.user_id, m.created_date, m.display_name, m.email, m.last_login, m.password, m.role_id, m.salt, m.status, m.username
+FROM master.mst_users AS m
+WHERE m.email = @__model_Email_0
+LIMIT 2
+2024-05-30 00:13:30.144 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__model_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT m.user_id, m.created_date, m.display_name, m.email, m.last_login, m.password, m.role_id, m.salt, m.status, m.username
+FROM master.mst_users AS m
+WHERE m.email = @__model_Email_0
+LIMIT 2
+2024-05-30 00:13:30.144 +07:00 [DBG] Context 'BaseDotnetDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-05-30 00:13:30.145 +07:00 [DBG] Closing data reader to 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:13:30.145 +07:00 [DBG] A data reader for 'my_app' on server 'tcp://localhost:5432' is being disposed after spending 0ms reading results.
+2024-05-30 00:13:30.145 +07:00 [DBG] Closing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:13:30.145 +07:00 [DBG] Closed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2024-05-30 00:13:30.145 +07:00 [DBG] An entity of type 'User' tracked by 'BaseDotnetDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-05-30 00:13:30.146 +07:00 [DBG] SaveChanges starting for 'BaseDotnetDbContext'.
+2024-05-30 00:13:30.146 +07:00 [DBG] DetectChanges starting for 'BaseDotnetDbContext'.
+2024-05-30 00:13:30.146 +07:00 [DBG] DetectChanges completed for 'BaseDotnetDbContext'.
+2024-05-30 00:13:30.146 +07:00 [DBG] Opening connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:13:30.146 +07:00 [DBG] Opened connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:13:30.147 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-05-30 00:13:30.147 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-05-30 00:13:30.147 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-05-30 00:13:30.147 +07:00 [DBG] Executing DbCommand [Parameters=[@p9='?' (DbType = Int32), @p0='?' (DbType = DateTime), @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Int32), @p6='?', @p7='?', @p8='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE master.mst_users SET created_date = @p0, display_name = @p1, email = @p2, last_login = @p3, password = @p4, role_id = @p5, salt = @p6, status = @p7, username = @p8
+WHERE user_id = @p9;
+2024-05-30 00:13:30.148 +07:00 [ERR] Failed executing DbCommand (1ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (DbType = DateTime), @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Int32), @p6='?', @p7='?', @p8='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE master.mst_users SET created_date = @p0, display_name = @p1, email = @p2, last_login = @p3, password = @p4, role_id = @p5, salt = @p6, status = @p7, username = @p8
+WHERE user_id = @p9;
+2024-05-30 00:13:30.149 +07:00 [DBG] Closing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:13:30.149 +07:00 [DBG] Closed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2024-05-30 00:13:30.150 +07:00 [ERR] An exception occurred in the database while saving changes for context type 'BaseDotnet.DbContext.BaseDotnetDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> System.ArgumentException: Cannot write DateTime with Kind=Unspecified to PostgreSQL type 'timestamp with time zone', only UTC is supported. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> System.ArgumentException: Cannot write DateTime with Kind=Unspecified to PostgreSQL type 'timestamp with time zone', only UTC is supported. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2024-05-30 00:13:30.152 +07:00 [ERR] Auth Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> System.ArgumentException: Cannot write DateTime with Kind=Unspecified to PostgreSQL type 'timestamp with time zone', only UTC is supported. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at BaseDotnet.Services.UserService.Authenticate(AuthenticateRequest model) in /Users/reihanrenaldi/Documents/ReihanSigma/projects/DOTNET/BaseDotnet/Services/User/UserService.cs:line 181
+   at BaseDotnet.Controllers.AuthController.Authenticate(AuthenticateRequest model) in /Users/reihanrenaldi/Documents/ReihanSigma/projects/DOTNET/BaseDotnet/Controllers/AuthController.cs:line 32
+2024-05-30 00:13:30.154 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-05-30 00:13:30.154 +07:00 [DBG] No information found on request to perform content negotiation.
+2024-05-30 00:13:30.154 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-05-30 00:13:30.154 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-05-30 00:13:30.154 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-05-30 00:13:30.154 +07:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType2`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-30 00:13:30.158 +07:00 [INF] Executed action BaseDotnet.Controllers.AuthController.Authenticate (BaseDotnet) in 19.8199ms
+2024-05-30 00:13:30.158 +07:00 [INF] Executed endpoint 'BaseDotnet.Controllers.AuthController.Authenticate (BaseDotnet)'
+2024-05-30 00:13:30.159 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Text.Json.JsonException: A possible object cycle was detected. This can either be due to a cycle or if the object depth is larger than the maximum allowed depth of 32. Consider using ReferenceHandler.Preserve on JsonSerializerOptions to support cycles. Path: $.message.Entries.Context.ChangeTracker.Context.ChangeTracker.Context.ChangeTracker.Context.ChangeTracker.Context.ChangeTracker.Context.ChangeTracker.Context.ChangeTracker.Context.ChangeTracker.Context.ChangeTracker.Context.ChangeTracker.Context.ChangeTracker.Context.ChangeTracker.Context.ChangeTracker.Context.Database.AutoTransactionsEnabled.
+   at System.Text.Json.ThrowHelper.ThrowJsonException_SerializerCycleDetected(Int32 maxDepth)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWriteAsObject(Utf8JsonWriter writer, Object value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at BaseDotnet.Helpers.JwtMiddleware.Invoke(HttpContext context, IUserService userService) in /Users/reihanrenaldi/Documents/ReihanSigma/projects/DOTNET/BaseDotnet/Helpers/JwtMiddleware.cs:line 28
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-30 00:13:30.163 +07:00 [DBG] Connection id "0HN40090CL04C" completed keep alive response.
+2024-05-30 00:13:30.163 +07:00 [DBG] 'BaseDotnetDbContext' disposed.
+2024-05-30 00:13:30.163 +07:00 [DBG] Disposing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:13:30.163 +07:00 [DBG] Disposed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2024-05-30 00:13:30.163 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5245/Auth/login - 500 null text/plain; charset=utf-8 27.3517ms
+2024-05-30 00:14:03.938 +07:00 [DBG] Connection id "0HN40090CL04C" received FIN.
+2024-05-30 00:14:03.938 +07:00 [DBG] Connection id "0HN40090CL04C" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-30 00:14:03.939 +07:00 [DBG] Connection id "0HN40090CL04C" disconnecting.
+2024-05-30 00:14:03.939 +07:00 [DBG] Connection id "0HN40090CL04C" stopped.
+2024-05-30 00:16:54.632 +07:00 [DBG] Connection id "0HN40090CL04D" accepted.
+2024-05-30 00:16:54.632 +07:00 [DBG] Connection id "0HN40090CL04D" started.
+2024-05-30 00:16:54.633 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5245/Auth/login - application/json 48
+2024-05-30 00:16:54.633 +07:00 [DBG] 1 candidate(s) found for the request path '/Auth/login'
+2024-05-30 00:16:54.633 +07:00 [DBG] Endpoint 'BaseDotnet.Controllers.AuthController.Authenticate (BaseDotnet)' with route pattern 'Auth/login' is valid for the request path '/Auth/login'
+2024-05-30 00:16:54.633 +07:00 [DBG] Request matched endpoint 'BaseDotnet.Controllers.AuthController.Authenticate (BaseDotnet)'
+2024-05-30 00:16:54.634 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-05-30 00:16:54.634 +07:00 [DBG] The request has an origin header: 'http://localhost:5245'.
+2024-05-30 00:16:54.634 +07:00 [INF] CORS policy execution successful.
+2024-05-30 00:16:54.634 +07:00 [INF] [null]
+2024-05-30 00:16:54.635 +07:00 [INF] Executing endpoint 'BaseDotnet.Controllers.AuthController.Authenticate (BaseDotnet)'
+2024-05-30 00:16:54.635 +07:00 [INF] Route matched with {action = "Authenticate", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authenticate(BaseDotnet.Models.AuthenticateRequest) on controller BaseDotnet.Controllers.AuthController (BaseDotnet).
+2024-05-30 00:16:54.635 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-05-30 00:16:54.635 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-05-30 00:16:54.635 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-05-30 00:16:54.636 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-05-30 00:16:54.636 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-05-30 00:16:54.636 +07:00 [DBG] Executing controller factory for controller BaseDotnet.Controllers.AuthController (BaseDotnet)
+2024-05-30 00:16:54.636 +07:00 [DBG] Executed controller factory for controller BaseDotnet.Controllers.AuthController (BaseDotnet)
+2024-05-30 00:16:54.637 +07:00 [DBG] Attempting to bind parameter 'model' of type 'BaseDotnet.Models.AuthenticateRequest' ...
+2024-05-30 00:16:54.637 +07:00 [DBG] Attempting to bind parameter 'model' of type 'BaseDotnet.Models.AuthenticateRequest' using the name '' in request data ...
+2024-05-30 00:16:54.637 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-05-30 00:16:54.637 +07:00 [DBG] Connection id "0HN40090CL04D", Request id "0HN40090CL04D:00000001": started reading request body.
+2024-05-30 00:16:54.637 +07:00 [DBG] Connection id "0HN40090CL04D", Request id "0HN40090CL04D:00000001": done reading request body.
+2024-05-30 00:16:54.638 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'BaseDotnet.Models.AuthenticateRequest'
+2024-05-30 00:16:54.638 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'BaseDotnet.Models.AuthenticateRequest'.
+2024-05-30 00:16:54.638 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'BaseDotnet.Models.AuthenticateRequest'.
+2024-05-30 00:16:54.638 +07:00 [DBG] Attempting to validate the bound parameter 'model' of type 'BaseDotnet.Models.AuthenticateRequest' ...
+2024-05-30 00:16:54.639 +07:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'BaseDotnet.Models.AuthenticateRequest'.
+2024-05-30 00:16:54.640 +07:00 [DBG] Entity Framework Core 8.0.1 initialized 'BaseDotnetDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:8.0.0+2539d1f4bd0d429cbae20336d531d14938a54297' with options: None
+2024-05-30 00:16:54.641 +07:00 [DBG] Creating DbConnection.
+2024-05-30 00:16:54.642 +07:00 [DBG] Created DbConnection. (0ms).
+2024-05-30 00:16:54.642 +07:00 [DBG] Opening connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:16:54.648 +07:00 [DBG] Opened connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:16:54.649 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-05-30 00:16:54.649 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-05-30 00:16:54.649 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-05-30 00:16:54.649 +07:00 [DBG] Executing DbCommand [Parameters=[@__model_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT m.user_id, m.created_date, m.display_name, m.email, m.last_login, m.password, m.role_id, m.salt, m.status, m.username
+FROM master.mst_users AS m
+WHERE m.email = @__model_Email_0
+LIMIT 2
+2024-05-30 00:16:54.652 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__model_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT m.user_id, m.created_date, m.display_name, m.email, m.last_login, m.password, m.role_id, m.salt, m.status, m.username
+FROM master.mst_users AS m
+WHERE m.email = @__model_Email_0
+LIMIT 2
+2024-05-30 00:16:54.652 +07:00 [DBG] Closing data reader to 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:16:54.652 +07:00 [DBG] A data reader for 'my_app' on server 'tcp://localhost:5432' is being disposed after spending 0ms reading results.
+2024-05-30 00:16:54.653 +07:00 [DBG] Closing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:16:54.653 +07:00 [DBG] Closed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2024-05-30 00:16:54.653 +07:00 [ERR] Auth Email or password is incorrect
+2024-05-30 00:16:54.653 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-05-30 00:16:54.653 +07:00 [DBG] No information found on request to perform content negotiation.
+2024-05-30 00:16:54.653 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-05-30 00:16:54.654 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-05-30 00:16:54.654 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-05-30 00:16:54.654 +07:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType2`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-30 00:16:54.654 +07:00 [INF] Executed action BaseDotnet.Controllers.AuthController.Authenticate (BaseDotnet) in 18.1126ms
+2024-05-30 00:16:54.654 +07:00 [INF] Executed endpoint 'BaseDotnet.Controllers.AuthController.Authenticate (BaseDotnet)'
+2024-05-30 00:16:54.654 +07:00 [DBG] Connection id "0HN40090CL04D" completed keep alive response.
+2024-05-30 00:16:54.655 +07:00 [DBG] 'BaseDotnetDbContext' disposed.
+2024-05-30 00:16:54.655 +07:00 [DBG] Disposing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:16:54.655 +07:00 [DBG] Disposed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2024-05-30 00:16:54.655 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5245/Auth/login - 400 null application/json; charset=utf-8 22.4307ms
+2024-05-30 00:17:23.971 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5245/Auth/login - application/json 58
+2024-05-30 00:17:23.971 +07:00 [DBG] 1 candidate(s) found for the request path '/Auth/login'
+2024-05-30 00:17:23.971 +07:00 [DBG] Endpoint 'BaseDotnet.Controllers.AuthController.Authenticate (BaseDotnet)' with route pattern 'Auth/login' is valid for the request path '/Auth/login'
+2024-05-30 00:17:23.971 +07:00 [DBG] Request matched endpoint 'BaseDotnet.Controllers.AuthController.Authenticate (BaseDotnet)'
+2024-05-30 00:17:23.971 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-05-30 00:17:23.971 +07:00 [DBG] The request has an origin header: 'http://localhost:5245'.
+2024-05-30 00:17:23.972 +07:00 [INF] CORS policy execution successful.
+2024-05-30 00:17:23.972 +07:00 [INF] [null]
+2024-05-30 00:17:23.972 +07:00 [INF] Executing endpoint 'BaseDotnet.Controllers.AuthController.Authenticate (BaseDotnet)'
+2024-05-30 00:17:23.972 +07:00 [INF] Route matched with {action = "Authenticate", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authenticate(BaseDotnet.Models.AuthenticateRequest) on controller BaseDotnet.Controllers.AuthController (BaseDotnet).
+2024-05-30 00:17:23.972 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-05-30 00:17:23.973 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-05-30 00:17:23.973 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-05-30 00:17:23.973 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-05-30 00:17:23.973 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-05-30 00:17:23.973 +07:00 [DBG] Executing controller factory for controller BaseDotnet.Controllers.AuthController (BaseDotnet)
+2024-05-30 00:17:23.973 +07:00 [DBG] Executed controller factory for controller BaseDotnet.Controllers.AuthController (BaseDotnet)
+2024-05-30 00:17:23.973 +07:00 [DBG] Attempting to bind parameter 'model' of type 'BaseDotnet.Models.AuthenticateRequest' ...
+2024-05-30 00:17:23.974 +07:00 [DBG] Attempting to bind parameter 'model' of type 'BaseDotnet.Models.AuthenticateRequest' using the name '' in request data ...
+2024-05-30 00:17:23.974 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-05-30 00:17:23.974 +07:00 [DBG] Connection id "0HN40090CL04D", Request id "0HN40090CL04D:00000002": started reading request body.
+2024-05-30 00:17:23.974 +07:00 [DBG] Connection id "0HN40090CL04D", Request id "0HN40090CL04D:00000002": done reading request body.
+2024-05-30 00:17:23.974 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'BaseDotnet.Models.AuthenticateRequest'
+2024-05-30 00:17:23.974 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'BaseDotnet.Models.AuthenticateRequest'.
+2024-05-30 00:17:23.974 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'BaseDotnet.Models.AuthenticateRequest'.
+2024-05-30 00:17:23.974 +07:00 [DBG] Attempting to validate the bound parameter 'model' of type 'BaseDotnet.Models.AuthenticateRequest' ...
+2024-05-30 00:17:23.975 +07:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'BaseDotnet.Models.AuthenticateRequest'.
+2024-05-30 00:17:23.975 +07:00 [DBG] Entity Framework Core 8.0.1 initialized 'BaseDotnetDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:8.0.0+2539d1f4bd0d429cbae20336d531d14938a54297' with options: None
+2024-05-30 00:17:23.976 +07:00 [DBG] Creating DbConnection.
+2024-05-30 00:17:23.976 +07:00 [DBG] Created DbConnection. (0ms).
+2024-05-30 00:17:23.976 +07:00 [DBG] Opening connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:17:23.976 +07:00 [DBG] Opened connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:17:23.976 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-05-30 00:17:23.977 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-05-30 00:17:23.977 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-05-30 00:17:23.977 +07:00 [DBG] Executing DbCommand [Parameters=[@__model_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT m.user_id, m.created_date, m.display_name, m.email, m.last_login, m.password, m.role_id, m.salt, m.status, m.username
+FROM master.mst_users AS m
+WHERE m.email = @__model_Email_0
+LIMIT 2
+2024-05-30 00:17:23.978 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__model_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT m.user_id, m.created_date, m.display_name, m.email, m.last_login, m.password, m.role_id, m.salt, m.status, m.username
+FROM master.mst_users AS m
+WHERE m.email = @__model_Email_0
+LIMIT 2
+2024-05-30 00:17:23.979 +07:00 [DBG] Context 'BaseDotnetDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-05-30 00:17:23.979 +07:00 [DBG] Closing data reader to 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:17:23.979 +07:00 [DBG] A data reader for 'my_app' on server 'tcp://localhost:5432' is being disposed after spending 0ms reading results.
+2024-05-30 00:17:23.979 +07:00 [DBG] Closing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:17:23.979 +07:00 [DBG] Closed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2024-05-30 00:17:23.979 +07:00 [DBG] An entity of type 'User' tracked by 'BaseDotnetDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-05-30 00:17:23.979 +07:00 [DBG] SaveChanges starting for 'BaseDotnetDbContext'.
+2024-05-30 00:17:23.979 +07:00 [DBG] DetectChanges starting for 'BaseDotnetDbContext'.
+2024-05-30 00:17:23.979 +07:00 [DBG] DetectChanges completed for 'BaseDotnetDbContext'.
+2024-05-30 00:17:23.980 +07:00 [DBG] Opening connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:17:23.980 +07:00 [DBG] Opened connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:17:23.980 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-05-30 00:17:23.980 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-05-30 00:17:23.980 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-05-30 00:17:23.980 +07:00 [DBG] Executing DbCommand [Parameters=[@p9='?' (DbType = Int32), @p0='?' (DbType = DateTime), @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Int32), @p6='?', @p7='?', @p8='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE master.mst_users SET created_date = @p0, display_name = @p1, email = @p2, last_login = @p3, password = @p4, role_id = @p5, salt = @p6, status = @p7, username = @p8
+WHERE user_id = @p9;
+2024-05-30 00:17:23.981 +07:00 [ERR] Failed executing DbCommand (0ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (DbType = DateTime), @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Int32), @p6='?', @p7='?', @p8='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE master.mst_users SET created_date = @p0, display_name = @p1, email = @p2, last_login = @p3, password = @p4, role_id = @p5, salt = @p6, status = @p7, username = @p8
+WHERE user_id = @p9;
+2024-05-30 00:17:23.981 +07:00 [DBG] Closing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:17:23.982 +07:00 [DBG] Closed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2024-05-30 00:17:23.982 +07:00 [ERR] An exception occurred in the database while saving changes for context type 'BaseDotnet.DbContext.BaseDotnetDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> System.ArgumentException: Cannot write DateTime with Kind=Unspecified to PostgreSQL type 'timestamp with time zone', only UTC is supported. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> System.ArgumentException: Cannot write DateTime with Kind=Unspecified to PostgreSQL type 'timestamp with time zone', only UTC is supported. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2024-05-30 00:17:23.983 +07:00 [ERR] Auth Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> System.ArgumentException: Cannot write DateTime with Kind=Unspecified to PostgreSQL type 'timestamp with time zone', only UTC is supported. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at BaseDotnet.Services.UserService.Authenticate(AuthenticateRequest model) in /Users/reihanrenaldi/Documents/ReihanSigma/projects/DOTNET/BaseDotnet/Services/User/UserService.cs:line 181
+   at BaseDotnet.Controllers.AuthController.Authenticate(AuthenticateRequest model) in /Users/reihanrenaldi/Documents/ReihanSigma/projects/DOTNET/BaseDotnet/Controllers/AuthController.cs:line 32
+2024-05-30 00:17:23.984 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-05-30 00:17:23.984 +07:00 [DBG] No information found on request to perform content negotiation.
+2024-05-30 00:17:23.984 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-05-30 00:17:23.984 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-05-30 00:17:23.984 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-05-30 00:17:23.984 +07:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType2`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-30 00:17:23.989 +07:00 [INF] Executed action BaseDotnet.Controllers.AuthController.Authenticate (BaseDotnet) in 16.1342ms
+2024-05-30 00:17:23.989 +07:00 [INF] Executed endpoint 'BaseDotnet.Controllers.AuthController.Authenticate (BaseDotnet)'
+2024-05-30 00:17:23.990 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Text.Json.JsonException: A possible object cycle was detected. This can either be due to a cycle or if the object depth is larger than the maximum allowed depth of 32. Consider using ReferenceHandler.Preserve on JsonSerializerOptions to support cycles. Path: $.message.Entries.Context.ChangeTracker.Context.ChangeTracker.Context.ChangeTracker.Context.ChangeTracker.Context.ChangeTracker.Context.ChangeTracker.Context.ChangeTracker.Context.ChangeTracker.Context.ChangeTracker.Context.ChangeTracker.Context.ChangeTracker.Context.ChangeTracker.Context.ChangeTracker.Context.Database.AutoTransactionsEnabled.
+   at System.Text.Json.ThrowHelper.ThrowJsonException_SerializerCycleDetected(Int32 maxDepth)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at BaseDotnet.Helpers.JwtMiddleware.Invoke(HttpContext context, IUserService userService) in /Users/reihanrenaldi/Documents/ReihanSigma/projects/DOTNET/BaseDotnet/Helpers/JwtMiddleware.cs:line 28
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-30 00:17:23.993 +07:00 [DBG] Connection id "0HN40090CL04D" completed keep alive response.
+2024-05-30 00:17:23.993 +07:00 [DBG] 'BaseDotnetDbContext' disposed.
+2024-05-30 00:17:23.994 +07:00 [DBG] Disposing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-05-30 00:17:23.994 +07:00 [DBG] Disposed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2024-05-30 00:17:23.994 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5245/Auth/login - 500 null text/plain; charset=utf-8 23.1962ms
+2024-05-30 00:17:56.606 +07:00 [DBG] Connection id "0HN40090CL04D" received FIN.
+2024-05-30 00:17:56.607 +07:00 [DBG] Connection id "0HN40090CL04D" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-30 00:17:56.607 +07:00 [DBG] Connection id "0HN40090CL04D" disconnecting.
+2024-05-30 00:17:56.607 +07:00 [DBG] Connection id "0HN40090CL04D" stopped.

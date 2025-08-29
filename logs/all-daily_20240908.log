@@ -1,0 +1,924 @@
+2024-09-08 00:20:00.536 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-09-08 00:20:00.599 +07:00 [DBG] Hosting starting
+2024-09-08 00:20:00.623 +07:00 [INF] Now listening on: http://localhost:5245
+2024-09-08 00:20:00.623 +07:00 [DBG] Loaded hosting startup assembly BaseDotnet
+2024-09-08 00:20:00.623 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-08 00:20:00.623 +07:00 [INF] Hosting environment: Development
+2024-09-08 00:20:00.623 +07:00 [INF] Content root path: /Users/reihanrenaldi/Documents/ReihanSigma/projects/DOTNET/BaseDotnet
+2024-09-08 00:20:00.623 +07:00 [DBG] Hosting started
+2024-09-08 00:20:06.897 +07:00 [DBG] Connection id "0HN6FC58QU2VD" accepted.
+2024-09-08 00:20:06.898 +07:00 [DBG] Connection id "0HN6FC58QU2VE" accepted.
+2024-09-08 00:20:06.898 +07:00 [DBG] Connection id "0HN6FC58QU2VD" started.
+2024-09-08 00:20:06.898 +07:00 [DBG] Connection id "0HN6FC58QU2VE" started.
+2024-09-08 00:20:06.925 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/ - null null
+2024-09-08 00:20:06.928 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-09-08 00:20:06.937 +07:00 [DBG] No candidates found for the request path '/'
+2024-09-08 00:20:06.937 +07:00 [DBG] Request did not match any endpoints
+2024-09-08 00:20:06.948 +07:00 [DBG] The request path  does not match the path filter
+2024-09-08 00:20:06.948 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-09-08 00:20:07.005 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-09-08 00:20:07.015 +07:00 [INF] [null]
+2024-09-08 00:20:07.017 +07:00 [DBG] Connection id "0HN6FC58QU2VD" completed keep alive response.
+2024-09-08 00:20:07.018 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/ - 404 0 null 96.6294ms
+2024-09-08 00:20:07.023 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5245/, Response status code: 404
+2024-09-08 00:20:12.307 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/swagger - null null
+2024-09-08 00:20:12.309 +07:00 [DBG] No candidates found for the request path '/swagger'
+2024-09-08 00:20:12.309 +07:00 [DBG] Request did not match any endpoints
+2024-09-08 00:20:12.311 +07:00 [DBG] Connection id "0HN6FC58QU2VD" completed keep alive response.
+2024-09-08 00:20:12.311 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/swagger - 301 0 null 4.1986ms
+2024-09-08 00:20:12.315 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/swagger/index.html - null null
+2024-09-08 00:20:12.315 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-09-08 00:20:12.315 +07:00 [DBG] Request did not match any endpoints
+2024-09-08 00:20:12.362 +07:00 [DBG] Connection id "0HN6FC58QU2VD" completed keep alive response.
+2024-09-08 00:20:12.363 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/swagger/index.html - 200 null text/html;charset=utf-8 47.8207ms
+2024-09-08 00:20:12.374 +07:00 [DBG] Connection id "0HN6FC58QU2VF" accepted.
+2024-09-08 00:20:12.376 +07:00 [DBG] Connection id "0HN6FC58QU2VF" started.
+2024-09-08 00:20:12.377 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/swagger/swagger-ui.css - null null
+2024-09-08 00:20:12.378 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/swagger/swagger-ui-standalone-preset.js - null null
+2024-09-08 00:20:12.378 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/swagger/swagger-ui-bundle.js - null null
+2024-09-08 00:20:12.378 +07:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2024-09-08 00:20:12.379 +07:00 [DBG] Request did not match any endpoints
+2024-09-08 00:20:12.379 +07:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2024-09-08 00:20:12.379 +07:00 [DBG] Request did not match any endpoints
+2024-09-08 00:20:12.379 +07:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2024-09-08 00:20:12.379 +07:00 [DBG] Request did not match any endpoints
+2024-09-08 00:20:12.397 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-09-08 00:20:12.399 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-09-08 00:20:12.399 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-09-08 00:20:12.400 +07:00 [DBG] Connection id "0HN6FC58QU2VE" completed keep alive response.
+2024-09-08 00:20:12.400 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 21.9368ms
+2024-09-08 00:20:12.400 +07:00 [DBG] Connection id "0HN6FC58QU2VD" completed keep alive response.
+2024-09-08 00:20:12.400 +07:00 [DBG] Connection id "0HN6FC58QU2VF" completed keep alive response.
+2024-09-08 00:20:12.401 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 22.9049ms
+2024-09-08 00:20:12.401 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/swagger/swagger-ui.css - 200 143943 text/css 23.9858ms
+2024-09-08 00:20:12.487 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/swagger/v1/swagger.json - null null
+2024-09-08 00:20:12.487 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-09-08 00:20:12.487 +07:00 [DBG] Request did not match any endpoints
+2024-09-08 00:20:12.498 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/swagger/favicon-32x32.png - null null
+2024-09-08 00:20:12.499 +07:00 [DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+2024-09-08 00:20:12.499 +07:00 [DBG] Request did not match any endpoints
+2024-09-08 00:20:12.499 +07:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-09-08 00:20:12.499 +07:00 [DBG] Connection id "0HN6FC58QU2VF" completed keep alive response.
+2024-09-08 00:20:12.500 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/swagger/favicon-32x32.png - 200 628 image/png 1.391ms
+2024-09-08 00:20:12.551 +07:00 [DBG] Connection id "0HN6FC58QU2VE" completed keep alive response.
+2024-09-08 00:20:12.551 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 64.0381ms
+2024-09-08 00:21:32.522 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5245/Auth/login - application/json 58
+2024-09-08 00:21:32.527 +07:00 [DBG] 1 candidate(s) found for the request path '/Auth/login'
+2024-09-08 00:21:32.530 +07:00 [DBG] Endpoint 'BaseDotnet.Controllers.AuthController.Authenticate (BaseDotnet)' with route pattern 'Auth/login' is valid for the request path '/Auth/login'
+2024-09-08 00:21:32.531 +07:00 [DBG] Request matched endpoint 'BaseDotnet.Controllers.AuthController.Authenticate (BaseDotnet)'
+2024-09-08 00:21:32.531 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-09-08 00:21:32.533 +07:00 [DBG] The request has an origin header: 'http://localhost:5245'.
+2024-09-08 00:21:32.533 +07:00 [INF] CORS policy execution successful.
+2024-09-08 00:21:32.543 +07:00 [INF] [null]
+2024-09-08 00:21:32.544 +07:00 [INF] Executing endpoint 'BaseDotnet.Controllers.AuthController.Authenticate (BaseDotnet)'
+2024-09-08 00:21:32.565 +07:00 [INF] Route matched with {action = "Authenticate", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authenticate(BaseDotnet.Models.AuthenticateRequest) on controller BaseDotnet.Controllers.AuthController (BaseDotnet).
+2024-09-08 00:21:32.566 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-08 00:21:32.566 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-08 00:21:32.566 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-08 00:21:32.566 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-08 00:21:32.566 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-08 00:21:32.567 +07:00 [DBG] Executing controller factory for controller BaseDotnet.Controllers.AuthController (BaseDotnet)
+2024-09-08 00:21:32.568 +07:00 [DBG] Executed controller factory for controller BaseDotnet.Controllers.AuthController (BaseDotnet)
+2024-09-08 00:21:32.570 +07:00 [DBG] Attempting to bind parameter 'model' of type 'BaseDotnet.Models.AuthenticateRequest' ...
+2024-09-08 00:21:32.572 +07:00 [DBG] Attempting to bind parameter 'model' of type 'BaseDotnet.Models.AuthenticateRequest' using the name '' in request data ...
+2024-09-08 00:21:32.572 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-09-08 00:21:32.576 +07:00 [DBG] Connection id "0HN6FC58QU2VE", Request id "0HN6FC58QU2VE:00000003": started reading request body.
+2024-09-08 00:21:32.577 +07:00 [DBG] Connection id "0HN6FC58QU2VE", Request id "0HN6FC58QU2VE:00000003": done reading request body.
+2024-09-08 00:21:32.581 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'BaseDotnet.Models.AuthenticateRequest'
+2024-09-08 00:21:32.581 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'BaseDotnet.Models.AuthenticateRequest'.
+2024-09-08 00:21:32.581 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'BaseDotnet.Models.AuthenticateRequest'.
+2024-09-08 00:21:32.581 +07:00 [DBG] Attempting to validate the bound parameter 'model' of type 'BaseDotnet.Models.AuthenticateRequest' ...
+2024-09-08 00:21:32.584 +07:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'BaseDotnet.Models.AuthenticateRequest'.
+2024-09-08 00:21:32.799 +07:00 [DBG] Entity Framework Core 8.0.1 initialized 'BaseDotnetDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:8.0.0+2539d1f4bd0d429cbae20336d531d14938a54297' with options: None
+2024-09-08 00:21:32.810 +07:00 [DBG] Compiling query expression: 
+'DbSet<User>()
+    .SingleOrDefault(x => x.Email.Equals(__model_Email_0))'
+2024-09-08 00:21:32.910 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<User>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.UserID (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.CreatedDate (DateTime) Required, 1], [Property: User.DisplayName (string) Required, 2], [Property: User.Email (string) Required, 3], [Property: User.LastLogin (DateTime?), 4], [Property: User.Password (string), 5], [Property: User.RoleID (int) Required, 6], [Property: User.Salt (string), 7], [Property: User.Status (string) Required, 8], [Property: User.UserName (string) Required, 9] }
+        SELECT TOP(2) m.user_id, m.created_date, m.display_name, m.email, m.last_login, m.password, m.role_id, m.salt, m.status, m.username
+        FROM master.mst_users AS m
+        WHERE m.email == @__model_Email_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, User>, 
+    BaseDotnet.DbContext.BaseDotnetDbContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2024-09-08 00:21:32.923 +07:00 [DBG] Creating DbConnection.
+2024-09-08 00:21:32.935 +07:00 [DBG] Created DbConnection. (12ms).
+2024-09-08 00:21:32.936 +07:00 [DBG] Opening connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:21:32.986 +07:00 [DBG] Opened connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:21:32.987 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-08 00:21:32.990 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2024-09-08 00:21:32.992 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (4ms).
+2024-09-08 00:21:32.996 +07:00 [DBG] Executing DbCommand [Parameters=[@__model_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT m.user_id, m.created_date, m.display_name, m.email, m.last_login, m.password, m.role_id, m.salt, m.status, m.username
+FROM master.mst_users AS m
+WHERE m.email = @__model_Email_0
+LIMIT 2
+2024-09-08 00:21:33.024 +07:00 [INF] Executed DbCommand (29ms) [Parameters=[@__model_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT m.user_id, m.created_date, m.display_name, m.email, m.last_login, m.password, m.role_id, m.salt, m.status, m.username
+FROM master.mst_users AS m
+WHERE m.email = @__model_Email_0
+LIMIT 2
+2024-09-08 00:21:33.039 +07:00 [DBG] Context 'BaseDotnetDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-08 00:21:33.052 +07:00 [DBG] Closing data reader to 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:21:33.055 +07:00 [DBG] A data reader for 'my_app' on server 'tcp://localhost:5432' is being disposed after spending 29ms reading results.
+2024-09-08 00:21:33.056 +07:00 [DBG] Closing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:21:33.058 +07:00 [DBG] Closed connection to database 'my_app' on server 'tcp://localhost:5432' (1ms).
+2024-09-08 00:21:33.078 +07:00 [DBG] An entity of type 'User' tracked by 'BaseDotnetDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-08 00:21:33.079 +07:00 [DBG] SaveChanges starting for 'BaseDotnetDbContext'.
+2024-09-08 00:21:33.080 +07:00 [DBG] DetectChanges starting for 'BaseDotnetDbContext'.
+2024-09-08 00:21:33.083 +07:00 [DBG] DetectChanges completed for 'BaseDotnetDbContext'.
+2024-09-08 00:21:33.102 +07:00 [DBG] Opening connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:21:33.103 +07:00 [DBG] Opened connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:21:33.103 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-08 00:21:33.103 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-08 00:21:33.103 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-09-08 00:21:33.103 +07:00 [DBG] Executing DbCommand [Parameters=[@p9='?' (DbType = Int32), @p0='?' (DbType = DateTime), @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Int32), @p6='?', @p7='?', @p8='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE master.mst_users SET created_date = @p0, display_name = @p1, email = @p2, last_login = @p3, password = @p4, role_id = @p5, salt = @p6, status = @p7, username = @p8
+WHERE user_id = @p9;
+2024-09-08 00:21:33.119 +07:00 [INF] Executed DbCommand (16ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (DbType = DateTime), @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Int32), @p6='?', @p7='?', @p8='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE master.mst_users SET created_date = @p0, display_name = @p1, email = @p2, last_login = @p3, password = @p4, role_id = @p5, salt = @p6, status = @p7, username = @p8
+WHERE user_id = @p9;
+2024-09-08 00:21:33.121 +07:00 [DBG] Closing data reader to 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:21:33.121 +07:00 [DBG] A data reader for 'my_app' on server 'tcp://localhost:5432' is being disposed after spending 1ms reading results.
+2024-09-08 00:21:33.121 +07:00 [DBG] Closing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:21:33.121 +07:00 [DBG] Closed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2024-09-08 00:21:33.123 +07:00 [DBG] An entity of type 'User' tracked by 'BaseDotnetDbContext' changed state from '"Modified"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-08 00:21:33.123 +07:00 [DBG] SaveChanges completed for 'BaseDotnetDbContext' with 1 entities written to the database.
+2024-09-08 00:21:33.124 +07:00 [DBG] Compiling query expression: 
+'DbSet<User>()
+    .SingleOrDefault(x => x.UserID.Equals(__id_0))'
+2024-09-08 00:21:33.127 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<User>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.UserID (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.CreatedDate (DateTime) Required, 1], [Property: User.DisplayName (string) Required, 2], [Property: User.Email (string) Required, 3], [Property: User.LastLogin (DateTime?), 4], [Property: User.Password (string), 5], [Property: User.RoleID (int) Required, 6], [Property: User.Salt (string), 7], [Property: User.Status (string) Required, 8], [Property: User.UserName (string) Required, 9] }
+        SELECT TOP(2) m.user_id, m.created_date, m.display_name, m.email, m.last_login, m.password, m.role_id, m.salt, m.status, m.username
+        FROM master.mst_users AS m
+        WHERE m.user_id == @__id_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, User>, 
+    BaseDotnet.DbContext.BaseDotnetDbContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2024-09-08 00:21:33.128 +07:00 [DBG] Opening connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:21:33.128 +07:00 [DBG] Opened connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:21:33.128 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-08 00:21:33.128 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-08 00:21:33.128 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-09-08 00:21:33.128 +07:00 [DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT m.user_id, m.created_date, m.display_name, m.email, m.last_login, m.password, m.role_id, m.salt, m.status, m.username
+FROM master.mst_users AS m
+WHERE m.user_id = @__id_0
+LIMIT 2
+2024-09-08 00:21:33.128 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT m.user_id, m.created_date, m.display_name, m.email, m.last_login, m.password, m.role_id, m.salt, m.status, m.username
+FROM master.mst_users AS m
+WHERE m.user_id = @__id_0
+LIMIT 2
+2024-09-08 00:21:33.129 +07:00 [DBG] Closing data reader to 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:21:33.129 +07:00 [DBG] A data reader for 'my_app' on server 'tcp://localhost:5432' is being disposed after spending 0ms reading results.
+2024-09-08 00:21:33.129 +07:00 [DBG] Closing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:21:33.129 +07:00 [DBG] Closed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2024-09-08 00:21:33.130 +07:00 [DBG] Compiling query expression: 
+'DbSet<Role>()
+    .SingleOrDefault(x => x.RoleID.Equals(__id_0))'
+2024-09-08 00:21:33.131 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Role>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Role.RoleID (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Role.RoleName (string) Required, 1] }
+        SELECT TOP(2) m.role_id, m.role_name
+        FROM master.mst_role AS m
+        WHERE m.role_id == @__id_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Role>, 
+    BaseDotnet.DbContext.BaseDotnetDbContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2024-09-08 00:21:33.131 +07:00 [DBG] Opening connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:21:33.131 +07:00 [DBG] Opened connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:21:33.132 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-08 00:21:33.132 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-08 00:21:33.132 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-09-08 00:21:33.132 +07:00 [DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT m.role_id, m.role_name
+FROM master.mst_role AS m
+WHERE m.role_id = @__id_0
+LIMIT 2
+2024-09-08 00:21:33.133 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT m.role_id, m.role_name
+FROM master.mst_role AS m
+WHERE m.role_id = @__id_0
+LIMIT 2
+2024-09-08 00:21:33.134 +07:00 [DBG] Context 'BaseDotnetDbContext' started tracking 'Role' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-08 00:21:33.137 +07:00 [DBG] Closing data reader to 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:21:33.139 +07:00 [DBG] A data reader for 'my_app' on server 'tcp://localhost:5432' is being disposed after spending 4ms reading results.
+2024-09-08 00:21:33.148 +07:00 [DBG] Closing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:21:33.153 +07:00 [DBG] Closed connection to database 'my_app' on server 'tcp://localhost:5432' (5ms).
+2024-09-08 00:21:33.161 +07:00 [DBG] Compiling query expression: 
+'DbSet<RolePageAccess>()
+    .Where(m => m.RoleID == __roleId_0)'
+2024-09-08 00:21:33.168 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<RolePageAccess>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: RolePageAccess.PageCode (string) Required PK AfterSave:Throw, 0], [Property: RolePageAccess.Action (string) Required PK AfterSave:Throw, 1], [Property: RolePageAccess.RoleID (int) Required PK AfterSave:Throw, 2] }
+        SELECT m.page_code, m.action, m.role_id
+        FROM master.mst_role_page_access AS m
+        WHERE m.role_id == @__roleId_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, RolePageAccess>, 
+    BaseDotnet.DbContext.BaseDotnetDbContext, 
+    False, 
+    False, 
+    True
+)'
+2024-09-08 00:21:33.170 +07:00 [DBG] Opening connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:21:33.171 +07:00 [DBG] Opened connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:21:33.171 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-08 00:21:33.171 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-08 00:21:33.171 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-09-08 00:21:33.171 +07:00 [DBG] Executing DbCommand [Parameters=[@__roleId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT m.page_code, m.action, m.role_id
+FROM master.mst_role_page_access AS m
+WHERE m.role_id = @__roleId_0
+2024-09-08 00:21:33.172 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__roleId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT m.page_code, m.action, m.role_id
+FROM master.mst_role_page_access AS m
+WHERE m.role_id = @__roleId_0
+2024-09-08 00:21:33.177 +07:00 [DBG] Context 'BaseDotnetDbContext' started tracking 'RolePageAccess' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-08 00:21:33.179 +07:00 [DBG] Context 'BaseDotnetDbContext' started tracking 'RolePageAccess' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-08 00:21:33.180 +07:00 [DBG] Context 'BaseDotnetDbContext' started tracking 'RolePageAccess' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-08 00:21:33.180 +07:00 [DBG] Closing data reader to 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:21:33.180 +07:00 [DBG] A data reader for 'my_app' on server 'tcp://localhost:5432' is being disposed after spending 7ms reading results.
+2024-09-08 00:21:33.180 +07:00 [DBG] Closing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:21:33.180 +07:00 [DBG] Closed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2024-09-08 00:21:33.208 +07:00 [INF] LOGIN USER {"RoleID":1,"RoleName":"Admin","AccessList":[{"PageCode":"MasterRole","Action":"Create,Read,Update,Delete","RoleID":1},{"PageCode":"MasterUser","Action":"Create,Read,Update,Delete","RoleID":1},{"PageCode":"MasterProductCategory","Action":"Create,Read,Update,Delete","RoleID":1}],"PageList":null}
+2024-09-08 00:21:33.209 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-08 00:21:33.210 +07:00 [DBG] No information found on request to perform content negotiation.
+2024-09-08 00:21:33.210 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-08 00:21:33.210 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-08 00:21:33.210 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-08 00:21:33.210 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-09-08 00:21:33.216 +07:00 [INF] Executed action BaseDotnet.Controllers.AuthController.Authenticate (BaseDotnet) in 648.6592ms
+2024-09-08 00:21:33.216 +07:00 [INF] Executed endpoint 'BaseDotnet.Controllers.AuthController.Authenticate (BaseDotnet)'
+2024-09-08 00:21:33.217 +07:00 [DBG] Connection id "0HN6FC58QU2VE" completed keep alive response.
+2024-09-08 00:21:33.217 +07:00 [DBG] 'BaseDotnetDbContext' disposed.
+2024-09-08 00:21:33.218 +07:00 [DBG] Disposing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:21:33.219 +07:00 [DBG] Disposed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2024-09-08 00:21:33.219 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5245/Auth/login - 200 null application/json; charset=utf-8 697.1605ms
+2024-09-08 00:22:22.775 +07:00 [DBG] Connection id "0HN6FC58QU2VD" disconnecting.
+2024-09-08 00:22:22.777 +07:00 [DBG] Connection id "0HN6FC58QU2VD" stopped.
+2024-09-08 00:22:22.779 +07:00 [DBG] Connection id "0HN6FC58QU2VD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-08 00:22:23.775 +07:00 [DBG] Connection id "0HN6FC58QU2VF" disconnecting.
+2024-09-08 00:22:23.775 +07:00 [DBG] Connection id "0HN6FC58QU2VF" stopped.
+2024-09-08 00:22:23.775 +07:00 [DBG] Connection id "0HN6FC58QU2VF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-08 00:23:43.859 +07:00 [DBG] Connection id "0HN6FC58QU2VE" disconnecting.
+2024-09-08 00:23:43.859 +07:00 [DBG] Connection id "0HN6FC58QU2VE" stopped.
+2024-09-08 00:23:43.859 +07:00 [DBG] Connection id "0HN6FC58QU2VE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-08 00:29:05.878 +07:00 [DBG] Connection id "0HN6FC58QU2VG" accepted.
+2024-09-08 00:29:05.879 +07:00 [DBG] Connection id "0HN6FC58QU2VG" started.
+2024-09-08 00:29:05.880 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/User?orderBy=UserID&orderType=asc&page=1&pageSize=10 - null null
+2024-09-08 00:29:05.881 +07:00 [DBG] 1 candidate(s) found for the request path '/User'
+2024-09-08 00:29:05.881 +07:00 [DBG] Endpoint 'BaseDotnet.Controllers.UserController.GetAll (BaseDotnet)' with route pattern 'User' is valid for the request path '/User'
+2024-09-08 00:29:05.881 +07:00 [DBG] Request matched endpoint 'BaseDotnet.Controllers.UserController.GetAll (BaseDotnet)'
+2024-09-08 00:29:05.882 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-09-08 00:29:05.886 +07:00 [INF] eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJuYmYiOjE3MjU3Mjk2OTMsImV4cCI6MjA0MTI2MjQ5MywiaWF0IjoxNzI1NzI5NjkzfQ.b00RYKC7ypKWirCwsf4JgUGfX1QamGNFggEnwL0Xe8o
+2024-09-08 00:29:05.924 +07:00 [DBG] Entity Framework Core 8.0.1 initialized 'BaseDotnetDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:8.0.0+2539d1f4bd0d429cbae20336d531d14938a54297' with options: None
+2024-09-08 00:29:05.926 +07:00 [DBG] Creating DbConnection.
+2024-09-08 00:29:05.926 +07:00 [DBG] Created DbConnection. (0ms).
+2024-09-08 00:29:05.926 +07:00 [DBG] Opening connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:29:05.932 +07:00 [DBG] Opened connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:29:05.932 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-08 00:29:05.932 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-08 00:29:05.932 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-09-08 00:29:05.932 +07:00 [DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT m.user_id, m.created_date, m.display_name, m.email, m.last_login, m.password, m.role_id, m.salt, m.status, m.username
+FROM master.mst_users AS m
+WHERE m.user_id = @__id_0
+LIMIT 2
+2024-09-08 00:29:05.934 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT m.user_id, m.created_date, m.display_name, m.email, m.last_login, m.password, m.role_id, m.salt, m.status, m.username
+FROM master.mst_users AS m
+WHERE m.user_id = @__id_0
+LIMIT 2
+2024-09-08 00:29:05.934 +07:00 [DBG] Context 'BaseDotnetDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-08 00:29:05.934 +07:00 [DBG] Closing data reader to 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:29:05.934 +07:00 [DBG] A data reader for 'my_app' on server 'tcp://localhost:5432' is being disposed after spending 0ms reading results.
+2024-09-08 00:29:05.935 +07:00 [DBG] Closing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:29:05.935 +07:00 [DBG] Closed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2024-09-08 00:29:05.935 +07:00 [INF] Executing endpoint 'BaseDotnet.Controllers.UserController.GetAll (BaseDotnet)'
+2024-09-08 00:29:05.939 +07:00 [INF] Route matched with {action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.String, System.String, System.Nullable`1[System.Int32], Int32, System.String, Int32) on controller BaseDotnet.Controllers.UserController (BaseDotnet).
+2024-09-08 00:29:05.939 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["BaseDotnet.Helpers.AuthorizeAttribute"]
+2024-09-08 00:29:05.939 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-08 00:29:05.939 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-08 00:29:05.940 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-08 00:29:05.940 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-08 00:29:05.943 +07:00 [DBG] Compiling query expression: 
+'DbSet<RolePageAccess>()
+    .SingleOrDefault(x => x.RoleID.Equals(__roleId_0) && x.PageCode.Equals(__ToString_1))'
+2024-09-08 00:29:05.946 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<RolePageAccess>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: RolePageAccess.PageCode (string) Required PK AfterSave:Throw, 0], [Property: RolePageAccess.Action (string) Required PK AfterSave:Throw, 1], [Property: RolePageAccess.RoleID (int) Required PK AfterSave:Throw, 2] }
+        SELECT TOP(2) m.page_code, m.action, m.role_id
+        FROM master.mst_role_page_access AS m
+        WHERE (m.role_id == @__roleId_0) && (m.page_code == @__ToString_1)), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, RolePageAccess>, 
+    BaseDotnet.DbContext.BaseDotnetDbContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2024-09-08 00:29:05.948 +07:00 [DBG] Opening connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:29:05.948 +07:00 [DBG] Opened connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:29:05.948 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-08 00:29:05.948 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-08 00:29:05.948 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-09-08 00:29:05.948 +07:00 [DBG] Executing DbCommand [Parameters=[@__roleId_0='?' (DbType = Int32), @__ToString_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT m.page_code, m.action, m.role_id
+FROM master.mst_role_page_access AS m
+WHERE m.role_id = @__roleId_0 AND m.page_code = @__ToString_1
+LIMIT 2
+2024-09-08 00:29:05.949 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__roleId_0='?' (DbType = Int32), @__ToString_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT m.page_code, m.action, m.role_id
+FROM master.mst_role_page_access AS m
+WHERE m.role_id = @__roleId_0 AND m.page_code = @__ToString_1
+LIMIT 2
+2024-09-08 00:29:05.950 +07:00 [DBG] Context 'BaseDotnetDbContext' started tracking 'RolePageAccess' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-08 00:29:05.950 +07:00 [DBG] Closing data reader to 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:29:05.950 +07:00 [DBG] A data reader for 'my_app' on server 'tcp://localhost:5432' is being disposed after spending 0ms reading results.
+2024-09-08 00:29:05.950 +07:00 [DBG] Closing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:29:05.950 +07:00 [DBG] Closed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2024-09-08 00:29:05.950 +07:00 [DBG] Executing controller factory for controller BaseDotnet.Controllers.UserController (BaseDotnet)
+2024-09-08 00:29:05.950 +07:00 [DBG] Executed controller factory for controller BaseDotnet.Controllers.UserController (BaseDotnet)
+2024-09-08 00:29:05.952 +07:00 [DBG] Attempting to bind parameter 'keyword' of type 'System.String' ...
+2024-09-08 00:29:05.952 +07:00 [DBG] Attempting to bind parameter 'keyword' of type 'System.String' using the name 'keyword' in request data ...
+2024-09-08 00:29:05.953 +07:00 [DBG] Could not find a value in the request with name 'keyword' for binding parameter 'keyword' of type 'System.String'.
+2024-09-08 00:29:05.953 +07:00 [DBG] Done attempting to bind parameter 'keyword' of type 'System.String'.
+2024-09-08 00:29:05.953 +07:00 [DBG] Done attempting to bind parameter 'keyword' of type 'System.String'.
+2024-09-08 00:29:05.953 +07:00 [DBG] Attempting to validate the bound parameter 'keyword' of type 'System.String' ...
+2024-09-08 00:29:05.953 +07:00 [DBG] Done attempting to validate the bound parameter 'keyword' of type 'System.String'.
+2024-09-08 00:29:05.953 +07:00 [DBG] Attempting to bind parameter 'orderBy' of type 'System.String' ...
+2024-09-08 00:29:05.953 +07:00 [DBG] Attempting to bind parameter 'orderBy' of type 'System.String' using the name 'orderBy' in request data ...
+2024-09-08 00:29:05.953 +07:00 [DBG] Done attempting to bind parameter 'orderBy' of type 'System.String'.
+2024-09-08 00:29:05.954 +07:00 [DBG] Done attempting to bind parameter 'orderBy' of type 'System.String'.
+2024-09-08 00:29:05.954 +07:00 [DBG] Attempting to validate the bound parameter 'orderBy' of type 'System.String' ...
+2024-09-08 00:29:05.954 +07:00 [DBG] Done attempting to validate the bound parameter 'orderBy' of type 'System.String'.
+2024-09-08 00:29:05.954 +07:00 [DBG] Attempting to bind parameter 'orderType' of type 'System.String' ...
+2024-09-08 00:29:05.954 +07:00 [DBG] Attempting to bind parameter 'orderType' of type 'System.String' using the name 'orderType' in request data ...
+2024-09-08 00:29:05.954 +07:00 [DBG] Done attempting to bind parameter 'orderType' of type 'System.String'.
+2024-09-08 00:29:05.954 +07:00 [DBG] Done attempting to bind parameter 'orderType' of type 'System.String'.
+2024-09-08 00:29:05.954 +07:00 [DBG] Attempting to validate the bound parameter 'orderType' of type 'System.String' ...
+2024-09-08 00:29:05.954 +07:00 [DBG] Done attempting to validate the bound parameter 'orderType' of type 'System.String'.
+2024-09-08 00:29:05.954 +07:00 [DBG] Attempting to bind parameter 'role' of type 'System.Nullable`1[System.Int32]' ...
+2024-09-08 00:29:05.954 +07:00 [DBG] Attempting to bind parameter 'role' of type 'System.Nullable`1[System.Int32]' using the name 'role' in request data ...
+2024-09-08 00:29:05.954 +07:00 [DBG] Could not find a value in the request with name 'role' for binding parameter 'role' of type 'System.Nullable`1[System.Int32]'.
+2024-09-08 00:29:05.954 +07:00 [DBG] Done attempting to bind parameter 'role' of type 'System.Nullable`1[System.Int32]'.
+2024-09-08 00:29:05.954 +07:00 [DBG] Done attempting to bind parameter 'role' of type 'System.Nullable`1[System.Int32]'.
+2024-09-08 00:29:05.955 +07:00 [DBG] Attempting to validate the bound parameter 'role' of type 'System.Nullable`1[System.Int32]' ...
+2024-09-08 00:29:05.955 +07:00 [DBG] Done attempting to validate the bound parameter 'role' of type 'System.Nullable`1[System.Int32]'.
+2024-09-08 00:29:05.955 +07:00 [DBG] Attempting to bind parameter 'page' of type 'System.Int32' ...
+2024-09-08 00:29:05.955 +07:00 [DBG] Attempting to bind parameter 'page' of type 'System.Int32' using the name 'page' in request data ...
+2024-09-08 00:29:05.955 +07:00 [DBG] Done attempting to bind parameter 'page' of type 'System.Int32'.
+2024-09-08 00:29:05.955 +07:00 [DBG] Done attempting to bind parameter 'page' of type 'System.Int32'.
+2024-09-08 00:29:05.955 +07:00 [DBG] Attempting to validate the bound parameter 'page' of type 'System.Int32' ...
+2024-09-08 00:29:05.955 +07:00 [DBG] Done attempting to validate the bound parameter 'page' of type 'System.Int32'.
+2024-09-08 00:29:05.955 +07:00 [DBG] Attempting to bind parameter 'status' of type 'System.String' ...
+2024-09-08 00:29:05.955 +07:00 [DBG] Attempting to bind parameter 'status' of type 'System.String' using the name 'status' in request data ...
+2024-09-08 00:29:05.955 +07:00 [DBG] Could not find a value in the request with name 'status' for binding parameter 'status' of type 'System.String'.
+2024-09-08 00:29:05.955 +07:00 [DBG] Done attempting to bind parameter 'status' of type 'System.String'.
+2024-09-08 00:29:05.955 +07:00 [DBG] Done attempting to bind parameter 'status' of type 'System.String'.
+2024-09-08 00:29:05.955 +07:00 [DBG] Attempting to validate the bound parameter 'status' of type 'System.String' ...
+2024-09-08 00:29:05.955 +07:00 [DBG] Done attempting to validate the bound parameter 'status' of type 'System.String'.
+2024-09-08 00:29:05.955 +07:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2024-09-08 00:29:05.955 +07:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2024-09-08 00:29:05.956 +07:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2024-09-08 00:29:05.956 +07:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2024-09-08 00:29:05.956 +07:00 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2024-09-08 00:29:05.956 +07:00 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2024-09-08 00:29:05.964 +07:00 [DBG] Compiling query expression: 
+'DbSet<User>()
+    .GroupJoin(
+        inner: DbSet<Role>(), 
+        outerKeySelector: user => user.RoleID, 
+        innerKeySelector: role => role.RoleID, 
+        resultSelector: (user, role) => new { 
+            user = user, 
+            role = role
+         })
+    .SelectMany(
+        collectionSelector: x => x.role
+            .DefaultIfEmpty(), 
+        resultSelector: (user, role) => new { 
+            user = user.user, 
+            role = role
+         })
+    .OrderBy(x => x.user.UserID)
+    .Select(x => new User{ 
+        UserID = x.user.UserID, 
+        UserName = x.user.UserName, 
+        DisplayName = x.user.DisplayName, 
+        Email = x.user.Email, 
+        Status = x.user.Status, 
+        LastLogin = x.user.LastLogin, 
+        CreatedDate = x.user.CreatedDate, 
+        RoleID = x.user.RoleID, 
+        RoleName = x.role.RoleName 
+    }
+    )
+    .Count()'
+2024-09-08 00:29:05.985 +07:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<int>(
+    asyncEnumerable: new SingleQueryingEnumerable<int>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT CAST(count(*) AS integer)
+            FROM master.mst_users AS m
+            LEFT JOIN master.mst_role AS m0 ON m.role_id == m0.role_id), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, int>, 
+        BaseDotnet.DbContext.BaseDotnetDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2024-09-08 00:29:05.992 +07:00 [DBG] Opening connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:29:05.992 +07:00 [DBG] Opened connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:29:05.992 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-08 00:29:05.992 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-08 00:29:05.992 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-09-08 00:29:05.992 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM master.mst_users AS m
+LEFT JOIN master.mst_role AS m0 ON m.role_id = m0.role_id
+2024-09-08 00:29:05.998 +07:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM master.mst_users AS m
+LEFT JOIN master.mst_role AS m0 ON m.role_id = m0.role_id
+2024-09-08 00:29:06.000 +07:00 [DBG] Closing data reader to 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:29:06.000 +07:00 [DBG] A data reader for 'my_app' on server 'tcp://localhost:5432' is being disposed after spending 2ms reading results.
+2024-09-08 00:29:06.001 +07:00 [DBG] Closing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:29:06.002 +07:00 [DBG] Closed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2024-09-08 00:29:06.003 +07:00 [DBG] Compiling query expression: 
+'DbSet<User>()
+    .GroupJoin(
+        inner: DbSet<Role>(), 
+        outerKeySelector: user => user.RoleID, 
+        innerKeySelector: role => role.RoleID, 
+        resultSelector: (user, role) => new { 
+            user = user, 
+            role = role
+         })
+    .SelectMany(
+        collectionSelector: x => x.role
+            .DefaultIfEmpty(), 
+        resultSelector: (user, role) => new { 
+            user = user.user, 
+            role = role
+         })
+    .OrderBy(x => x.user.UserID)
+    .Select(x => new User{ 
+        UserID = x.user.UserID, 
+        UserName = x.user.UserName, 
+        DisplayName = x.user.DisplayName, 
+        Email = x.user.Email, 
+        Status = x.user.Status, 
+        LastLogin = x.user.LastLogin, 
+        CreatedDate = x.user.CreatedDate, 
+        RoleID = x.user.RoleID, 
+        RoleName = x.role.RoleName 
+    }
+    )
+    .Skip(__p_0)
+    .Take(__p_1)'
+2024-09-08 00:29:06.007 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<User>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            UserID -> 0
+            UserName -> 1
+            DisplayName -> 2
+            Email -> 3
+            Status -> 4
+            LastLogin -> 5
+            CreatedDate -> 6
+            RoleID -> 7
+            RoleName -> 8
+        SELECT m.user_id AS UserID, m.username AS UserName, m.display_name AS DisplayName, m.email AS Email, m.status AS Status, m.last_login AS LastLogin, m.created_date AS CreatedDate, m.role_id AS RoleID, m0.role_name AS RoleName
+        FROM master.mst_users AS m
+        LEFT JOIN master.mst_role AS m0 ON m.role_id == m0.role_id
+        ORDER BY m.user_id ASC
+        OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, User>, 
+    BaseDotnet.DbContext.BaseDotnetDbContext, 
+    False, 
+    False, 
+    True
+)'
+2024-09-08 00:29:06.009 +07:00 [DBG] Opening connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:29:06.009 +07:00 [DBG] Opened connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:29:06.009 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-08 00:29:06.009 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-08 00:29:06.009 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-09-08 00:29:06.009 +07:00 [DBG] Executing DbCommand [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT m.user_id AS "UserID", m.username AS "UserName", m.display_name AS "DisplayName", m.email AS "Email", m.status AS "Status", m.last_login AS "LastLogin", m.created_date AS "CreatedDate", m.role_id AS "RoleID", m0.role_name AS "RoleName"
+FROM master.mst_users AS m
+LEFT JOIN master.mst_role AS m0 ON m.role_id = m0.role_id
+ORDER BY m.user_id
+LIMIT @__p_1 OFFSET @__p_0
+2024-09-08 00:29:06.010 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT m.user_id AS "UserID", m.username AS "UserName", m.display_name AS "DisplayName", m.email AS "Email", m.status AS "Status", m.last_login AS "LastLogin", m.created_date AS "CreatedDate", m.role_id AS "RoleID", m0.role_name AS "RoleName"
+FROM master.mst_users AS m
+LEFT JOIN master.mst_role AS m0 ON m.role_id = m0.role_id
+ORDER BY m.user_id
+LIMIT @__p_1 OFFSET @__p_0
+2024-09-08 00:29:06.011 +07:00 [DBG] Closing data reader to 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:29:06.011 +07:00 [DBG] A data reader for 'my_app' on server 'tcp://localhost:5432' is being disposed after spending 0ms reading results.
+2024-09-08 00:29:06.011 +07:00 [DBG] Closing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:29:06.012 +07:00 [DBG] Closed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2024-09-08 00:29:06.012 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-08 00:29:06.013 +07:00 [DBG] No information found on request to perform content negotiation.
+2024-09-08 00:29:06.013 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-08 00:29:06.013 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-08 00:29:06.013 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-08 00:29:06.013 +07:00 [INF] Executing OkObjectResult, writing value of type 'BaseDotnet.Models.PagedResult`1[[BaseDotnet.Entities.User, BaseDotnet, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-08 00:29:06.018 +07:00 [INF] Executed action BaseDotnet.Controllers.UserController.GetAll (BaseDotnet) in 77.9463ms
+2024-09-08 00:29:06.018 +07:00 [INF] Executed endpoint 'BaseDotnet.Controllers.UserController.GetAll (BaseDotnet)'
+2024-09-08 00:29:06.018 +07:00 [DBG] Connection id "0HN6FC58QU2VG" completed keep alive response.
+2024-09-08 00:29:06.018 +07:00 [DBG] 'BaseDotnetDbContext' disposed.
+2024-09-08 00:29:06.018 +07:00 [DBG] Disposing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:29:06.018 +07:00 [DBG] Disposed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2024-09-08 00:29:06.018 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/User?orderBy=UserID&orderType=asc&page=1&pageSize=10 - 200 null application/json; charset=utf-8 138.2104ms
+2024-09-08 00:29:07.781 +07:00 [DBG] Connection id "0HN6FC58QU2VG" received FIN.
+2024-09-08 00:29:07.781 +07:00 [DBG] Connection id "0HN6FC58QU2VG" disconnecting.
+2024-09-08 00:29:07.782 +07:00 [DBG] Connection id "0HN6FC58QU2VG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-08 00:29:07.783 +07:00 [DBG] Connection id "0HN6FC58QU2VG" stopped.
+2024-09-08 00:31:32.107 +07:00 [DBG] Connection id "0HN6FC58QU2VH" accepted.
+2024-09-08 00:31:32.108 +07:00 [DBG] Connection id "0HN6FC58QU2VH" started.
+2024-09-08 00:31:32.108 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/User?orderBy=UserID&orderType=asc&page=1&pageSize=10 - null null
+2024-09-08 00:31:32.108 +07:00 [DBG] 1 candidate(s) found for the request path '/User'
+2024-09-08 00:31:32.108 +07:00 [DBG] Endpoint 'BaseDotnet.Controllers.UserController.GetAll (BaseDotnet)' with route pattern 'User' is valid for the request path '/User'
+2024-09-08 00:31:32.108 +07:00 [DBG] Request matched endpoint 'BaseDotnet.Controllers.UserController.GetAll (BaseDotnet)'
+2024-09-08 00:31:32.109 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-09-08 00:31:32.109 +07:00 [INF] eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJuYmYiOjE3MjU3Mjk2OTMsImV4cCI6MjA0MTI2MjQ5MywiaWF0IjoxNzI1NzI5NjkzfQ.b00RYKC7ypKWirCwsf4JgUGfX1QamGNFggEnwL0Xe8o
+2024-09-08 00:31:32.149 +07:00 [DBG] Entity Framework Core 8.0.1 initialized 'BaseDotnetDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:8.0.0+2539d1f4bd0d429cbae20336d531d14938a54297' with options: None
+2024-09-08 00:31:32.150 +07:00 [DBG] Creating DbConnection.
+2024-09-08 00:31:32.150 +07:00 [DBG] Created DbConnection. (0ms).
+2024-09-08 00:31:32.150 +07:00 [DBG] Opening connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:31:32.150 +07:00 [DBG] Opened connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:31:32.151 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-08 00:31:32.151 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-08 00:31:32.151 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-09-08 00:31:32.151 +07:00 [DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT m.user_id, m.created_date, m.display_name, m.email, m.last_login, m.password, m.role_id, m.salt, m.status, m.username
+FROM master.mst_users AS m
+WHERE m.user_id = @__id_0
+LIMIT 2
+2024-09-08 00:31:32.152 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT m.user_id, m.created_date, m.display_name, m.email, m.last_login, m.password, m.role_id, m.salt, m.status, m.username
+FROM master.mst_users AS m
+WHERE m.user_id = @__id_0
+LIMIT 2
+2024-09-08 00:31:32.152 +07:00 [DBG] Context 'BaseDotnetDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-08 00:31:32.152 +07:00 [DBG] Closing data reader to 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:31:32.152 +07:00 [DBG] A data reader for 'my_app' on server 'tcp://localhost:5432' is being disposed after spending 0ms reading results.
+2024-09-08 00:31:32.153 +07:00 [DBG] Closing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:31:32.153 +07:00 [DBG] Closed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2024-09-08 00:31:32.153 +07:00 [INF] Executing endpoint 'BaseDotnet.Controllers.UserController.GetAll (BaseDotnet)'
+2024-09-08 00:31:32.153 +07:00 [INF] Route matched with {action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.String, System.String, System.Nullable`1[System.Int32], Int32, System.String, Int32) on controller BaseDotnet.Controllers.UserController (BaseDotnet).
+2024-09-08 00:31:32.153 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["BaseDotnet.Helpers.AuthorizeAttribute"]
+2024-09-08 00:31:32.153 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-08 00:31:32.153 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-08 00:31:32.153 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-08 00:31:32.153 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-08 00:31:32.154 +07:00 [DBG] Opening connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:31:32.154 +07:00 [DBG] Opened connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:31:32.155 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-08 00:31:32.155 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-08 00:31:32.155 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-09-08 00:31:32.155 +07:00 [DBG] Executing DbCommand [Parameters=[@__roleId_0='?' (DbType = Int32), @__ToString_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT m.page_code, m.action, m.role_id
+FROM master.mst_role_page_access AS m
+WHERE m.role_id = @__roleId_0 AND m.page_code = @__ToString_1
+LIMIT 2
+2024-09-08 00:31:32.155 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__roleId_0='?' (DbType = Int32), @__ToString_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT m.page_code, m.action, m.role_id
+FROM master.mst_role_page_access AS m
+WHERE m.role_id = @__roleId_0 AND m.page_code = @__ToString_1
+LIMIT 2
+2024-09-08 00:31:32.156 +07:00 [DBG] Context 'BaseDotnetDbContext' started tracking 'RolePageAccess' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-08 00:31:32.156 +07:00 [DBG] Closing data reader to 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:31:32.156 +07:00 [DBG] A data reader for 'my_app' on server 'tcp://localhost:5432' is being disposed after spending 0ms reading results.
+2024-09-08 00:31:32.156 +07:00 [DBG] Closing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:31:32.156 +07:00 [DBG] Closed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2024-09-08 00:31:32.156 +07:00 [DBG] Executing controller factory for controller BaseDotnet.Controllers.UserController (BaseDotnet)
+2024-09-08 00:31:32.156 +07:00 [DBG] Executed controller factory for controller BaseDotnet.Controllers.UserController (BaseDotnet)
+2024-09-08 00:31:32.156 +07:00 [DBG] Attempting to bind parameter 'keyword' of type 'System.String' ...
+2024-09-08 00:31:32.157 +07:00 [DBG] Attempting to bind parameter 'keyword' of type 'System.String' using the name 'keyword' in request data ...
+2024-09-08 00:31:32.157 +07:00 [DBG] Could not find a value in the request with name 'keyword' for binding parameter 'keyword' of type 'System.String'.
+2024-09-08 00:31:32.157 +07:00 [DBG] Done attempting to bind parameter 'keyword' of type 'System.String'.
+2024-09-08 00:31:32.157 +07:00 [DBG] Done attempting to bind parameter 'keyword' of type 'System.String'.
+2024-09-08 00:31:32.157 +07:00 [DBG] Attempting to validate the bound parameter 'keyword' of type 'System.String' ...
+2024-09-08 00:31:32.157 +07:00 [DBG] Done attempting to validate the bound parameter 'keyword' of type 'System.String'.
+2024-09-08 00:31:32.157 +07:00 [DBG] Attempting to bind parameter 'orderBy' of type 'System.String' ...
+2024-09-08 00:31:32.157 +07:00 [DBG] Attempting to bind parameter 'orderBy' of type 'System.String' using the name 'orderBy' in request data ...
+2024-09-08 00:31:32.157 +07:00 [DBG] Done attempting to bind parameter 'orderBy' of type 'System.String'.
+2024-09-08 00:31:32.157 +07:00 [DBG] Done attempting to bind parameter 'orderBy' of type 'System.String'.
+2024-09-08 00:31:32.157 +07:00 [DBG] Attempting to validate the bound parameter 'orderBy' of type 'System.String' ...
+2024-09-08 00:31:32.157 +07:00 [DBG] Done attempting to validate the bound parameter 'orderBy' of type 'System.String'.
+2024-09-08 00:31:32.157 +07:00 [DBG] Attempting to bind parameter 'orderType' of type 'System.String' ...
+2024-09-08 00:31:32.157 +07:00 [DBG] Attempting to bind parameter 'orderType' of type 'System.String' using the name 'orderType' in request data ...
+2024-09-08 00:31:32.157 +07:00 [DBG] Done attempting to bind parameter 'orderType' of type 'System.String'.
+2024-09-08 00:31:32.157 +07:00 [DBG] Done attempting to bind parameter 'orderType' of type 'System.String'.
+2024-09-08 00:31:32.158 +07:00 [DBG] Attempting to validate the bound parameter 'orderType' of type 'System.String' ...
+2024-09-08 00:31:32.158 +07:00 [DBG] Done attempting to validate the bound parameter 'orderType' of type 'System.String'.
+2024-09-08 00:31:32.158 +07:00 [DBG] Attempting to bind parameter 'role' of type 'System.Nullable`1[System.Int32]' ...
+2024-09-08 00:31:32.158 +07:00 [DBG] Attempting to bind parameter 'role' of type 'System.Nullable`1[System.Int32]' using the name 'role' in request data ...
+2024-09-08 00:31:32.158 +07:00 [DBG] Could not find a value in the request with name 'role' for binding parameter 'role' of type 'System.Nullable`1[System.Int32]'.
+2024-09-08 00:31:32.158 +07:00 [DBG] Done attempting to bind parameter 'role' of type 'System.Nullable`1[System.Int32]'.
+2024-09-08 00:31:32.158 +07:00 [DBG] Done attempting to bind parameter 'role' of type 'System.Nullable`1[System.Int32]'.
+2024-09-08 00:31:32.158 +07:00 [DBG] Attempting to validate the bound parameter 'role' of type 'System.Nullable`1[System.Int32]' ...
+2024-09-08 00:31:32.158 +07:00 [DBG] Done attempting to validate the bound parameter 'role' of type 'System.Nullable`1[System.Int32]'.
+2024-09-08 00:31:32.158 +07:00 [DBG] Attempting to bind parameter 'page' of type 'System.Int32' ...
+2024-09-08 00:31:32.158 +07:00 [DBG] Attempting to bind parameter 'page' of type 'System.Int32' using the name 'page' in request data ...
+2024-09-08 00:31:32.158 +07:00 [DBG] Done attempting to bind parameter 'page' of type 'System.Int32'.
+2024-09-08 00:31:32.158 +07:00 [DBG] Done attempting to bind parameter 'page' of type 'System.Int32'.
+2024-09-08 00:31:32.158 +07:00 [DBG] Attempting to validate the bound parameter 'page' of type 'System.Int32' ...
+2024-09-08 00:31:32.158 +07:00 [DBG] Done attempting to validate the bound parameter 'page' of type 'System.Int32'.
+2024-09-08 00:31:32.158 +07:00 [DBG] Attempting to bind parameter 'status' of type 'System.String' ...
+2024-09-08 00:31:32.159 +07:00 [DBG] Attempting to bind parameter 'status' of type 'System.String' using the name 'status' in request data ...
+2024-09-08 00:31:32.159 +07:00 [DBG] Could not find a value in the request with name 'status' for binding parameter 'status' of type 'System.String'.
+2024-09-08 00:31:32.159 +07:00 [DBG] Done attempting to bind parameter 'status' of type 'System.String'.
+2024-09-08 00:31:32.159 +07:00 [DBG] Done attempting to bind parameter 'status' of type 'System.String'.
+2024-09-08 00:31:32.160 +07:00 [DBG] Attempting to validate the bound parameter 'status' of type 'System.String' ...
+2024-09-08 00:31:32.160 +07:00 [DBG] Done attempting to validate the bound parameter 'status' of type 'System.String'.
+2024-09-08 00:31:32.160 +07:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2024-09-08 00:31:32.160 +07:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2024-09-08 00:31:32.160 +07:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2024-09-08 00:31:32.160 +07:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2024-09-08 00:31:32.160 +07:00 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2024-09-08 00:31:32.160 +07:00 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2024-09-08 00:31:32.162 +07:00 [DBG] Opening connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:31:32.162 +07:00 [DBG] Opened connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:31:32.162 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-08 00:31:32.162 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-08 00:31:32.162 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-09-08 00:31:32.162 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM master.mst_users AS m
+LEFT JOIN master.mst_role AS m0 ON m.role_id = m0.role_id
+2024-09-08 00:31:32.163 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM master.mst_users AS m
+LEFT JOIN master.mst_role AS m0 ON m.role_id = m0.role_id
+2024-09-08 00:31:32.163 +07:00 [DBG] Closing data reader to 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:31:32.163 +07:00 [DBG] A data reader for 'my_app' on server 'tcp://localhost:5432' is being disposed after spending 0ms reading results.
+2024-09-08 00:31:32.164 +07:00 [DBG] Closing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:31:32.164 +07:00 [DBG] Closed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2024-09-08 00:31:32.164 +07:00 [DBG] Opening connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:31:32.164 +07:00 [DBG] Opened connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:31:32.164 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-08 00:31:32.164 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-08 00:31:32.165 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-09-08 00:31:32.165 +07:00 [DBG] Executing DbCommand [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT m.user_id AS "UserID", m.username AS "UserName", m.display_name AS "DisplayName", m.email AS "Email", m.status AS "Status", m.last_login AS "LastLogin", m.created_date AS "CreatedDate", m.role_id AS "RoleID", m0.role_name AS "RoleName"
+FROM master.mst_users AS m
+LEFT JOIN master.mst_role AS m0 ON m.role_id = m0.role_id
+ORDER BY m.user_id
+LIMIT @__p_1 OFFSET @__p_0
+2024-09-08 00:31:32.165 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT m.user_id AS "UserID", m.username AS "UserName", m.display_name AS "DisplayName", m.email AS "Email", m.status AS "Status", m.last_login AS "LastLogin", m.created_date AS "CreatedDate", m.role_id AS "RoleID", m0.role_name AS "RoleName"
+FROM master.mst_users AS m
+LEFT JOIN master.mst_role AS m0 ON m.role_id = m0.role_id
+ORDER BY m.user_id
+LIMIT @__p_1 OFFSET @__p_0
+2024-09-08 00:31:32.166 +07:00 [DBG] Closing data reader to 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:31:32.166 +07:00 [DBG] A data reader for 'my_app' on server 'tcp://localhost:5432' is being disposed after spending 0ms reading results.
+2024-09-08 00:31:32.166 +07:00 [DBG] Closing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:31:32.166 +07:00 [DBG] Closed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2024-09-08 00:31:32.166 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-08 00:31:32.166 +07:00 [DBG] No information found on request to perform content negotiation.
+2024-09-08 00:31:32.166 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-08 00:31:32.166 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-08 00:31:32.166 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-08 00:31:32.166 +07:00 [INF] Executing OkObjectResult, writing value of type 'BaseDotnet.Models.PagedResult`1[[BaseDotnet.Entities.User, BaseDotnet, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-08 00:31:32.166 +07:00 [INF] Executed action BaseDotnet.Controllers.UserController.GetAll (BaseDotnet) in 13.1376ms
+2024-09-08 00:31:32.167 +07:00 [INF] Executed endpoint 'BaseDotnet.Controllers.UserController.GetAll (BaseDotnet)'
+2024-09-08 00:31:32.167 +07:00 [DBG] Connection id "0HN6FC58QU2VH" completed keep alive response.
+2024-09-08 00:31:32.167 +07:00 [DBG] 'BaseDotnetDbContext' disposed.
+2024-09-08 00:31:32.168 +07:00 [DBG] Disposing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:31:32.168 +07:00 [DBG] Disposed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2024-09-08 00:31:32.168 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/User?orderBy=UserID&orderType=asc&page=1&pageSize=10 - 200 null application/json; charset=utf-8 60.206ms
+2024-09-08 00:31:32.814 +07:00 [DBG] Connection id "0HN6FC58QU2VH" received FIN.
+2024-09-08 00:31:32.815 +07:00 [DBG] Connection id "0HN6FC58QU2VH" disconnecting.
+2024-09-08 00:31:32.815 +07:00 [DBG] Connection id "0HN6FC58QU2VH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-08 00:31:32.816 +07:00 [DBG] Connection id "0HN6FC58QU2VH" stopped.
+2024-09-08 00:31:39.359 +07:00 [DBG] Connection id "0HN6FC58QU2VI" accepted.
+2024-09-08 00:31:39.359 +07:00 [DBG] Connection id "0HN6FC58QU2VI" started.
+2024-09-08 00:31:39.360 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5245/Auth/login - application/json 58
+2024-09-08 00:31:39.360 +07:00 [DBG] 1 candidate(s) found for the request path '/Auth/login'
+2024-09-08 00:31:39.360 +07:00 [DBG] Endpoint 'BaseDotnet.Controllers.AuthController.Authenticate (BaseDotnet)' with route pattern 'Auth/login' is valid for the request path '/Auth/login'
+2024-09-08 00:31:39.360 +07:00 [DBG] Request matched endpoint 'BaseDotnet.Controllers.AuthController.Authenticate (BaseDotnet)'
+2024-09-08 00:31:39.361 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-09-08 00:31:39.361 +07:00 [DBG] The request has an origin header: 'http://localhost:5245'.
+2024-09-08 00:31:39.361 +07:00 [INF] CORS policy execution successful.
+2024-09-08 00:31:39.361 +07:00 [INF] eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJuYmYiOjE3MjU3Mjk2OTMsImV4cCI6MjA0MTI2MjQ5MywiaWF0IjoxNzI1NzI5NjkzfQ.b00RYKC7ypKWirCwsf4JgUGfX1QamGNFggEnwL0Xe8o
+2024-09-08 00:31:39.362 +07:00 [DBG] Entity Framework Core 8.0.1 initialized 'BaseDotnetDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:8.0.0+2539d1f4bd0d429cbae20336d531d14938a54297' with options: None
+2024-09-08 00:31:39.362 +07:00 [DBG] Creating DbConnection.
+2024-09-08 00:31:39.362 +07:00 [DBG] Created DbConnection. (0ms).
+2024-09-08 00:31:39.362 +07:00 [DBG] Opening connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:31:39.363 +07:00 [DBG] Opened connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:31:39.363 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-08 00:31:39.363 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-08 00:31:39.363 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-09-08 00:31:39.363 +07:00 [DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT m.user_id, m.created_date, m.display_name, m.email, m.last_login, m.password, m.role_id, m.salt, m.status, m.username
+FROM master.mst_users AS m
+WHERE m.user_id = @__id_0
+LIMIT 2
+2024-09-08 00:31:39.364 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT m.user_id, m.created_date, m.display_name, m.email, m.last_login, m.password, m.role_id, m.salt, m.status, m.username
+FROM master.mst_users AS m
+WHERE m.user_id = @__id_0
+LIMIT 2
+2024-09-08 00:31:39.364 +07:00 [DBG] Context 'BaseDotnetDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-08 00:31:39.364 +07:00 [DBG] Closing data reader to 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:31:39.365 +07:00 [DBG] A data reader for 'my_app' on server 'tcp://localhost:5432' is being disposed after spending 0ms reading results.
+2024-09-08 00:31:39.365 +07:00 [DBG] Closing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:31:39.365 +07:00 [DBG] Closed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2024-09-08 00:31:39.365 +07:00 [INF] Executing endpoint 'BaseDotnet.Controllers.AuthController.Authenticate (BaseDotnet)'
+2024-09-08 00:31:39.365 +07:00 [INF] Route matched with {action = "Authenticate", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authenticate(BaseDotnet.Models.AuthenticateRequest) on controller BaseDotnet.Controllers.AuthController (BaseDotnet).
+2024-09-08 00:31:39.365 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-08 00:31:39.365 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-08 00:31:39.365 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-08 00:31:39.366 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-08 00:31:39.366 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-08 00:31:39.366 +07:00 [DBG] Executing controller factory for controller BaseDotnet.Controllers.AuthController (BaseDotnet)
+2024-09-08 00:31:39.366 +07:00 [DBG] Executed controller factory for controller BaseDotnet.Controllers.AuthController (BaseDotnet)
+2024-09-08 00:31:39.366 +07:00 [DBG] Attempting to bind parameter 'model' of type 'BaseDotnet.Models.AuthenticateRequest' ...
+2024-09-08 00:31:39.366 +07:00 [DBG] Attempting to bind parameter 'model' of type 'BaseDotnet.Models.AuthenticateRequest' using the name '' in request data ...
+2024-09-08 00:31:39.366 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-09-08 00:31:39.367 +07:00 [DBG] Connection id "0HN6FC58QU2VI", Request id "0HN6FC58QU2VI:00000001": started reading request body.
+2024-09-08 00:31:39.367 +07:00 [DBG] Connection id "0HN6FC58QU2VI", Request id "0HN6FC58QU2VI:00000001": done reading request body.
+2024-09-08 00:31:39.367 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'BaseDotnet.Models.AuthenticateRequest'
+2024-09-08 00:31:39.367 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'BaseDotnet.Models.AuthenticateRequest'.
+2024-09-08 00:31:39.367 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'BaseDotnet.Models.AuthenticateRequest'.
+2024-09-08 00:31:39.367 +07:00 [DBG] Attempting to validate the bound parameter 'model' of type 'BaseDotnet.Models.AuthenticateRequest' ...
+2024-09-08 00:31:39.367 +07:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'BaseDotnet.Models.AuthenticateRequest'.
+2024-09-08 00:31:39.368 +07:00 [DBG] Opening connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:31:39.368 +07:00 [DBG] Opened connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:31:39.368 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-08 00:31:39.368 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-08 00:31:39.368 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-09-08 00:31:39.368 +07:00 [DBG] Executing DbCommand [Parameters=[@__model_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT m.user_id, m.created_date, m.display_name, m.email, m.last_login, m.password, m.role_id, m.salt, m.status, m.username
+FROM master.mst_users AS m
+WHERE m.email = @__model_Email_0
+LIMIT 2
+2024-09-08 00:31:39.368 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__model_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT m.user_id, m.created_date, m.display_name, m.email, m.last_login, m.password, m.role_id, m.salt, m.status, m.username
+FROM master.mst_users AS m
+WHERE m.email = @__model_Email_0
+LIMIT 2
+2024-09-08 00:31:39.369 +07:00 [DBG] Closing data reader to 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:31:39.369 +07:00 [DBG] A data reader for 'my_app' on server 'tcp://localhost:5432' is being disposed after spending 0ms reading results.
+2024-09-08 00:31:39.369 +07:00 [DBG] Closing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:31:39.369 +07:00 [DBG] Closed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2024-09-08 00:31:39.369 +07:00 [DBG] An entity of type 'User' tracked by 'BaseDotnetDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-08 00:31:39.369 +07:00 [DBG] SaveChanges starting for 'BaseDotnetDbContext'.
+2024-09-08 00:31:39.369 +07:00 [DBG] DetectChanges starting for 'BaseDotnetDbContext'.
+2024-09-08 00:31:39.369 +07:00 [DBG] DetectChanges completed for 'BaseDotnetDbContext'.
+2024-09-08 00:31:39.370 +07:00 [DBG] Opening connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:31:39.370 +07:00 [DBG] Opened connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:31:39.370 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-08 00:31:39.370 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-08 00:31:39.370 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-09-08 00:31:39.370 +07:00 [DBG] Executing DbCommand [Parameters=[@p9='?' (DbType = Int32), @p0='?' (DbType = DateTime), @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Int32), @p6='?', @p7='?', @p8='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE master.mst_users SET created_date = @p0, display_name = @p1, email = @p2, last_login = @p3, password = @p4, role_id = @p5, salt = @p6, status = @p7, username = @p8
+WHERE user_id = @p9;
+2024-09-08 00:31:39.372 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (DbType = DateTime), @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Int32), @p6='?', @p7='?', @p8='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE master.mst_users SET created_date = @p0, display_name = @p1, email = @p2, last_login = @p3, password = @p4, role_id = @p5, salt = @p6, status = @p7, username = @p8
+WHERE user_id = @p9;
+2024-09-08 00:31:39.372 +07:00 [DBG] Closing data reader to 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:31:39.372 +07:00 [DBG] A data reader for 'my_app' on server 'tcp://localhost:5432' is being disposed after spending 0ms reading results.
+2024-09-08 00:31:39.372 +07:00 [DBG] Closing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:31:39.372 +07:00 [DBG] Closed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2024-09-08 00:31:39.372 +07:00 [DBG] An entity of type 'User' tracked by 'BaseDotnetDbContext' changed state from '"Modified"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-08 00:31:39.372 +07:00 [DBG] SaveChanges completed for 'BaseDotnetDbContext' with 1 entities written to the database.
+2024-09-08 00:31:39.372 +07:00 [DBG] Opening connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:31:39.372 +07:00 [DBG] Opened connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:31:39.372 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-08 00:31:39.373 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-08 00:31:39.373 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-09-08 00:31:39.373 +07:00 [DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT m.user_id, m.created_date, m.display_name, m.email, m.last_login, m.password, m.role_id, m.salt, m.status, m.username
+FROM master.mst_users AS m
+WHERE m.user_id = @__id_0
+LIMIT 2
+2024-09-08 00:31:39.373 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT m.user_id, m.created_date, m.display_name, m.email, m.last_login, m.password, m.role_id, m.salt, m.status, m.username
+FROM master.mst_users AS m
+WHERE m.user_id = @__id_0
+LIMIT 2
+2024-09-08 00:31:39.373 +07:00 [DBG] Closing data reader to 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:31:39.373 +07:00 [DBG] A data reader for 'my_app' on server 'tcp://localhost:5432' is being disposed after spending 0ms reading results.
+2024-09-08 00:31:39.373 +07:00 [DBG] Closing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:31:39.373 +07:00 [DBG] Closed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2024-09-08 00:31:39.373 +07:00 [DBG] Opening connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:31:39.373 +07:00 [DBG] Opened connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:31:39.373 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-08 00:31:39.373 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-08 00:31:39.373 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-09-08 00:31:39.374 +07:00 [DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT m.role_id, m.role_name
+FROM master.mst_role AS m
+WHERE m.role_id = @__id_0
+LIMIT 2
+2024-09-08 00:31:39.374 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT m.role_id, m.role_name
+FROM master.mst_role AS m
+WHERE m.role_id = @__id_0
+LIMIT 2
+2024-09-08 00:31:39.374 +07:00 [DBG] Context 'BaseDotnetDbContext' started tracking 'Role' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-08 00:31:39.374 +07:00 [DBG] Closing data reader to 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:31:39.374 +07:00 [DBG] A data reader for 'my_app' on server 'tcp://localhost:5432' is being disposed after spending 0ms reading results.
+2024-09-08 00:31:39.374 +07:00 [DBG] Closing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:31:39.374 +07:00 [DBG] Closed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2024-09-08 00:31:39.375 +07:00 [DBG] Opening connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:31:39.375 +07:00 [DBG] Opened connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:31:39.375 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-08 00:31:39.375 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-08 00:31:39.375 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-09-08 00:31:39.375 +07:00 [DBG] Executing DbCommand [Parameters=[@__roleId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT m.page_code, m.action, m.role_id
+FROM master.mst_role_page_access AS m
+WHERE m.role_id = @__roleId_0
+2024-09-08 00:31:39.375 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__roleId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT m.page_code, m.action, m.role_id
+FROM master.mst_role_page_access AS m
+WHERE m.role_id = @__roleId_0
+2024-09-08 00:31:39.375 +07:00 [DBG] Context 'BaseDotnetDbContext' started tracking 'RolePageAccess' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-08 00:31:39.375 +07:00 [DBG] Context 'BaseDotnetDbContext' started tracking 'RolePageAccess' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-08 00:31:39.376 +07:00 [DBG] Context 'BaseDotnetDbContext' started tracking 'RolePageAccess' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-08 00:31:39.376 +07:00 [DBG] Context 'BaseDotnetDbContext' started tracking 'RolePageAccess' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-08 00:31:39.376 +07:00 [DBG] Closing data reader to 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:31:39.376 +07:00 [DBG] A data reader for 'my_app' on server 'tcp://localhost:5432' is being disposed after spending 0ms reading results.
+2024-09-08 00:31:39.376 +07:00 [DBG] Closing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:31:39.376 +07:00 [DBG] Closed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2024-09-08 00:31:39.376 +07:00 [INF] LOGIN USER {"RoleID":1,"RoleName":"Admin","AccessList":[{"PageCode":"MasterRole","Action":"Create,Read,Update,Delete","RoleID":1},{"PageCode":"MasterUser","Action":"Create,Read,Update,Delete","RoleID":1},{"PageCode":"MasterProductCategory","Action":"Create,Read,Update,Delete","RoleID":1},{"PageCode":"MasterOffice","Action":"Create,Read,Update,Delete","RoleID":1}],"PageList":null}
+2024-09-08 00:31:39.376 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-08 00:31:39.376 +07:00 [DBG] No information found on request to perform content negotiation.
+2024-09-08 00:31:39.376 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-08 00:31:39.376 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-08 00:31:39.376 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-08 00:31:39.376 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-09-08 00:31:39.377 +07:00 [INF] Executed action BaseDotnet.Controllers.AuthController.Authenticate (BaseDotnet) in 10.8634ms
+2024-09-08 00:31:39.377 +07:00 [INF] Executed endpoint 'BaseDotnet.Controllers.AuthController.Authenticate (BaseDotnet)'
+2024-09-08 00:31:39.377 +07:00 [DBG] Connection id "0HN6FC58QU2VI" completed keep alive response.
+2024-09-08 00:31:39.377 +07:00 [DBG] 'BaseDotnetDbContext' disposed.
+2024-09-08 00:31:39.377 +07:00 [DBG] Disposing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2024-09-08 00:31:39.377 +07:00 [DBG] Disposed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2024-09-08 00:31:39.377 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5245/Auth/login - 200 null application/json; charset=utf-8 17.2585ms
+2024-09-08 00:31:42.815 +07:00 [DBG] Connection id "0HN6FC58QU2VI" received FIN.
+2024-09-08 00:31:42.816 +07:00 [DBG] Connection id "0HN6FC58QU2VI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-08 00:31:42.816 +07:00 [DBG] Connection id "0HN6FC58QU2VI" disconnecting.
+2024-09-08 00:31:42.816 +07:00 [DBG] Connection id "0HN6FC58QU2VI" stopped.
+2024-09-08 00:36:43.102 +07:00 [INF] Application is shutting down...
+2024-09-08 00:36:43.104 +07:00 [DBG] Hosting stopping
+2024-09-08 00:36:43.114 +07:00 [DBG] Hosting stopped
+2024-09-08 00:36:49.042 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-09-08 00:36:49.094 +07:00 [DBG] Hosting starting
+2024-09-08 00:36:49.115 +07:00 [INF] Now listening on: http://localhost:5245
+2024-09-08 00:36:49.116 +07:00 [DBG] Loaded hosting startup assembly BaseDotnet
+2024-09-08 00:36:49.116 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-08 00:36:49.116 +07:00 [INF] Hosting environment: Development
+2024-09-08 00:36:49.116 +07:00 [INF] Content root path: /Users/reihanrenaldi/Documents/ReihanSigma/projects/DOTNET/BaseDotnet
+2024-09-08 00:36:49.116 +07:00 [DBG] Hosting started

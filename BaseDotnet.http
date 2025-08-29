@@ -1,0 +1,6 @@
+@BaseDotnet_HostAddress = http://localhost:5245
+
+GET {{BaseDotnet_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

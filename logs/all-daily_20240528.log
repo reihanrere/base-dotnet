@@ -1,0 +1,16 @@
+2024-05-28 06:19:02.544 +07:00 [DBG] Connection id "0HN3UB34GCJQB" accepted.
+2024-05-28 06:19:02.551 +07:00 [DBG] Connection id "0HN3UB34GCJQB" started.
+2024-05-28 06:19:02.553 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/swagger/index.html - null null
+2024-05-28 06:19:02.554 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-05-28 06:19:02.554 +07:00 [DBG] Request did not match any endpoints
+2024-05-28 06:19:02.557 +07:00 [DBG] Connection id "0HN3UB34GCJQB" completed keep alive response.
+2024-05-28 06:19:02.557 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/swagger/index.html - 200 null text/html;charset=utf-8 4.3229ms
+2024-05-28 06:19:02.662 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/swagger/v1/swagger.json - null null
+2024-05-28 06:19:02.662 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-05-28 06:19:02.662 +07:00 [DBG] Request did not match any endpoints
+2024-05-28 06:19:02.671 +07:00 [DBG] Connection id "0HN3UB34GCJQB" completed keep alive response.
+2024-05-28 06:19:02.671 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.5277ms
+2024-05-28 06:19:33.510 +07:00 [DBG] Connection id "0HN3UB34GCJQB" received FIN.
+2024-05-28 06:19:33.511 +07:00 [DBG] Connection id "0HN3UB34GCJQB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-28 06:19:33.511 +07:00 [DBG] Connection id "0HN3UB34GCJQB" disconnecting.
+2024-05-28 06:19:33.511 +07:00 [DBG] Connection id "0HN3UB34GCJQB" stopped.
