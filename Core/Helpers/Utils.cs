@@ -3,7 +3,7 @@ using System.Text;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
-using BaseDotnet.Modules.User.Entities;
+using BaseDotnet.Core.Entities;
 
 namespace BaseDotnet.Core.Helpers;
 

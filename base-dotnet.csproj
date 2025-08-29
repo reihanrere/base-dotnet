@@ -50,6 +50,12 @@
 
   <ItemGroup>
     <Folder Include="Core\Validations\" />
+    <Folder Include="Core\Entites\" />
+    <Folder Include="Core\Helpers\" />
+    <Folder Include="Core\Models\" />
+    <Folder Include="Core\Services\" />
+    <Folder Include="Core\DbContext\" />
+    <Folder Include="Core\Controllers\" />
     <Folder Include="Modules\Auth\Entities\" />
     <Folder Include="Modules\Auth\Services\" />
     <Folder Include="Modules\Role\Controllers\" />

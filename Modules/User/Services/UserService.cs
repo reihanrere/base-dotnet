@@ -3,7 +3,6 @@ using BaseDotnet.Core.Helpers;
 using BaseDotnet.Core.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
-using BaseDotnet.Core.Entities;
 
 
 namespace BaseDotnet.Modules.User.Services

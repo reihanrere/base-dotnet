@@ -1,11 +1,11 @@
 
+using BaseDotnet.Core.DbContext;
+using BaseDotnet.Core.Helpers;
+using BaseDotnet.Core.Services;
 using Serilog;
 using Serilog.Events;
 using Microsoft.OpenApi.Models;
 using Microsoft.EntityFrameworkCore;
-using BaseDotnet.DbContext;
-using BaseDotnet.Helpers;
-using BaseDotnet.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -45,8 +45,7 @@ builder.Services.Configure<AppSettings>(builder.Configuration.GetSection("AppSet
 builder.Services.AddHttpContextAccessor();
 
 // Configure Services
-builder.Services.AddScoped<IUserService, UserService>();
-builder.Services.AddScoped<IRoleService, RoleService>();
+ServiceInjector.Inject(builder.Services);
 
 var app = builder.Build();
 

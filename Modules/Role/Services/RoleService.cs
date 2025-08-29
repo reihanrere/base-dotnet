@@ -3,6 +3,8 @@ using BaseDotnet.Core.Helpers;
 using BaseDotnet.Core.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
+using BaseDotnet.Core.Entities;
+using BaseDotnet.Core.Models.Enum;
 
 namespace BaseDotnet.Modules.Role.Services
 {
