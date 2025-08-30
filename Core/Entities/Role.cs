@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 [Table("mst_role", Schema = "master")]
 public class Role
- {
+{
     [Key]
     [Column("role_id")]
     public int RoleID { get; set; }
@@ -13,9 +13,9 @@ public class Role
     [Column("role_name")]
     public string RoleName { get; set; }
 
-    [NotMapped]
-    public List<RolePageAccess>? AccessList { get; set; }
+    [Column("description")]
+    public string? Description { get; set; }
 
-    [NotMapped]
-    public List<RolePage>? PageList { get; set; }
+    [Column("permissions")]
+    public string? Permissions { get; set; } 
 }

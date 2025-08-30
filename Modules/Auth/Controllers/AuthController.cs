@@ -1,27 +1,24 @@
+namespace BaseDotnet.Modules.Auth.Controllers;
+
 using BaseDotnet.Core.Controllers;
 using BaseDotnet.Core.Models;
 using BaseDotnet.Modules.Auth.Validations;
-using BaseDotnet.Modules.Role.Services;
-using BaseDotnet.Modules.User.Services;
-
-namespace BaseDotnet.Modules.Auth.Controllers;
-
+using BaseDotnet.Modules.Roles.Services;
+using BaseDotnet.Modules.Users.Services;
 using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
 
 [ApiController]
 [Route("[controller]")]
 public class AuthController : BaseController
 {
-    private IUserService userService;
+    private readonly IUserService _userService;
+    private readonly IRoleService _roleService;
     private readonly ILogger<AuthController> _logger;
-    private const string TAG = "Auth {error}";
-    private const string LOG = "User {x}";
-    IRoleService roleService;
+
     public AuthController(IUserService userService, IRoleService roleService, ILogger<AuthController> logger)
     {
-        this.userService = userService;
-        this.roleService = roleService;
+        _userService = userService;
+        _roleService = roleService;
         _logger = logger;
     }
 
@@ -30,32 +27,26 @@ public class AuthController : BaseController
     {
         try
         {
-            var response = userService.Authenticate(model);
+            var response = _userService.Authenticate(model);
             if (response == null)
             {
-                _logger.LogError(TAG, "Email or password is incorrect");
                 return _BadRequest("Email or password is incorrect");
             }
 
-            var user = await userService.GetByID(response.UserID);
-            var role = await roleService.GetByID(user.RoleID);
+            var user = await _userService.GetByID(response.UserID);
+            var role = await _roleService.GetByID(user.RoleID);
             if (role != null)
             {
-                Console.WriteLine(role);
-                role.AccessList = await roleService.GetPageAccessByRoleID(role.RoleID);
-                _logger.LogInformation("LOGIN USER " + JsonConvert.SerializeObject(role));
                 response.role = role;
             }
 
             return _Ok(response);
-
         }
         catch (Exception e)
         {
-            _logger.LogError(TAG, e);
-            return _BadRequest(e);
+            _logger.LogError("Auth error: {Error}", e);
+            return _BadRequest(e.Message);
         }
-
     }
 
     [HttpPost("signup")]
@@ -64,15 +55,15 @@ public class AuthController : BaseController
         try
         {
             if (item == null)
-                return _BadRequest(string.Format(TAG, "Body Null"));
+                return _BadRequest("Request body is null");
 
             var userValidator = new SignUpValidation();
             var result = userValidator.Validate(item);
 
             if (result.IsValid)
             {
-                var id = await userService.SignUp(item);
-                return _Ok(id, string.Format(TAG, "data has been successfully created"));
+                var id = await _userService.SignUp(item);
+                return _Ok(id, "User has been successfully created");
             }
             else
             {
@@ -82,10 +73,8 @@ public class AuthController : BaseController
         }
         catch (Exception e)
         {
-            _logger.LogError(LOG, e);
+            _logger.LogError("SignUp error: {Error}", e);
             return _BadRequest(e.Message);
         }
     }
 }
-
-

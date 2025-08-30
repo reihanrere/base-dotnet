@@ -49,19 +49,16 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Core\Models\Enum\" />
     <Folder Include="Core\Validations\" />
     <Folder Include="Core\Entites\" />
     <Folder Include="Core\Helpers\" />
     <Folder Include="Core\Models\" />
     <Folder Include="Core\Services\" />
     <Folder Include="Core\DbContext\" />
-    <Folder Include="Core\Controllers\" />
     <Folder Include="Modules\Auth\Entities\" />
     <Folder Include="Modules\Auth\Services\" />
-    <Folder Include="Modules\Role\Controllers\" />
-    <Folder Include="Modules\Role\Entities\" />
-    <Folder Include="Modules\Role\Validations\" />
-    <Folder Include="Modules\User\Entities\" />
+    <Folder Include="Modules\Roles\Entities\" />
   </ItemGroup>
 
 </Project>

@@ -1,11 +1,13 @@
 using BaseDotnet.Core.DbContext;
+using BaseDotnet.Core.Entities;
 using BaseDotnet.Core.Helpers;
 using BaseDotnet.Core.Models;
+using BaseDotnet.Modules.Users.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 
 
-namespace BaseDotnet.Modules.User.Services
+namespace BaseDotnet.Modules.Users.Services
 {
     public class UserService : IUserService
     {
@@ -111,24 +113,38 @@ namespace BaseDotnet.Modules.User.Services
             return _context.Users.SingleOrDefault(x => x.UserID.Equals(id));
         }
 
-        public async Task<int> Add(User item)
+        public async Task<int> Add(CreateUserRequest request)
         {
-
-            if (_context.Users.Any(u => u.Email == item.Email))
+            // Cek duplicate email/username
+            if (_context.Users.Any(u => u.Email == request.Email))
                 throw new ApplicationException("Email is already in use.");
 
-            if (_context.Users.Any(u => u.UserName == item.UserName))
+            if (_context.Users.Any(u => u.UserName == request.UserName))
                 throw new ApplicationException("Username is already in use.");
 
+            // Generate salt + hash password
             byte[] salt = Utils.GenerateSalt();
-            item.Password = Utils.HashPassword(item.Password, salt);
-            item.Salt = Convert.ToBase64String(salt);
-            item.CreatedDate = DateTime.UtcNow;
+            string hashedPassword = Utils.HashPassword(request.Password, salt);
 
-            _context.Users.Add(item);
-            _context.SaveChanges();
-            return item.UserID;
+            // Buat object User baru (entity)
+            var user = new User
+            {
+                Email = request.Email,
+                UserName = request.UserName,
+                Password = hashedPassword,
+                Salt = Convert.ToBase64String(salt),
+                DisplayName = request.DisplayName,
+                Status = request.Status,
+                CreatedDate = DateTime.UtcNow
+            };
+
+            // Save ke database
+            _context.Users.Add(user);
+            await _context.SaveChangesAsync();
+
+            return user.UserID;
         }
+        
         public async Task<int> Remove(User item)
         {
             _context.Users.Remove(item);
@@ -136,7 +152,7 @@ namespace BaseDotnet.Modules.User.Services
             return item.UserID;
         }
 
-        public async Task<int> Update(User item)
+        public async Task<int> Update(UpdateUserRequest item)
         {
 
             var user = await GetByID(item.UserID);

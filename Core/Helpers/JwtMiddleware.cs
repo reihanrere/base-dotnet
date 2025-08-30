@@ -1,7 +1,6 @@
-using BaseDotnet.Modules.User.Services;
-
 namespace BaseDotnet.Core.Helpers;
 
+using BaseDotnet.Modules.Users.Services;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;

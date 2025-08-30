@@ -1,10 +1,8 @@
 
 using BaseDotnet.Core.Entities;
+using BaseDotnet.Core.Entities;
 
 namespace BaseDotnet.Core.Models;
-
-using BaseDotnet.Modules.User;
-using BaseDotnet.Modules.Role;
 
 public class AuthenticateResponse
 {

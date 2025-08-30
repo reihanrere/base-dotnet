@@ -10,12 +10,10 @@ public class User
     [Column("user_id")]
     public int UserID { get; set; }
 
-
     [Column("username")]
     public string UserName { get; set; }
 
     [Column("email")]
-
     public string Email { get; set; }
 
     [Column("password")]

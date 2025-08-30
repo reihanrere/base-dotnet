@@ -1,20 +1,26 @@
-namespace BaseDotnet.Modules.User.Validations;
+using BaseDotnet.Modules.Users.Models;
+
+namespace BaseDotnet.Modules.Users.Validations;
 
 using BaseDotnet.Core.Entities;
 using FluentValidation;
 
-public class UserValidator : AbstractValidator<User>
+public class UpdateUserValidator : AbstractValidator<UpdateUserRequest>
 {
-    public UserValidator()
+    public UpdateUserValidator()
     {
+        RuleFor(x => x.UserID)
+            .NotNull()
+            .NotEmpty()
+            .WithMessage("The 'User ID' is required");
+        
         RuleFor(x => x.Email)
             .EmailAddress()
             .WithMessage("The 'Email' not valid format");
 
         RuleFor(x => x.Password)
             .MinimumLength(3)
-            .WithMessage("The 'Password' should have at least 3 characters.")
-            .When(x => x.UserID == 0);
+            .WithMessage("The 'Password' should have at least 3 characters.");
 
         RuleFor(x => x.UserName)
             .NotNull()

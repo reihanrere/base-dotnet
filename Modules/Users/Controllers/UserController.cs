@@ -1,9 +1,10 @@
 using BaseDotnet.Core.Controllers;
 using BaseDotnet.Core.Entities;
-using BaseDotnet.Modules.User.Services;
-using BaseDotnet.Modules.User.Validations;
+using BaseDotnet.Modules.Users.Models;
+using BaseDotnet.Modules.Users.Services;
+using BaseDotnet.Modules.Users.Validations;
 
-namespace BaseDotnet.Modules.User.Controllers;
+namespace BaseDotnet.Modules.Users.Controllers;
 
 using Microsoft.AspNetCore.Mvc;
 
@@ -50,14 +51,14 @@ public class UserController : BaseController
 
     // [Authorize(Page.MasterUser,Action.Create)]
     [HttpPost]
-    public async Task<IActionResult> Create([FromBody] User item)
+    public async Task<IActionResult> Create([FromBody] CreateUserRequest item)
     {
         try
         {
             if (item == null)
                 return _BadRequest(string.Format(TAG, "Body Null"));
 
-            var userValidator = new UserValidator();
+            var userValidator = new CreateUserValidator();
             var result = userValidator.Validate(item);
 
             if (result.IsValid)
@@ -80,14 +81,14 @@ public class UserController : BaseController
 
     // [Authorize(Page.MasterUser,Action.Update)]
     [HttpPut]
-    public async Task<IActionResult> Update([FromBody] User item)
+    public async Task<IActionResult> Update([FromBody] UpdateUserRequest item)
     {
         try
         {
             if (item == null)
                 return _BadRequest(string.Format(TAG, "Body Null"));
 
-            var userValidator = new UserValidator();
+            var userValidator = new UpdateUserValidator();
             var result = userValidator.Validate(item);
             if (result.IsValid)
             {

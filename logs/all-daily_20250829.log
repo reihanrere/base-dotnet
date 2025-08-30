@@ -1,0 +1,1266 @@
+2025-08-29 15:44:48.162 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-08-29 15:44:48.218 +07:00 [DBG] Hosting starting
+2025-08-29 15:44:48.240 +07:00 [INF] Now listening on: http://localhost:5245
+2025-08-29 15:44:48.241 +07:00 [DBG] Loaded hosting startup assembly base-dotnet
+2025-08-29 15:44:48.241 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-29 15:44:48.241 +07:00 [INF] Hosting environment: Development
+2025-08-29 15:44:48.241 +07:00 [INF] Content root path: /Users/reihanrenaldi/Documents/ReihanSigma/projects/dotnet/base-dotnet
+2025-08-29 15:44:48.241 +07:00 [DBG] Hosting started
+2025-08-29 15:44:50.618 +07:00 [DBG] Connection id "0HNF6R18J8E7D" accepted.
+2025-08-29 15:44:50.626 +07:00 [DBG] Connection id "0HNF6R18J8E7E" accepted.
+2025-08-29 15:44:50.627 +07:00 [DBG] Connection id "0HNF6R18J8E7D" started.
+2025-08-29 15:44:50.628 +07:00 [DBG] Connection id "0HNF6R18J8E7E" started.
+2025-08-29 15:44:50.651 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/ - null null
+2025-08-29 15:44:50.654 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-08-29 15:44:50.661 +07:00 [DBG] No candidates found for the request path '/'
+2025-08-29 15:44:50.663 +07:00 [DBG] Request did not match any endpoints
+2025-08-29 15:44:50.672 +07:00 [DBG] The request path  does not match the path filter
+2025-08-29 15:44:50.678 +07:00 [WRN] Failed to determine the https port for redirect.
+2025-08-29 15:44:50.730 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-08-29 15:44:50.738 +07:00 [INF] [null]
+2025-08-29 15:44:50.741 +07:00 [DBG] Connection id "0HNF6R18J8E7D" completed keep alive response.
+2025-08-29 15:44:50.747 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/ - 404 0 null 96.0041ms
+2025-08-29 15:44:50.769 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5245/, Response status code: 404
+2025-08-29 15:44:53.506 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/swagger/index.html - null null
+2025-08-29 15:44:53.508 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-08-29 15:44:53.508 +07:00 [DBG] Request did not match any endpoints
+2025-08-29 15:44:53.550 +07:00 [DBG] Connection id "0HNF6R18J8E7D" completed keep alive response.
+2025-08-29 15:44:53.550 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/swagger/index.html - 200 null text/html;charset=utf-8 43.6998ms
+2025-08-29 15:44:53.562 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/swagger/swagger-ui.css - null null
+2025-08-29 15:44:53.565 +07:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2025-08-29 15:44:53.566 +07:00 [DBG] Request did not match any endpoints
+2025-08-29 15:44:53.567 +07:00 [DBG] Connection id "0HNF6R18J8E7F" accepted.
+2025-08-29 15:44:53.568 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/swagger/swagger-ui-bundle.js - null null
+2025-08-29 15:44:53.569 +07:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2025-08-29 15:44:53.569 +07:00 [DBG] Request did not match any endpoints
+2025-08-29 15:44:53.569 +07:00 [DBG] Connection id "0HNF6R18J8E7F" started.
+2025-08-29 15:44:53.570 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/swagger/swagger-ui-standalone-preset.js - null null
+2025-08-29 15:44:53.570 +07:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2025-08-29 15:44:53.570 +07:00 [DBG] Request did not match any endpoints
+2025-08-29 15:44:53.580 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-08-29 15:44:53.580 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-08-29 15:44:53.581 +07:00 [DBG] Connection id "0HNF6R18J8E7D" completed keep alive response.
+2025-08-29 15:44:53.581 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/swagger/swagger-ui.css - 200 143943 text/css 18.8302ms
+2025-08-29 15:44:53.582 +07:00 [DBG] Connection id "0HNF6R18J8E7F" completed keep alive response.
+2025-08-29 15:44:53.582 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 12.6061ms
+2025-08-29 15:44:53.584 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-08-29 15:44:53.584 +07:00 [DBG] Connection id "0HNF6R18J8E7E" completed keep alive response.
+2025-08-29 15:44:53.584 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 16.4948ms
+2025-08-29 15:44:53.666 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/swagger/v1/swagger.json - null null
+2025-08-29 15:44:53.666 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-08-29 15:44:53.666 +07:00 [DBG] Request did not match any endpoints
+2025-08-29 15:44:53.716 +07:00 [DBG] Connection id "0HNF6R18J8E7E" completed keep alive response.
+2025-08-29 15:44:53.716 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 50.1508ms
+2025-08-29 15:45:25.954 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5245/Auth/signup - application/json 106
+2025-08-29 15:45:25.959 +07:00 [DBG] 1 candidate(s) found for the request path '/Auth/signup'
+2025-08-29 15:45:25.962 +07:00 [DBG] Endpoint 'BaseDotnet.Modules.Auth.Controllers.AuthController.Create (base-dotnet)' with route pattern 'Auth/signup' is valid for the request path '/Auth/signup'
+2025-08-29 15:45:25.963 +07:00 [DBG] Request matched endpoint 'BaseDotnet.Modules.Auth.Controllers.AuthController.Create (base-dotnet)'
+2025-08-29 15:45:25.964 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-08-29 15:45:25.966 +07:00 [DBG] The request has an origin header: 'http://localhost:5245'.
+2025-08-29 15:45:25.966 +07:00 [INF] CORS policy execution successful.
+2025-08-29 15:45:25.974 +07:00 [INF] [null]
+2025-08-29 15:45:25.976 +07:00 [INF] Executing endpoint 'BaseDotnet.Modules.Auth.Controllers.AuthController.Create (base-dotnet)'
+2025-08-29 15:45:25.997 +07:00 [INF] Route matched with {action = "Create", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(BaseDotnet.Core.Models.SignUpRequest) on controller BaseDotnet.Modules.Auth.Controllers.AuthController (base-dotnet).
+2025-08-29 15:45:25.998 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-08-29 15:45:25.998 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-08-29 15:45:25.999 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-08-29 15:45:25.999 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-08-29 15:45:25.999 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-08-29 15:45:26.001 +07:00 [DBG] Executing controller factory for controller BaseDotnet.Modules.Auth.Controllers.AuthController (base-dotnet)
+2025-08-29 15:45:26.002 +07:00 [DBG] Executed controller factory for controller BaseDotnet.Modules.Auth.Controllers.AuthController (base-dotnet)
+2025-08-29 15:45:26.005 +07:00 [DBG] Attempting to bind parameter 'item' of type 'BaseDotnet.Core.Models.SignUpRequest' ...
+2025-08-29 15:45:26.007 +07:00 [DBG] Attempting to bind parameter 'item' of type 'BaseDotnet.Core.Models.SignUpRequest' using the name '' in request data ...
+2025-08-29 15:45:26.008 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-08-29 15:45:26.012 +07:00 [DBG] Connection id "0HNF6R18J8E7E", Request id "0HNF6R18J8E7E:00000003": started reading request body.
+2025-08-29 15:45:26.012 +07:00 [DBG] Connection id "0HNF6R18J8E7E", Request id "0HNF6R18J8E7E:00000003": done reading request body.
+2025-08-29 15:45:26.015 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'BaseDotnet.Core.Models.SignUpRequest'
+2025-08-29 15:45:26.016 +07:00 [DBG] Done attempting to bind parameter 'item' of type 'BaseDotnet.Core.Models.SignUpRequest'.
+2025-08-29 15:45:26.016 +07:00 [DBG] Done attempting to bind parameter 'item' of type 'BaseDotnet.Core.Models.SignUpRequest'.
+2025-08-29 15:45:26.016 +07:00 [DBG] Attempting to validate the bound parameter 'item' of type 'BaseDotnet.Core.Models.SignUpRequest' ...
+2025-08-29 15:45:26.019 +07:00 [DBG] Done attempting to validate the bound parameter 'item' of type 'BaseDotnet.Core.Models.SignUpRequest'.
+2025-08-29 15:45:26.242 +07:00 [DBG] Entity Framework Core 8.0.1 initialized 'BaseDotnetDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:8.0.0+2539d1f4bd0d429cbae20336d531d14938a54297' with options: None
+2025-08-29 15:45:26.252 +07:00 [DBG] Compiling query expression: 
+'DbSet<User>()
+    .Any(u => u.Email == __item_Email_0)'
+2025-08-29 15:45:26.323 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT EXISTS (
+            SELECT 1
+            FROM master.mst_users AS m
+            WHERE m.email == @__item_Email_0)), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+    BaseDotnet.Core.DbContext.BaseDotnetDbContext, 
+    False, 
+    False, 
+    True
+)
+    .Single()'
+2025-08-29 15:45:26.337 +07:00 [DBG] Creating DbConnection.
+2025-08-29 15:45:26.348 +07:00 [DBG] Created DbConnection. (11ms).
+2025-08-29 15:45:26.348 +07:00 [DBG] Opening connection to database 'my_app' on server 'tcp://localhost:5432'.
+2025-08-29 15:45:26.404 +07:00 [DBG] Opened connection to database 'my_app' on server 'tcp://localhost:5432'.
+2025-08-29 15:45:26.406 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-08-29 15:45:26.408 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2025-08-29 15:45:26.409 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (4ms).
+2025-08-29 15:45:26.412 +07:00 [DBG] Executing DbCommand [Parameters=[@__item_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM master.mst_users AS m
+    WHERE m.email = @__item_Email_0)
+2025-08-29 15:45:26.437 +07:00 [INF] Executed DbCommand (25ms) [Parameters=[@__item_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM master.mst_users AS m
+    WHERE m.email = @__item_Email_0)
+2025-08-29 15:45:26.442 +07:00 [DBG] Closing data reader to 'my_app' on server 'tcp://localhost:5432'.
+2025-08-29 15:45:26.445 +07:00 [DBG] A data reader for 'my_app' on server 'tcp://localhost:5432' is being disposed after spending 6ms reading results.
+2025-08-29 15:45:26.446 +07:00 [DBG] Closing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2025-08-29 15:45:26.447 +07:00 [DBG] Closed connection to database 'my_app' on server 'tcp://localhost:5432' (1ms).
+2025-08-29 15:45:26.448 +07:00 [DBG] Compiling query expression: 
+'DbSet<User>()
+    .Any(u => u.UserName == __item_UserName_0)'
+2025-08-29 15:45:26.450 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT EXISTS (
+            SELECT 1
+            FROM master.mst_users AS m
+            WHERE m.username == @__item_UserName_0)), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+    BaseDotnet.Core.DbContext.BaseDotnetDbContext, 
+    False, 
+    False, 
+    True
+)
+    .Single()'
+2025-08-29 15:45:26.450 +07:00 [DBG] Opening connection to database 'my_app' on server 'tcp://localhost:5432'.
+2025-08-29 15:45:26.451 +07:00 [DBG] Opened connection to database 'my_app' on server 'tcp://localhost:5432'.
+2025-08-29 15:45:26.451 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-08-29 15:45:26.451 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-08-29 15:45:26.451 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-08-29 15:45:26.451 +07:00 [DBG] Executing DbCommand [Parameters=[@__item_UserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM master.mst_users AS m
+    WHERE m.username = @__item_UserName_0)
+2025-08-29 15:45:26.453 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__item_UserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM master.mst_users AS m
+    WHERE m.username = @__item_UserName_0)
+2025-08-29 15:45:26.453 +07:00 [DBG] Closing data reader to 'my_app' on server 'tcp://localhost:5432'.
+2025-08-29 15:45:26.453 +07:00 [DBG] A data reader for 'my_app' on server 'tcp://localhost:5432' is being disposed after spending 0ms reading results.
+2025-08-29 15:45:26.453 +07:00 [DBG] Closing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2025-08-29 15:45:26.453 +07:00 [DBG] Closed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2025-08-29 15:45:26.469 +07:00 [DBG] 'BaseDotnetDbContext' generated a temporary value for the property 'User.UserID'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-08-29 15:45:26.489 +07:00 [DBG] Context 'BaseDotnetDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-08-29 15:45:26.490 +07:00 [DBG] SaveChanges starting for 'BaseDotnetDbContext'.
+2025-08-29 15:45:26.491 +07:00 [DBG] DetectChanges starting for 'BaseDotnetDbContext'.
+2025-08-29 15:45:26.496 +07:00 [DBG] DetectChanges completed for 'BaseDotnetDbContext'.
+2025-08-29 15:45:26.517 +07:00 [DBG] Opening connection to database 'my_app' on server 'tcp://localhost:5432'.
+2025-08-29 15:45:26.517 +07:00 [DBG] Opened connection to database 'my_app' on server 'tcp://localhost:5432'.
+2025-08-29 15:45:26.519 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-08-29 15:45:26.519 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-08-29 15:45:26.519 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-08-29 15:45:26.520 +07:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = DateTime), @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Int32), @p6='?', @p7='?', @p8='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO master.mst_users (created_date, display_name, email, last_login, password, role_id, salt, status, username)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8)
+RETURNING user_id;
+2025-08-29 15:45:26.527 +07:00 [INF] Executed DbCommand (7ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Int32), @p6='?', @p7='?', @p8='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO master.mst_users (created_date, display_name, email, last_login, password, role_id, salt, status, username)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8)
+RETURNING user_id;
+2025-08-29 15:45:26.531 +07:00 [DBG] The foreign key property 'User.UserID' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2025-08-29 15:45:26.533 +07:00 [DBG] Closing data reader to 'my_app' on server 'tcp://localhost:5432'.
+2025-08-29 15:45:26.534 +07:00 [DBG] A data reader for 'my_app' on server 'tcp://localhost:5432' is being disposed after spending 6ms reading results.
+2025-08-29 15:45:26.535 +07:00 [DBG] Closing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2025-08-29 15:45:26.535 +07:00 [DBG] Closed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2025-08-29 15:45:26.539 +07:00 [DBG] An entity of type 'User' tracked by 'BaseDotnetDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-08-29 15:45:26.539 +07:00 [DBG] SaveChanges completed for 'BaseDotnetDbContext' with 1 entities written to the database.
+2025-08-29 15:45:26.546 +07:00 [ERR] User System.FormatException: Input string was not in a correct format. Failure to parse near offset 6. Expected an ASCII digit.
+   at System.Text.ValueStringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ReadOnlySpan`1 args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ReadOnlySpan`1 args)
+   at System.String.Format(String format, Object arg0)
+   at BaseDotnet.Modules.Auth.Controllers.AuthController.Create(SignUpRequest item) in /Users/reihanrenaldi/Documents/ReihanSigma/projects/dotnet/base-dotnet/Modules/Auth/Controllers/AuthController.cs:line 75
+2025-08-29 15:45:26.548 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-08-29 15:45:26.548 +07:00 [DBG] No information found on request to perform content negotiation.
+2025-08-29 15:45:26.548 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-08-29 15:45:26.548 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-08-29 15:45:26.549 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-08-29 15:45:26.549 +07:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType2`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-29 15:45:26.552 +07:00 [INF] Executed action BaseDotnet.Modules.Auth.Controllers.AuthController.Create (base-dotnet) in 551.2927ms
+2025-08-29 15:45:26.552 +07:00 [INF] Executed endpoint 'BaseDotnet.Modules.Auth.Controllers.AuthController.Create (base-dotnet)'
+2025-08-29 15:45:26.552 +07:00 [DBG] Connection id "0HNF6R18J8E7E" completed keep alive response.
+2025-08-29 15:45:26.552 +07:00 [DBG] 'BaseDotnetDbContext' disposed.
+2025-08-29 15:45:26.554 +07:00 [DBG] Disposing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2025-08-29 15:45:26.555 +07:00 [DBG] Disposed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2025-08-29 15:45:26.555 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5245/Auth/signup - 400 null application/json; charset=utf-8 601.1291ms
+2025-08-29 15:45:41.585 +07:00 [DBG] Connection id "0HNF6R18J8E7F" received FIN.
+2025-08-29 15:45:41.585 +07:00 [DBG] Connection id "0HNF6R18J8E7D" received FIN.
+2025-08-29 15:45:41.585 +07:00 [DBG] Connection id "0HNF6R18J8E7E" received FIN.
+2025-08-29 15:45:41.586 +07:00 [DBG] Connection id "0HNF6R18J8E7F" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-29 15:45:41.586 +07:00 [DBG] Connection id "0HNF6R18J8E7D" disconnecting.
+2025-08-29 15:45:41.587 +07:00 [DBG] Connection id "0HNF6R18J8E7F" disconnecting.
+2025-08-29 15:45:41.587 +07:00 [DBG] Connection id "0HNF6R18J8E7D" stopped.
+2025-08-29 15:45:41.587 +07:00 [DBG] Connection id "0HNF6R18J8E7E" disconnecting.
+2025-08-29 15:45:41.590 +07:00 [DBG] Connection id "0HNF6R18J8E7F" stopped.
+2025-08-29 15:45:41.591 +07:00 [DBG] Connection id "0HNF6R18J8E7E" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-29 15:45:41.591 +07:00 [DBG] Connection id "0HNF6R18J8E7D" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-29 15:45:41.593 +07:00 [DBG] Connection id "0HNF6R18J8E7E" stopped.
+2025-08-29 17:45:26.627 +07:00 [INF] Application is shutting down...
+2025-08-29 17:45:26.630 +07:00 [DBG] Hosting stopping
+2025-08-29 17:45:26.645 +07:00 [DBG] Hosting stopped
+2025-08-29 17:45:30.894 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-08-29 17:45:30.950 +07:00 [DBG] Hosting starting
+2025-08-29 17:45:30.972 +07:00 [INF] Now listening on: http://localhost:5245
+2025-08-29 17:45:30.972 +07:00 [DBG] Loaded hosting startup assembly base-dotnet
+2025-08-29 17:45:30.973 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-29 17:45:30.973 +07:00 [INF] Hosting environment: Development
+2025-08-29 17:45:30.973 +07:00 [INF] Content root path: /Users/reihanrenaldi/Documents/ReihanSigma/projects/dotnet/base-dotnet
+2025-08-29 17:45:30.973 +07:00 [DBG] Hosting started
+2025-08-29 17:45:33.006 +07:00 [DBG] Connection id "0HNF6T4N01PI9" accepted.
+2025-08-29 17:45:33.007 +07:00 [DBG] Connection id "0HNF6T4N01PIA" accepted.
+2025-08-29 17:45:33.007 +07:00 [DBG] Connection id "0HNF6T4N01PI9" started.
+2025-08-29 17:45:33.007 +07:00 [DBG] Connection id "0HNF6T4N01PIA" started.
+2025-08-29 17:45:33.032 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/swagger/index.html - null null
+2025-08-29 17:45:33.035 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-08-29 17:45:33.044 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-08-29 17:45:33.044 +07:00 [DBG] Request did not match any endpoints
+2025-08-29 17:45:33.086 +07:00 [DBG] Connection id "0HNF6T4N01PI9" completed keep alive response.
+2025-08-29 17:45:33.087 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/swagger/index.html - 200 null text/html;charset=utf-8 55.8429ms
+2025-08-29 17:45:33.207 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/swagger/v1/swagger.json - null null
+2025-08-29 17:45:33.209 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-08-29 17:45:33.209 +07:00 [DBG] Request did not match any endpoints
+2025-08-29 17:45:33.255 +07:00 [DBG] Connection id "0HNF6T4N01PI9" completed keep alive response.
+2025-08-29 17:45:33.255 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 48.6406ms
+2025-08-29 17:46:38.281 +07:00 [DBG] Connection id "0HNF6T4N01PIA" received FIN.
+2025-08-29 17:46:38.281 +07:00 [DBG] Connection id "0HNF6T4N01PI9" received FIN.
+2025-08-29 17:46:38.286 +07:00 [DBG] Connection id "0HNF6T4N01PI9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-29 17:46:38.286 +07:00 [DBG] Connection id "0HNF6T4N01PIA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-29 17:46:38.292 +07:00 [DBG] Connection id "0HNF6T4N01PIA" disconnecting.
+2025-08-29 17:46:38.292 +07:00 [DBG] Connection id "0HNF6T4N01PI9" disconnecting.
+2025-08-29 17:46:38.294 +07:00 [DBG] Connection id "0HNF6T4N01PIA" stopped.
+2025-08-29 17:46:38.294 +07:00 [DBG] Connection id "0HNF6T4N01PI9" stopped.
+2025-08-29 19:36:47.305 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-08-29 19:36:47.365 +07:00 [DBG] Hosting starting
+2025-08-29 19:36:47.389 +07:00 [INF] Now listening on: http://localhost:5245
+2025-08-29 19:36:47.389 +07:00 [DBG] Loaded hosting startup assembly base-dotnet
+2025-08-29 19:36:47.389 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-29 19:36:47.390 +07:00 [INF] Hosting environment: Development
+2025-08-29 19:36:47.390 +07:00 [INF] Content root path: /Users/reihanrenaldi/Documents/ReihanSigma/projects/dotnet/base-dotnet
+2025-08-29 19:36:47.390 +07:00 [DBG] Hosting started
+2025-08-29 19:36:55.032 +07:00 [DBG] Connection id "0HNF6V2UCPM6T" accepted.
+2025-08-29 19:36:55.035 +07:00 [DBG] Connection id "0HNF6V2UCPM6U" accepted.
+2025-08-29 19:36:55.056 +07:00 [DBG] Connection id "0HNF6V2UCPM6U" started.
+2025-08-29 19:36:55.062 +07:00 [DBG] Connection id "0HNF6V2UCPM6T" started.
+2025-08-29 19:36:55.087 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/ - null null
+2025-08-29 19:36:55.094 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-08-29 19:36:55.109 +07:00 [DBG] No candidates found for the request path '/'
+2025-08-29 19:36:55.110 +07:00 [DBG] Request did not match any endpoints
+2025-08-29 19:36:55.119 +07:00 [DBG] The request path  does not match the path filter
+2025-08-29 19:36:55.120 +07:00 [WRN] Failed to determine the https port for redirect.
+2025-08-29 19:36:55.181 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-08-29 19:36:55.190 +07:00 [INF] [null]
+2025-08-29 19:36:55.192 +07:00 [DBG] Connection id "0HNF6V2UCPM6T" completed keep alive response.
+2025-08-29 19:36:55.193 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/ - 404 0 null 106.6814ms
+2025-08-29 19:36:55.197 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5245/, Response status code: 404
+2025-08-29 19:39:04.777 +07:00 [DBG] Connection id "0HNF6V2UCPM6U" received FIN.
+2025-08-29 19:39:04.780 +07:00 [DBG] Connection id "0HNF6V2UCPM6U" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-29 19:39:04.783 +07:00 [DBG] Connection id "0HNF6V2UCPM6U" disconnecting.
+2025-08-29 19:39:04.784 +07:00 [DBG] Connection id "0HNF6V2UCPM6U" stopped.
+2025-08-29 19:39:05.222 +07:00 [DBG] Connection id "0HNF6V2UCPM6V" accepted.
+2025-08-29 19:39:05.222 +07:00 [DBG] Connection id "0HNF6V2UCPM6V" started.
+2025-08-29 19:39:05.223 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/ - null null
+2025-08-29 19:39:05.223 +07:00 [DBG] No candidates found for the request path '/'
+2025-08-29 19:39:05.223 +07:00 [DBG] Request did not match any endpoints
+2025-08-29 19:39:05.225 +07:00 [DBG] The request path  does not match the path filter
+2025-08-29 19:39:05.234 +07:00 [INF] [null]
+2025-08-29 19:39:05.234 +07:00 [DBG] Connection id "0HNF6V2UCPM6T" completed keep alive response.
+2025-08-29 19:39:05.235 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/ - 404 0 null 11.8376ms
+2025-08-29 19:39:05.235 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5245/, Response status code: 404
+2025-08-29 19:39:07.086 +07:00 [INF] Application is shutting down...
+2025-08-29 19:39:07.087 +07:00 [DBG] Hosting stopping
+2025-08-29 19:39:07.095 +07:00 [DBG] Connection id "0HNF6V2UCPM6T" disconnecting.
+2025-08-29 19:39:07.095 +07:00 [DBG] Connection id "0HNF6V2UCPM6V" disconnecting.
+2025-08-29 19:39:07.095 +07:00 [DBG] Connection id "0HNF6V2UCPM6T" stopped.
+2025-08-29 19:39:07.095 +07:00 [DBG] Connection id "0HNF6V2UCPM6V" stopped.
+2025-08-29 19:39:07.095 +07:00 [DBG] Connection id "0HNF6V2UCPM6T" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-29 19:39:07.095 +07:00 [DBG] Connection id "0HNF6V2UCPM6V" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-29 19:39:07.098 +07:00 [DBG] Hosting stopped
+2025-08-29 19:39:10.429 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-08-29 19:39:10.480 +07:00 [DBG] Hosting starting
+2025-08-29 19:39:10.497 +07:00 [INF] Now listening on: http://localhost:5245
+2025-08-29 19:39:10.497 +07:00 [DBG] Loaded hosting startup assembly base-dotnet
+2025-08-29 19:39:10.498 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-29 19:39:10.498 +07:00 [INF] Hosting environment: Development
+2025-08-29 19:39:10.498 +07:00 [INF] Content root path: /Users/reihanrenaldi/Documents/ReihanSigma/projects/dotnet/base-dotnet
+2025-08-29 19:39:10.498 +07:00 [DBG] Hosting started
+2025-08-29 19:39:11.385 +07:00 [DBG] Connection id "0HNF6V4715QP9" accepted.
+2025-08-29 19:39:11.386 +07:00 [DBG] Connection id "0HNF6V4715QPA" accepted.
+2025-08-29 19:39:11.387 +07:00 [DBG] Connection id "0HNF6V4715QP9" started.
+2025-08-29 19:39:11.388 +07:00 [DBG] Connection id "0HNF6V4715QPA" started.
+2025-08-29 19:39:11.416 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/ - null null
+2025-08-29 19:39:11.419 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-08-29 19:39:11.431 +07:00 [DBG] No candidates found for the request path '/'
+2025-08-29 19:39:11.432 +07:00 [DBG] Request did not match any endpoints
+2025-08-29 19:39:11.441 +07:00 [DBG] The request path  does not match the path filter
+2025-08-29 19:39:11.442 +07:00 [WRN] Failed to determine the https port for redirect.
+2025-08-29 19:39:11.485 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-08-29 19:39:11.492 +07:00 [INF] [null]
+2025-08-29 19:39:11.494 +07:00 [DBG] Connection id "0HNF6V4715QP9" completed keep alive response.
+2025-08-29 19:39:11.495 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/ - 404 0 null 80.2017ms
+2025-08-29 19:39:11.499 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5245/, Response status code: 404
+2025-08-29 19:39:11.904 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/ - null null
+2025-08-29 19:39:11.905 +07:00 [DBG] No candidates found for the request path '/'
+2025-08-29 19:39:11.905 +07:00 [DBG] Request did not match any endpoints
+2025-08-29 19:39:11.906 +07:00 [DBG] The request path  does not match the path filter
+2025-08-29 19:39:11.912 +07:00 [INF] [null]
+2025-08-29 19:39:11.912 +07:00 [DBG] Connection id "0HNF6V4715QP9" completed keep alive response.
+2025-08-29 19:39:11.913 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/ - 404 0 null 8.2248ms
+2025-08-29 19:39:11.913 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5245/, Response status code: 404
+2025-08-29 19:39:51.649 +07:00 [INF] Application is shutting down...
+2025-08-29 19:39:51.650 +07:00 [DBG] Hosting stopping
+2025-08-29 19:39:51.661 +07:00 [DBG] Connection id "0HNF6V4715QPA" disconnecting.
+2025-08-29 19:39:51.661 +07:00 [DBG] Connection id "0HNF6V4715QP9" disconnecting.
+2025-08-29 19:39:51.662 +07:00 [DBG] Connection id "0HNF6V4715QPA" stopped.
+2025-08-29 19:39:51.662 +07:00 [DBG] Connection id "0HNF6V4715QP9" stopped.
+2025-08-29 19:39:51.666 +07:00 [DBG] Connection id "0HNF6V4715QPA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-29 19:39:51.666 +07:00 [DBG] Connection id "0HNF6V4715QP9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-29 19:39:51.669 +07:00 [DBG] Hosting stopped
+2025-08-29 19:40:34.344 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-08-29 19:40:34.395 +07:00 [DBG] Hosting starting
+2025-08-29 19:40:34.416 +07:00 [INF] Now listening on: http://localhost:5245
+2025-08-29 19:40:34.416 +07:00 [DBG] Loaded hosting startup assembly base-dotnet
+2025-08-29 19:40:34.416 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-08-29 19:40:34.416 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-29 19:40:34.416 +07:00 [INF] Hosting environment: Development
+2025-08-29 19:40:34.417 +07:00 [INF] Content root path: /Users/reihanrenaldi/Documents/ReihanSigma/projects/dotnet/base-dotnet
+2025-08-29 19:40:34.417 +07:00 [DBG] Hosting started
+2025-08-29 19:40:34.612 +07:00 [DBG] Connection id "0HNF6V4VQSK0V" accepted.
+2025-08-29 19:40:34.612 +07:00 [DBG] Connection id "0HNF6V4VQSK10" accepted.
+2025-08-29 19:40:34.612 +07:00 [DBG] Connection id "0HNF6V4VQSK0V" started.
+2025-08-29 19:40:34.612 +07:00 [DBG] Connection id "0HNF6V4VQSK10" started.
+2025-08-29 19:40:34.631 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/swagger - null null
+2025-08-29 19:40:34.636 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-08-29 19:40:34.652 +07:00 [DBG] No candidates found for the request path '/swagger'
+2025-08-29 19:40:34.653 +07:00 [DBG] Request did not match any endpoints
+2025-08-29 19:40:34.663 +07:00 [DBG] Connection id "0HNF6V4VQSK0V" completed keep alive response.
+2025-08-29 19:40:34.664 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/swagger - 301 0 null 34.5359ms
+2025-08-29 19:40:34.669 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/swagger/index.html - null null
+2025-08-29 19:40:34.670 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-08-29 19:40:34.670 +07:00 [DBG] Request did not match any endpoints
+2025-08-29 19:40:34.696 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-08-29 19:40:34.700 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-08-29 19:40:34.700 +07:00 [DBG] Connection id "0HNF6V4VQSK0V" completed keep alive response.
+2025-08-29 19:40:34.700 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/swagger/index.html - 200 null text/html;charset=utf-8 31.2442ms
+2025-08-29 19:40:34.711 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-29 19:40:34.720 +07:00 [DBG] Connection id "0HNF6V4VQSK0V" completed keep alive response.
+2025-08-29 19:40:34.721 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/_framework/aspnetcore-browser-refresh.js - 200 13710 application/javascript; charset=utf-8 9.5177ms
+2025-08-29 19:40:34.795 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/swagger/v1/swagger.json - null null
+2025-08-29 19:40:34.795 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-08-29 19:40:34.795 +07:00 [DBG] Request did not match any endpoints
+2025-08-29 19:40:34.848 +07:00 [DBG] Connection id "0HNF6V4VQSK0V" completed keep alive response.
+2025-08-29 19:40:34.848 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 53.5032ms
+2025-08-29 19:40:36.572 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/swagger/index.html - null null
+2025-08-29 19:40:36.572 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-08-29 19:40:36.572 +07:00 [DBG] Request did not match any endpoints
+2025-08-29 19:40:36.573 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-08-29 19:40:36.574 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-08-29 19:40:36.574 +07:00 [DBG] Connection id "0HNF6V4VQSK0V" completed keep alive response.
+2025-08-29 19:40:36.574 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/swagger/index.html - 200 null text/html;charset=utf-8 2.2571ms
+2025-08-29 19:40:36.594 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-29 19:40:36.596 +07:00 [DBG] Connection id "0HNF6V4VQSK0V" completed keep alive response.
+2025-08-29 19:40:36.597 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/_framework/aspnetcore-browser-refresh.js - 200 13710 application/javascript; charset=utf-8 2.3883ms
+2025-08-29 19:40:36.619 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/swagger/v1/swagger.json - null null
+2025-08-29 19:40:36.620 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-08-29 19:40:36.624 +07:00 [DBG] Request did not match any endpoints
+2025-08-29 19:40:36.630 +07:00 [DBG] Connection id "0HNF6V4VQSK0V" completed keep alive response.
+2025-08-29 19:40:36.630 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.8041ms
+2025-08-29 19:40:41.220 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/ - null null
+2025-08-29 19:40:41.221 +07:00 [DBG] No candidates found for the request path '/'
+2025-08-29 19:40:41.221 +07:00 [DBG] Request did not match any endpoints
+2025-08-29 19:40:41.222 +07:00 [DBG] The request path  does not match the path filter
+2025-08-29 19:40:41.224 +07:00 [WRN] Failed to determine the https port for redirect.
+2025-08-29 19:40:41.303 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-08-29 19:40:41.312 +07:00 [INF] [null]
+2025-08-29 19:40:41.312 +07:00 [DBG] Connection id "0HNF6V4VQSK0V" completed keep alive response.
+2025-08-29 19:40:41.313 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/ - 404 0 null 92.4982ms
+2025-08-29 19:40:41.313 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5245/, Response status code: 404
+2025-08-29 19:40:43.471 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/ - null null
+2025-08-29 19:40:43.472 +07:00 [DBG] No candidates found for the request path '/'
+2025-08-29 19:40:43.472 +07:00 [DBG] Request did not match any endpoints
+2025-08-29 19:40:43.472 +07:00 [DBG] The request path  does not match the path filter
+2025-08-29 19:40:43.481 +07:00 [INF] [null]
+2025-08-29 19:40:43.481 +07:00 [DBG] Connection id "0HNF6V4VQSK0V" completed keep alive response.
+2025-08-29 19:40:43.482 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/ - 404 0 null 10.2474ms
+2025-08-29 19:40:43.482 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5245/, Response status code: 404
+2025-08-29 19:41:30.206 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/ - null null
+2025-08-29 19:41:30.210 +07:00 [DBG] 1 candidate(s) found for the request path '/'
+2025-08-29 19:41:30.211 +07:00 [DBG] Endpoint 'BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet)' with route pattern '' is valid for the request path '/'
+2025-08-29 19:41:30.211 +07:00 [DBG] Request matched endpoint 'BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet)'
+2025-08-29 19:41:30.211 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-08-29 19:41:30.214 +07:00 [INF] [null]
+2025-08-29 19:41:30.214 +07:00 [INF] Executing endpoint 'BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet)'
+2025-08-29 19:41:30.219 +07:00 [INF] Route matched with {action = "Get", controller = "Hello"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller BaseDotnet.Core.Controllers.HelloController (base-dotnet).
+2025-08-29 19:41:30.222 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-08-29 19:41:30.222 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-08-29 19:41:30.223 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-08-29 19:41:30.223 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-08-29 19:41:30.223 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-08-29 19:41:30.223 +07:00 [DBG] Executing controller factory for controller BaseDotnet.Core.Controllers.HelloController (base-dotnet)
+2025-08-29 19:41:30.223 +07:00 [DBG] Executed controller factory for controller BaseDotnet.Core.Controllers.HelloController (base-dotnet)
+2025-08-29 19:41:30.224 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-08-29 19:41:30.230 +07:00 [DBG] No information found on request to perform content negotiation.
+2025-08-29 19:41:30.230 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-08-29 19:41:30.230 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-08-29 19:41:30.231 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2025-08-29 19:41:30.231 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-08-29 19:41:30.234 +07:00 [INF] Executed action BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet) in 8.4866ms
+2025-08-29 19:41:30.234 +07:00 [INF] Executed endpoint 'BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet)'
+2025-08-29 19:41:30.234 +07:00 [DBG] Connection id "0HNF6V4VQSK0V" completed keep alive response.
+2025-08-29 19:41:30.234 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/ - 200 null text/plain; charset=utf-8 28.3263ms
+2025-08-29 19:41:30.274 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/favicon.ico - null null
+2025-08-29 19:41:30.274 +07:00 [DBG] No candidates found for the request path '/favicon.ico'
+2025-08-29 19:41:30.274 +07:00 [DBG] Request did not match any endpoints
+2025-08-29 19:41:30.274 +07:00 [DBG] The request path  does not match the path filter
+2025-08-29 19:41:30.274 +07:00 [INF] [null]
+2025-08-29 19:41:30.274 +07:00 [DBG] Connection id "0HNF6V4VQSK0V" completed keep alive response.
+2025-08-29 19:41:30.274 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/favicon.ico - 404 0 null 0.6692ms
+2025-08-29 19:41:30.274 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5245/favicon.ico, Response status code: 404
+2025-08-29 19:41:31.350 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/ - null null
+2025-08-29 19:41:31.350 +07:00 [DBG] 1 candidate(s) found for the request path '/'
+2025-08-29 19:41:31.350 +07:00 [DBG] Endpoint 'BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet)' with route pattern '' is valid for the request path '/'
+2025-08-29 19:41:31.350 +07:00 [DBG] Request matched endpoint 'BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet)'
+2025-08-29 19:41:31.350 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-08-29 19:41:31.351 +07:00 [INF] [null]
+2025-08-29 19:41:31.351 +07:00 [INF] Executing endpoint 'BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet)'
+2025-08-29 19:41:31.351 +07:00 [INF] Route matched with {action = "Get", controller = "Hello"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller BaseDotnet.Core.Controllers.HelloController (base-dotnet).
+2025-08-29 19:41:31.351 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-08-29 19:41:31.351 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-08-29 19:41:31.351 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-08-29 19:41:31.351 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-08-29 19:41:31.353 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-08-29 19:41:31.353 +07:00 [DBG] Executing controller factory for controller BaseDotnet.Core.Controllers.HelloController (base-dotnet)
+2025-08-29 19:41:31.353 +07:00 [DBG] Executed controller factory for controller BaseDotnet.Core.Controllers.HelloController (base-dotnet)
+2025-08-29 19:41:31.353 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-08-29 19:41:31.354 +07:00 [DBG] No information found on request to perform content negotiation.
+2025-08-29 19:41:31.354 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-08-29 19:41:31.354 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-08-29 19:41:31.354 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2025-08-29 19:41:31.354 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-08-29 19:41:31.354 +07:00 [INF] Executed action BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet) in 1.2374ms
+2025-08-29 19:41:31.354 +07:00 [INF] Executed endpoint 'BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet)'
+2025-08-29 19:41:31.354 +07:00 [DBG] Connection id "0HNF6V4VQSK0V" completed keep alive response.
+2025-08-29 19:41:31.354 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/ - 200 null text/plain; charset=utf-8 4.7525ms
+2025-08-29 19:41:31.810 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/ - null null
+2025-08-29 19:41:31.811 +07:00 [DBG] 1 candidate(s) found for the request path '/'
+2025-08-29 19:41:31.811 +07:00 [DBG] Endpoint 'BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet)' with route pattern '' is valid for the request path '/'
+2025-08-29 19:41:31.811 +07:00 [DBG] Request matched endpoint 'BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet)'
+2025-08-29 19:41:31.811 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-08-29 19:41:31.811 +07:00 [INF] [null]
+2025-08-29 19:41:31.812 +07:00 [INF] Executing endpoint 'BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet)'
+2025-08-29 19:41:31.812 +07:00 [INF] Route matched with {action = "Get", controller = "Hello"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller BaseDotnet.Core.Controllers.HelloController (base-dotnet).
+2025-08-29 19:41:31.812 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-08-29 19:41:31.812 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-08-29 19:41:31.812 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-08-29 19:41:31.812 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-08-29 19:41:31.812 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-08-29 19:41:31.812 +07:00 [DBG] Executing controller factory for controller BaseDotnet.Core.Controllers.HelloController (base-dotnet)
+2025-08-29 19:41:31.812 +07:00 [DBG] Executed controller factory for controller BaseDotnet.Core.Controllers.HelloController (base-dotnet)
+2025-08-29 19:41:31.812 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-08-29 19:41:31.812 +07:00 [DBG] No information found on request to perform content negotiation.
+2025-08-29 19:41:31.812 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-08-29 19:41:31.812 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-08-29 19:41:31.812 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2025-08-29 19:41:31.812 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-08-29 19:41:31.813 +07:00 [INF] Executed action BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet) in 1.0631ms
+2025-08-29 19:41:31.813 +07:00 [INF] Executed endpoint 'BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet)'
+2025-08-29 19:41:31.813 +07:00 [DBG] Connection id "0HNF6V4VQSK0V" completed keep alive response.
+2025-08-29 19:41:31.813 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/ - 200 null text/plain; charset=utf-8 2.8495ms
+2025-08-29 19:41:31.954 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/ - null null
+2025-08-29 19:41:31.955 +07:00 [DBG] 1 candidate(s) found for the request path '/'
+2025-08-29 19:41:31.955 +07:00 [DBG] Endpoint 'BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet)' with route pattern '' is valid for the request path '/'
+2025-08-29 19:41:31.955 +07:00 [DBG] Request matched endpoint 'BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet)'
+2025-08-29 19:41:31.955 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-08-29 19:41:31.955 +07:00 [INF] [null]
+2025-08-29 19:41:31.955 +07:00 [INF] Executing endpoint 'BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet)'
+2025-08-29 19:41:31.956 +07:00 [INF] Route matched with {action = "Get", controller = "Hello"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller BaseDotnet.Core.Controllers.HelloController (base-dotnet).
+2025-08-29 19:41:31.956 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-08-29 19:41:31.956 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-08-29 19:41:31.956 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-08-29 19:41:31.956 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-08-29 19:41:31.956 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-08-29 19:41:31.956 +07:00 [DBG] Executing controller factory for controller BaseDotnet.Core.Controllers.HelloController (base-dotnet)
+2025-08-29 19:41:31.956 +07:00 [DBG] Executed controller factory for controller BaseDotnet.Core.Controllers.HelloController (base-dotnet)
+2025-08-29 19:41:31.956 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-08-29 19:41:31.956 +07:00 [DBG] No information found on request to perform content negotiation.
+2025-08-29 19:41:31.956 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-08-29 19:41:31.956 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-08-29 19:41:31.956 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2025-08-29 19:41:31.956 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-08-29 19:41:31.956 +07:00 [INF] Executed action BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet) in 0.505ms
+2025-08-29 19:41:31.957 +07:00 [INF] Executed endpoint 'BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet)'
+2025-08-29 19:41:31.957 +07:00 [DBG] Connection id "0HNF6V4VQSK0V" completed keep alive response.
+2025-08-29 19:41:31.957 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/ - 200 null text/plain; charset=utf-8 2.325ms
+2025-08-29 19:42:09.438 +07:00 [DBG] Connection id "0HNF6V4VQSK10" received FIN.
+2025-08-29 19:42:09.440 +07:00 [DBG] Connection id "0HNF6V4VQSK10" disconnecting.
+2025-08-29 19:42:09.440 +07:00 [DBG] Connection id "0HNF6V4VQSK10" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-29 19:42:09.445 +07:00 [DBG] Connection id "0HNF6V4VQSK10" stopped.
+2025-08-29 19:43:42.613 +07:00 [DBG] Connection id "0HNF6V4VQSK0V" disconnecting.
+2025-08-29 19:43:42.614 +07:00 [DBG] Connection id "0HNF6V4VQSK0V" stopped.
+2025-08-29 19:43:42.614 +07:00 [DBG] Connection id "0HNF6V4VQSK0V" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-29 20:03:23.696 +07:00 [DBG] Connection id "0HNF6V4VQSK11" accepted.
+2025-08-29 20:03:23.697 +07:00 [DBG] Connection id "0HNF6V4VQSK12" accepted.
+2025-08-29 20:03:23.697 +07:00 [DBG] Connection id "0HNF6V4VQSK11" started.
+2025-08-29 20:03:23.698 +07:00 [DBG] Connection id "0HNF6V4VQSK12" started.
+2025-08-29 20:03:23.698 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/ - null null
+2025-08-29 20:03:23.698 +07:00 [DBG] 1 candidate(s) found for the request path '/'
+2025-08-29 20:03:23.698 +07:00 [DBG] Endpoint 'BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet)' with route pattern '' is valid for the request path '/'
+2025-08-29 20:03:23.699 +07:00 [DBG] Request matched endpoint 'BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet)'
+2025-08-29 20:03:23.699 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-08-29 20:03:23.699 +07:00 [INF] [null]
+2025-08-29 20:03:23.699 +07:00 [INF] Executing endpoint 'BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet)'
+2025-08-29 20:03:23.701 +07:00 [INF] Route matched with {action = "Get", controller = "Hello"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller BaseDotnet.Core.Controllers.HelloController (base-dotnet).
+2025-08-29 20:03:23.701 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-08-29 20:03:23.701 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-08-29 20:03:23.701 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-08-29 20:03:23.702 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-08-29 20:03:23.702 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-08-29 20:03:23.702 +07:00 [DBG] Executing controller factory for controller BaseDotnet.Core.Controllers.HelloController (base-dotnet)
+2025-08-29 20:03:23.702 +07:00 [DBG] Executed controller factory for controller BaseDotnet.Core.Controllers.HelloController (base-dotnet)
+2025-08-29 20:03:23.702 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-08-29 20:03:23.702 +07:00 [DBG] No information found on request to perform content negotiation.
+2025-08-29 20:03:23.702 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-08-29 20:03:23.702 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-08-29 20:03:23.702 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2025-08-29 20:03:23.702 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-08-29 20:03:23.702 +07:00 [INF] Executed action BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet) in 0.5106ms
+2025-08-29 20:03:23.702 +07:00 [INF] Executed endpoint 'BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet)'
+2025-08-29 20:03:23.702 +07:00 [DBG] Connection id "0HNF6V4VQSK11" completed keep alive response.
+2025-08-29 20:03:23.703 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/ - 200 null text/plain; charset=utf-8 4.7875ms
+2025-08-29 20:03:24.156 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/ - null null
+2025-08-29 20:03:24.156 +07:00 [DBG] 1 candidate(s) found for the request path '/'
+2025-08-29 20:03:24.156 +07:00 [DBG] Endpoint 'BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet)' with route pattern '' is valid for the request path '/'
+2025-08-29 20:03:24.156 +07:00 [DBG] Request matched endpoint 'BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet)'
+2025-08-29 20:03:24.156 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-08-29 20:03:24.157 +07:00 [INF] [null]
+2025-08-29 20:03:24.157 +07:00 [INF] Executing endpoint 'BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet)'
+2025-08-29 20:03:24.157 +07:00 [INF] Route matched with {action = "Get", controller = "Hello"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller BaseDotnet.Core.Controllers.HelloController (base-dotnet).
+2025-08-29 20:03:24.157 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-08-29 20:03:24.157 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-08-29 20:03:24.157 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-08-29 20:03:24.157 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-08-29 20:03:24.157 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-08-29 20:03:24.157 +07:00 [DBG] Executing controller factory for controller BaseDotnet.Core.Controllers.HelloController (base-dotnet)
+2025-08-29 20:03:24.157 +07:00 [DBG] Executed controller factory for controller BaseDotnet.Core.Controllers.HelloController (base-dotnet)
+2025-08-29 20:03:24.157 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-08-29 20:03:24.158 +07:00 [DBG] No information found on request to perform content negotiation.
+2025-08-29 20:03:24.158 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-08-29 20:03:24.158 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-08-29 20:03:24.158 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2025-08-29 20:03:24.158 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-08-29 20:03:24.158 +07:00 [INF] Executed action BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet) in 0.6848ms
+2025-08-29 20:03:24.158 +07:00 [INF] Executed endpoint 'BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet)'
+2025-08-29 20:03:24.158 +07:00 [DBG] Connection id "0HNF6V4VQSK11" completed keep alive response.
+2025-08-29 20:03:24.158 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/ - 200 null text/plain; charset=utf-8 2.1678ms
+2025-08-29 20:03:24.431 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/ - null null
+2025-08-29 20:03:24.431 +07:00 [DBG] 1 candidate(s) found for the request path '/'
+2025-08-29 20:03:24.431 +07:00 [DBG] Endpoint 'BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet)' with route pattern '' is valid for the request path '/'
+2025-08-29 20:03:24.431 +07:00 [DBG] Request matched endpoint 'BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet)'
+2025-08-29 20:03:24.431 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-08-29 20:03:24.431 +07:00 [INF] [null]
+2025-08-29 20:03:24.432 +07:00 [INF] Executing endpoint 'BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet)'
+2025-08-29 20:03:24.432 +07:00 [INF] Route matched with {action = "Get", controller = "Hello"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller BaseDotnet.Core.Controllers.HelloController (base-dotnet).
+2025-08-29 20:03:24.432 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-08-29 20:03:24.432 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-08-29 20:03:24.432 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-08-29 20:03:24.432 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-08-29 20:03:24.432 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-08-29 20:03:24.432 +07:00 [DBG] Executing controller factory for controller BaseDotnet.Core.Controllers.HelloController (base-dotnet)
+2025-08-29 20:03:24.432 +07:00 [DBG] Executed controller factory for controller BaseDotnet.Core.Controllers.HelloController (base-dotnet)
+2025-08-29 20:03:24.432 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-08-29 20:03:24.432 +07:00 [DBG] No information found on request to perform content negotiation.
+2025-08-29 20:03:24.432 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-08-29 20:03:24.432 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-08-29 20:03:24.432 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2025-08-29 20:03:24.432 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-08-29 20:03:24.432 +07:00 [INF] Executed action BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet) in 0.4738ms
+2025-08-29 20:03:24.432 +07:00 [INF] Executed endpoint 'BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet)'
+2025-08-29 20:03:24.433 +07:00 [DBG] Connection id "0HNF6V4VQSK11" completed keep alive response.
+2025-08-29 20:03:24.433 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/ - 200 null text/plain; charset=utf-8 2.0751ms
+2025-08-29 20:03:24.649 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/ - null null
+2025-08-29 20:03:24.649 +07:00 [DBG] 1 candidate(s) found for the request path '/'
+2025-08-29 20:03:24.650 +07:00 [DBG] Endpoint 'BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet)' with route pattern '' is valid for the request path '/'
+2025-08-29 20:03:24.650 +07:00 [DBG] Request matched endpoint 'BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet)'
+2025-08-29 20:03:24.650 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-08-29 20:03:24.650 +07:00 [INF] [null]
+2025-08-29 20:03:24.650 +07:00 [INF] Executing endpoint 'BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet)'
+2025-08-29 20:03:24.650 +07:00 [INF] Route matched with {action = "Get", controller = "Hello"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller BaseDotnet.Core.Controllers.HelloController (base-dotnet).
+2025-08-29 20:03:24.650 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-08-29 20:03:24.650 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-08-29 20:03:24.650 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-08-29 20:03:24.650 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-08-29 20:03:24.652 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-08-29 20:03:24.652 +07:00 [DBG] Executing controller factory for controller BaseDotnet.Core.Controllers.HelloController (base-dotnet)
+2025-08-29 20:03:24.652 +07:00 [DBG] Executed controller factory for controller BaseDotnet.Core.Controllers.HelloController (base-dotnet)
+2025-08-29 20:03:24.653 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-08-29 20:03:24.653 +07:00 [DBG] No information found on request to perform content negotiation.
+2025-08-29 20:03:24.653 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-08-29 20:03:24.653 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-08-29 20:03:24.653 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2025-08-29 20:03:24.653 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-08-29 20:03:24.653 +07:00 [INF] Executed action BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet) in 0.6001ms
+2025-08-29 20:03:24.653 +07:00 [INF] Executed endpoint 'BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet)'
+2025-08-29 20:03:24.653 +07:00 [DBG] Connection id "0HNF6V4VQSK11" completed keep alive response.
+2025-08-29 20:03:24.653 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/ - 200 null text/plain; charset=utf-8 3.784ms
+2025-08-29 20:03:32.050 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/ - null null
+2025-08-29 20:03:32.051 +07:00 [DBG] 1 candidate(s) found for the request path '/'
+2025-08-29 20:03:32.051 +07:00 [DBG] Endpoint 'BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet)' with route pattern '' is valid for the request path '/'
+2025-08-29 20:03:32.051 +07:00 [DBG] Request matched endpoint 'BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet)'
+2025-08-29 20:03:32.051 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-08-29 20:03:32.051 +07:00 [INF] [null]
+2025-08-29 20:03:32.051 +07:00 [INF] Executing endpoint 'BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet)'
+2025-08-29 20:03:32.052 +07:00 [INF] Route matched with {action = "Get", controller = "Hello"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller BaseDotnet.Core.Controllers.HelloController (base-dotnet).
+2025-08-29 20:03:32.052 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-08-29 20:03:32.052 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-08-29 20:03:32.052 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-08-29 20:03:32.052 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-08-29 20:03:32.052 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-08-29 20:03:32.052 +07:00 [DBG] Executing controller factory for controller BaseDotnet.Core.Controllers.HelloController (base-dotnet)
+2025-08-29 20:03:32.052 +07:00 [DBG] Executed controller factory for controller BaseDotnet.Core.Controllers.HelloController (base-dotnet)
+2025-08-29 20:03:32.052 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-08-29 20:03:32.052 +07:00 [DBG] No information found on request to perform content negotiation.
+2025-08-29 20:03:32.052 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-08-29 20:03:32.052 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-08-29 20:03:32.052 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2025-08-29 20:03:32.052 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-08-29 20:03:32.052 +07:00 [INF] Executed action BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet) in 0.216ms
+2025-08-29 20:03:32.052 +07:00 [INF] Executed endpoint 'BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet)'
+2025-08-29 20:03:32.052 +07:00 [DBG] Connection id "0HNF6V4VQSK11" completed keep alive response.
+2025-08-29 20:03:32.052 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/ - 200 null text/plain; charset=utf-8 2.1707ms
+2025-08-29 20:03:32.474 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/ - null null
+2025-08-29 20:03:32.474 +07:00 [DBG] 1 candidate(s) found for the request path '/'
+2025-08-29 20:03:32.474 +07:00 [DBG] Endpoint 'BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet)' with route pattern '' is valid for the request path '/'
+2025-08-29 20:03:32.474 +07:00 [DBG] Request matched endpoint 'BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet)'
+2025-08-29 20:03:32.474 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-08-29 20:03:32.474 +07:00 [INF] [null]
+2025-08-29 20:03:32.474 +07:00 [INF] Executing endpoint 'BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet)'
+2025-08-29 20:03:32.475 +07:00 [INF] Route matched with {action = "Get", controller = "Hello"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller BaseDotnet.Core.Controllers.HelloController (base-dotnet).
+2025-08-29 20:03:32.475 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-08-29 20:03:32.475 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-08-29 20:03:32.475 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-08-29 20:03:32.475 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-08-29 20:03:32.475 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-08-29 20:03:32.475 +07:00 [DBG] Executing controller factory for controller BaseDotnet.Core.Controllers.HelloController (base-dotnet)
+2025-08-29 20:03:32.475 +07:00 [DBG] Executed controller factory for controller BaseDotnet.Core.Controllers.HelloController (base-dotnet)
+2025-08-29 20:03:32.476 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-08-29 20:03:32.476 +07:00 [DBG] No information found on request to perform content negotiation.
+2025-08-29 20:03:32.476 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-08-29 20:03:32.476 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-08-29 20:03:32.476 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2025-08-29 20:03:32.476 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-08-29 20:03:32.476 +07:00 [INF] Executed action BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet) in 1.0051ms
+2025-08-29 20:03:32.476 +07:00 [INF] Executed endpoint 'BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet)'
+2025-08-29 20:03:32.476 +07:00 [DBG] Connection id "0HNF6V4VQSK11" completed keep alive response.
+2025-08-29 20:03:32.476 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/ - 200 null text/plain; charset=utf-8 2.2747ms
+2025-08-29 20:03:32.604 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/ - null null
+2025-08-29 20:03:32.604 +07:00 [DBG] 1 candidate(s) found for the request path '/'
+2025-08-29 20:03:32.605 +07:00 [DBG] Endpoint 'BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet)' with route pattern '' is valid for the request path '/'
+2025-08-29 20:03:32.605 +07:00 [DBG] Request matched endpoint 'BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet)'
+2025-08-29 20:03:32.605 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-08-29 20:03:32.605 +07:00 [INF] [null]
+2025-08-29 20:03:32.605 +07:00 [INF] Executing endpoint 'BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet)'
+2025-08-29 20:03:32.605 +07:00 [INF] Route matched with {action = "Get", controller = "Hello"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller BaseDotnet.Core.Controllers.HelloController (base-dotnet).
+2025-08-29 20:03:32.605 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-08-29 20:03:32.605 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-08-29 20:03:32.605 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-08-29 20:03:32.605 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-08-29 20:03:32.605 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-08-29 20:03:32.605 +07:00 [DBG] Executing controller factory for controller BaseDotnet.Core.Controllers.HelloController (base-dotnet)
+2025-08-29 20:03:32.605 +07:00 [DBG] Executed controller factory for controller BaseDotnet.Core.Controllers.HelloController (base-dotnet)
+2025-08-29 20:03:32.605 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-08-29 20:03:32.605 +07:00 [DBG] No information found on request to perform content negotiation.
+2025-08-29 20:03:32.605 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-08-29 20:03:32.605 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-08-29 20:03:32.605 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2025-08-29 20:03:32.605 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-08-29 20:03:32.606 +07:00 [INF] Executed action BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet) in 0.3094ms
+2025-08-29 20:03:32.606 +07:00 [INF] Executed endpoint 'BaseDotnet.Core.Controllers.HelloController.Get (base-dotnet)'
+2025-08-29 20:03:32.606 +07:00 [DBG] Connection id "0HNF6V4VQSK11" completed keep alive response.
+2025-08-29 20:03:32.606 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/ - 200 null text/plain; charset=utf-8 1.6888ms
+2025-08-29 20:05:00.792 +07:00 [DBG] Connection id "0HNF6V4VQSK12" received FIN.
+2025-08-29 20:05:00.792 +07:00 [DBG] Connection id "0HNF6V4VQSK12" disconnecting.
+2025-08-29 20:05:00.792 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/swagger/index.html - null null
+2025-08-29 20:05:00.792 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-08-29 20:05:00.792 +07:00 [DBG] Request did not match any endpoints
+2025-08-29 20:05:00.793 +07:00 [DBG] Connection id "0HNF6V4VQSK12" stopped.
+2025-08-29 20:05:00.793 +07:00 [DBG] Connection id "0HNF6V4VQSK12" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-29 20:05:00.794 +07:00 [DBG] Connection id "0HNF6V4VQSK13" accepted.
+2025-08-29 20:05:00.794 +07:00 [DBG] Connection id "0HNF6V4VQSK13" started.
+2025-08-29 20:05:00.803 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-08-29 20:05:00.803 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-08-29 20:05:00.804 +07:00 [DBG] Connection id "0HNF6V4VQSK11" completed keep alive response.
+2025-08-29 20:05:00.804 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/swagger/index.html - 200 null text/html;charset=utf-8 11.5327ms
+2025-08-29 20:05:00.822 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-29 20:05:00.822 +07:00 [DBG] Connection id "0HNF6V4VQSK11" completed keep alive response.
+2025-08-29 20:05:00.823 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/_framework/aspnetcore-browser-refresh.js - 200 13710 application/javascript; charset=utf-8 0.3329ms
+2025-08-29 20:05:00.876 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/swagger/v1/swagger.json - null null
+2025-08-29 20:05:00.877 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-08-29 20:05:00.877 +07:00 [DBG] Request did not match any endpoints
+2025-08-29 20:05:00.891 +07:00 [DBG] Connection id "0HNF6V4VQSK11" completed keep alive response.
+2025-08-29 20:05:00.892 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 16.0439ms
+2025-08-29 20:05:59.004 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5245/User - application/json 143
+2025-08-29 20:05:59.004 +07:00 [DBG] 1 candidate(s) found for the request path '/User'
+2025-08-29 20:05:59.004 +07:00 [DBG] Endpoint 'BaseDotnet.Modules.Users.Controllers.UserController.Create (base-dotnet)' with route pattern 'User' is valid for the request path '/User'
+2025-08-29 20:05:59.004 +07:00 [DBG] Request matched endpoint 'BaseDotnet.Modules.Users.Controllers.UserController.Create (base-dotnet)'
+2025-08-29 20:05:59.004 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-08-29 20:05:59.005 +07:00 [DBG] The request has an origin header: 'http://localhost:5245'.
+2025-08-29 20:05:59.005 +07:00 [INF] CORS policy execution successful.
+2025-08-29 20:05:59.006 +07:00 [INF] [null]
+2025-08-29 20:05:59.006 +07:00 [INF] Executing endpoint 'BaseDotnet.Modules.Users.Controllers.UserController.Create (base-dotnet)'
+2025-08-29 20:05:59.020 +07:00 [INF] Route matched with {action = "Create", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(BaseDotnet.Modules.Users.Models.CreateUserRequest) on controller BaseDotnet.Modules.Users.Controllers.UserController (base-dotnet).
+2025-08-29 20:05:59.020 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-08-29 20:05:59.020 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-08-29 20:05:59.020 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-08-29 20:05:59.020 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-08-29 20:05:59.020 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-08-29 20:05:59.020 +07:00 [DBG] Executing controller factory for controller BaseDotnet.Modules.Users.Controllers.UserController (base-dotnet)
+2025-08-29 20:05:59.020 +07:00 [DBG] Executed controller factory for controller BaseDotnet.Modules.Users.Controllers.UserController (base-dotnet)
+2025-08-29 20:05:59.024 +07:00 [DBG] Attempting to bind parameter 'item' of type 'BaseDotnet.Modules.Users.Models.CreateUserRequest' ...
+2025-08-29 20:05:59.027 +07:00 [DBG] Attempting to bind parameter 'item' of type 'BaseDotnet.Modules.Users.Models.CreateUserRequest' using the name '' in request data ...
+2025-08-29 20:05:59.028 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-08-29 20:05:59.032 +07:00 [DBG] Connection id "0HNF6V4VQSK11", Request id "0HNF6V4VQSK11:0000000B": started reading request body.
+2025-08-29 20:05:59.032 +07:00 [DBG] Connection id "0HNF6V4VQSK11", Request id "0HNF6V4VQSK11:0000000B": done reading request body.
+2025-08-29 20:05:59.037 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'BaseDotnet.Modules.Users.Models.CreateUserRequest'
+2025-08-29 20:05:59.037 +07:00 [DBG] Done attempting to bind parameter 'item' of type 'BaseDotnet.Modules.Users.Models.CreateUserRequest'.
+2025-08-29 20:05:59.037 +07:00 [DBG] Done attempting to bind parameter 'item' of type 'BaseDotnet.Modules.Users.Models.CreateUserRequest'.
+2025-08-29 20:05:59.038 +07:00 [DBG] Attempting to validate the bound parameter 'item' of type 'BaseDotnet.Modules.Users.Models.CreateUserRequest' ...
+2025-08-29 20:05:59.043 +07:00 [DBG] Done attempting to validate the bound parameter 'item' of type 'BaseDotnet.Modules.Users.Models.CreateUserRequest'.
+2025-08-29 20:05:59.250 +07:00 [DBG] Entity Framework Core 8.0.1 initialized 'BaseDotnetDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:8.0.0+2539d1f4bd0d429cbae20336d531d14938a54297' with options: None
+2025-08-29 20:05:59.259 +07:00 [DBG] Compiling query expression: 
+'DbSet<User>()
+    .Any(u => u.Email == __request_Email_0)'
+2025-08-29 20:05:59.330 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT EXISTS (
+            SELECT 1
+            FROM master.mst_users AS m
+            WHERE m.email == @__request_Email_0)), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+    BaseDotnet.Core.DbContext.BaseDotnetDbContext, 
+    False, 
+    False, 
+    True
+)
+    .Single()'
+2025-08-29 20:05:59.342 +07:00 [DBG] Creating DbConnection.
+2025-08-29 20:05:59.353 +07:00 [DBG] Created DbConnection. (10ms).
+2025-08-29 20:05:59.354 +07:00 [DBG] Opening connection to database 'my_app' on server 'tcp://localhost:5432'.
+2025-08-29 20:05:59.398 +07:00 [DBG] Opened connection to database 'my_app' on server 'tcp://localhost:5432'.
+2025-08-29 20:05:59.399 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-08-29 20:05:59.401 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2025-08-29 20:05:59.403 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (3ms).
+2025-08-29 20:05:59.405 +07:00 [DBG] Executing DbCommand [Parameters=[@__request_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM master.mst_users AS m
+    WHERE m.email = @__request_Email_0)
+2025-08-29 20:05:59.430 +07:00 [INF] Executed DbCommand (26ms) [Parameters=[@__request_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM master.mst_users AS m
+    WHERE m.email = @__request_Email_0)
+2025-08-29 20:05:59.435 +07:00 [DBG] Closing data reader to 'my_app' on server 'tcp://localhost:5432'.
+2025-08-29 20:05:59.438 +07:00 [DBG] A data reader for 'my_app' on server 'tcp://localhost:5432' is being disposed after spending 6ms reading results.
+2025-08-29 20:05:59.439 +07:00 [DBG] Closing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2025-08-29 20:05:59.440 +07:00 [DBG] Closed connection to database 'my_app' on server 'tcp://localhost:5432' (1ms).
+2025-08-29 20:05:59.440 +07:00 [DBG] Compiling query expression: 
+'DbSet<User>()
+    .Any(u => u.UserName == __request_UserName_0)'
+2025-08-29 20:05:59.441 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT EXISTS (
+            SELECT 1
+            FROM master.mst_users AS m
+            WHERE m.username == @__request_UserName_0)), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+    BaseDotnet.Core.DbContext.BaseDotnetDbContext, 
+    False, 
+    False, 
+    True
+)
+    .Single()'
+2025-08-29 20:05:59.442 +07:00 [DBG] Opening connection to database 'my_app' on server 'tcp://localhost:5432'.
+2025-08-29 20:05:59.442 +07:00 [DBG] Opened connection to database 'my_app' on server 'tcp://localhost:5432'.
+2025-08-29 20:05:59.442 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-08-29 20:05:59.442 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-08-29 20:05:59.442 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-08-29 20:05:59.442 +07:00 [DBG] Executing DbCommand [Parameters=[@__request_UserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM master.mst_users AS m
+    WHERE m.username = @__request_UserName_0)
+2025-08-29 20:05:59.444 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__request_UserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM master.mst_users AS m
+    WHERE m.username = @__request_UserName_0)
+2025-08-29 20:05:59.444 +07:00 [DBG] Closing data reader to 'my_app' on server 'tcp://localhost:5432'.
+2025-08-29 20:05:59.444 +07:00 [DBG] A data reader for 'my_app' on server 'tcp://localhost:5432' is being disposed after spending 0ms reading results.
+2025-08-29 20:05:59.444 +07:00 [DBG] Closing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2025-08-29 20:05:59.444 +07:00 [DBG] Closed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2025-08-29 20:05:59.454 +07:00 [DBG] 'BaseDotnetDbContext' generated a temporary value for the property 'User.UserID'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-08-29 20:05:59.470 +07:00 [DBG] Context 'BaseDotnetDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-08-29 20:05:59.472 +07:00 [DBG] SaveChanges starting for 'BaseDotnetDbContext'.
+2025-08-29 20:05:59.473 +07:00 [DBG] DetectChanges starting for 'BaseDotnetDbContext'.
+2025-08-29 20:05:59.477 +07:00 [DBG] DetectChanges completed for 'BaseDotnetDbContext'.
+2025-08-29 20:05:59.498 +07:00 [DBG] Opening connection to database 'my_app' on server 'tcp://localhost:5432'.
+2025-08-29 20:05:59.498 +07:00 [DBG] Opened connection to database 'my_app' on server 'tcp://localhost:5432'.
+2025-08-29 20:05:59.500 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-08-29 20:05:59.500 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-08-29 20:05:59.500 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-08-29 20:05:59.500 +07:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = DateTime), @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Int32), @p6='?', @p7='?', @p8='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO master.mst_users (created_date, display_name, email, last_login, password, role_id, salt, status, username)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8)
+RETURNING user_id;
+2025-08-29 20:05:59.512 +07:00 [ERR] Failed executing DbCommand (12ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Int32), @p6='?', @p7='?', @p8='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO master.mst_users (created_date, display_name, email, last_login, password, role_id, salt, status, username)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8)
+RETURNING user_id;
+2025-08-29 20:05:59.514 +07:00 [DBG] Closing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2025-08-29 20:05:59.515 +07:00 [DBG] Closed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2025-08-29 20:05:59.522 +07:00 [ERR] An exception occurred in the database while saving changes for context type 'BaseDotnet.Core.DbContext.BaseDotnetDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23503: insert or update on table "mst_users" violates foreign key constraint "fk_user_role"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23503
+    MessageText: insert or update on table "mst_users" violates foreign key constraint "fk_user_role"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: master
+    TableName: mst_users
+    ConstraintName: fk_user_role
+    File: ri_triggers.c
+    Line: 2539
+    Routine: ri_ReportViolation
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23503: insert or update on table "mst_users" violates foreign key constraint "fk_user_role"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23503
+    MessageText: insert or update on table "mst_users" violates foreign key constraint "fk_user_role"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: master
+    TableName: mst_users
+    ConstraintName: fk_user_role
+    File: ri_triggers.c
+    Line: 2539
+    Routine: ri_ReportViolation
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-08-29 20:05:59.524 +07:00 [ERR] User Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23503: insert or update on table "mst_users" violates foreign key constraint "fk_user_role"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23503
+    MessageText: insert or update on table "mst_users" violates foreign key constraint "fk_user_role"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: master
+    TableName: mst_users
+    ConstraintName: fk_user_role
+    File: ri_triggers.c
+    Line: 2539
+    Routine: ri_ReportViolation
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at BaseDotnet.Modules.Users.Services.UserService.Add(CreateUserRequest request)
+   at BaseDotnet.Modules.Users.Controllers.UserController.Create(CreateUserRequest item)
+2025-08-29 20:05:59.525 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-08-29 20:05:59.525 +07:00 [DBG] No information found on request to perform content negotiation.
+2025-08-29 20:05:59.525 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-08-29 20:05:59.525 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-08-29 20:05:59.525 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-08-29 20:05:59.525 +07:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType2`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-29 20:05:59.527 +07:00 [INF] Executed action BaseDotnet.Modules.Users.Controllers.UserController.Create (base-dotnet) in 507.055ms
+2025-08-29 20:05:59.527 +07:00 [INF] Executed endpoint 'BaseDotnet.Modules.Users.Controllers.UserController.Create (base-dotnet)'
+2025-08-29 20:05:59.528 +07:00 [DBG] Connection id "0HNF6V4VQSK11" completed keep alive response.
+2025-08-29 20:05:59.529 +07:00 [DBG] 'BaseDotnetDbContext' disposed.
+2025-08-29 20:05:59.530 +07:00 [DBG] Disposing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2025-08-29 20:05:59.530 +07:00 [DBG] Disposed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2025-08-29 20:05:59.530 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5245/User - 400 null application/json; charset=utf-8 526.6733ms
+2025-08-29 20:06:42.578 +07:00 [DBG] Config reload token fired. Checking for changes...
+2025-08-29 20:06:43.688 +07:00 [INF] Application is shutting down...
+2025-08-29 20:06:43.689 +07:00 [DBG] Hosting stopping
+2025-08-29 20:06:43.706 +07:00 [DBG] Connection id "0HNF6V4VQSK11" disconnecting.
+2025-08-29 20:06:43.706 +07:00 [DBG] Connection id "0HNF6V4VQSK11" stopped.
+2025-08-29 20:06:43.706 +07:00 [DBG] Connection id "0HNF6V4VQSK13" disconnecting.
+2025-08-29 20:06:43.706 +07:00 [DBG] Connection id "0HNF6V4VQSK13" stopped.
+2025-08-29 20:06:43.706 +07:00 [DBG] Connection id "0HNF6V4VQSK11" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-29 20:06:43.706 +07:00 [DBG] Connection id "0HNF6V4VQSK13" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-29 20:06:43.709 +07:00 [DBG] Hosting stopped
+2025-08-29 20:06:51.099 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-08-29 20:06:51.146 +07:00 [DBG] Hosting starting
+2025-08-29 20:06:51.166 +07:00 [INF] Now listening on: http://localhost:5245
+2025-08-29 20:06:51.166 +07:00 [DBG] Loaded hosting startup assembly base-dotnet
+2025-08-29 20:06:51.166 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-08-29 20:06:51.167 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-29 20:06:51.167 +07:00 [INF] Hosting environment: Development
+2025-08-29 20:06:51.167 +07:00 [INF] Content root path: /Users/reihanrenaldi/Documents/ReihanSigma/projects/dotnet/base-dotnet
+2025-08-29 20:06:51.167 +07:00 [DBG] Hosting started
+2025-08-29 20:06:51.340 +07:00 [DBG] Connection id "0HNF6VJLNNPUJ" accepted.
+2025-08-29 20:06:51.341 +07:00 [DBG] Connection id "0HNF6VJLNNPUK" accepted.
+2025-08-29 20:06:51.341 +07:00 [DBG] Connection id "0HNF6VJLNNPUJ" started.
+2025-08-29 20:06:51.341 +07:00 [DBG] Connection id "0HNF6VJLNNPUK" started.
+2025-08-29 20:06:51.356 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/swagger/index.html - null null
+2025-08-29 20:06:51.359 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-08-29 20:06:51.368 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-08-29 20:06:51.368 +07:00 [DBG] Request did not match any endpoints
+2025-08-29 20:06:51.401 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-08-29 20:06:51.405 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-08-29 20:06:51.406 +07:00 [DBG] Connection id "0HNF6VJLNNPUJ" completed keep alive response.
+2025-08-29 20:06:51.413 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/swagger/index.html - 200 null text/html;charset=utf-8 52.99ms
+2025-08-29 20:06:51.429 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-29 20:06:51.431 +07:00 [DBG] Connection id "0HNF6VJLNNPUJ" completed keep alive response.
+2025-08-29 20:06:51.432 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/_framework/aspnetcore-browser-refresh.js - 200 13710 application/javascript; charset=utf-8 3.038ms
+2025-08-29 20:06:51.459 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/swagger/v1/swagger.json - null null
+2025-08-29 20:06:51.460 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-08-29 20:06:51.460 +07:00 [DBG] Request did not match any endpoints
+2025-08-29 20:06:51.509 +07:00 [DBG] Connection id "0HNF6VJLNNPUJ" completed keep alive response.
+2025-08-29 20:06:51.509 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 50.1653ms
+2025-08-29 20:07:02.822 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5245/User - application/json 143
+2025-08-29 20:07:02.826 +07:00 [DBG] 1 candidate(s) found for the request path '/User'
+2025-08-29 20:07:02.829 +07:00 [DBG] Endpoint 'BaseDotnet.Modules.Users.Controllers.UserController.Create (base-dotnet)' with route pattern 'User' is valid for the request path '/User'
+2025-08-29 20:07:02.830 +07:00 [DBG] Request matched endpoint 'BaseDotnet.Modules.Users.Controllers.UserController.Create (base-dotnet)'
+2025-08-29 20:07:02.832 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-08-29 20:07:02.833 +07:00 [WRN] Failed to determine the https port for redirect.
+2025-08-29 20:07:02.837 +07:00 [DBG] The request has an origin header: 'http://localhost:5245'.
+2025-08-29 20:07:02.837 +07:00 [INF] CORS policy execution successful.
+2025-08-29 20:07:02.912 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-08-29 20:07:02.920 +07:00 [INF] [null]
+2025-08-29 20:07:02.920 +07:00 [INF] Executing endpoint 'BaseDotnet.Modules.Users.Controllers.UserController.Create (base-dotnet)'
+2025-08-29 20:07:02.928 +07:00 [INF] Route matched with {action = "Create", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(BaseDotnet.Modules.Users.Models.CreateUserRequest) on controller BaseDotnet.Modules.Users.Controllers.UserController (base-dotnet).
+2025-08-29 20:07:02.929 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-08-29 20:07:02.929 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-08-29 20:07:02.930 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-08-29 20:07:02.930 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-08-29 20:07:02.930 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-08-29 20:07:02.930 +07:00 [DBG] Executing controller factory for controller BaseDotnet.Modules.Users.Controllers.UserController (base-dotnet)
+2025-08-29 20:07:02.930 +07:00 [DBG] Executed controller factory for controller BaseDotnet.Modules.Users.Controllers.UserController (base-dotnet)
+2025-08-29 20:07:02.932 +07:00 [DBG] Attempting to bind parameter 'item' of type 'BaseDotnet.Modules.Users.Models.CreateUserRequest' ...
+2025-08-29 20:07:02.932 +07:00 [DBG] Attempting to bind parameter 'item' of type 'BaseDotnet.Modules.Users.Models.CreateUserRequest' using the name '' in request data ...
+2025-08-29 20:07:02.932 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-08-29 20:07:02.934 +07:00 [DBG] Connection id "0HNF6VJLNNPUJ", Request id "0HNF6VJLNNPUJ:00000004": started reading request body.
+2025-08-29 20:07:02.935 +07:00 [DBG] Connection id "0HNF6VJLNNPUJ", Request id "0HNF6VJLNNPUJ:00000004": done reading request body.
+2025-08-29 20:07:02.937 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'BaseDotnet.Modules.Users.Models.CreateUserRequest'
+2025-08-29 20:07:02.937 +07:00 [DBG] Done attempting to bind parameter 'item' of type 'BaseDotnet.Modules.Users.Models.CreateUserRequest'.
+2025-08-29 20:07:02.937 +07:00 [DBG] Done attempting to bind parameter 'item' of type 'BaseDotnet.Modules.Users.Models.CreateUserRequest'.
+2025-08-29 20:07:02.937 +07:00 [DBG] Attempting to validate the bound parameter 'item' of type 'BaseDotnet.Modules.Users.Models.CreateUserRequest' ...
+2025-08-29 20:07:02.940 +07:00 [DBG] Done attempting to validate the bound parameter 'item' of type 'BaseDotnet.Modules.Users.Models.CreateUserRequest'.
+2025-08-29 20:07:03.145 +07:00 [DBG] Entity Framework Core 8.0.1 initialized 'BaseDotnetDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:8.0.0+2539d1f4bd0d429cbae20336d531d14938a54297' with options: None
+2025-08-29 20:07:03.155 +07:00 [DBG] Compiling query expression: 
+'DbSet<User>()
+    .Any(u => u.Email == __request_Email_0)'
+2025-08-29 20:07:03.227 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT EXISTS (
+            SELECT 1
+            FROM master.mst_users AS m
+            WHERE m.email == @__request_Email_0)), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+    BaseDotnet.Core.DbContext.BaseDotnetDbContext, 
+    False, 
+    False, 
+    True
+)
+    .Single()'
+2025-08-29 20:07:03.240 +07:00 [DBG] Creating DbConnection.
+2025-08-29 20:07:03.251 +07:00 [DBG] Created DbConnection. (10ms).
+2025-08-29 20:07:03.252 +07:00 [DBG] Opening connection to database 'my_app' on server 'tcp://localhost:5432'.
+2025-08-29 20:07:03.297 +07:00 [DBG] Opened connection to database 'my_app' on server 'tcp://localhost:5432'.
+2025-08-29 20:07:03.299 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-08-29 20:07:03.302 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2025-08-29 20:07:03.304 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (5ms).
+2025-08-29 20:07:03.307 +07:00 [DBG] Executing DbCommand [Parameters=[@__request_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM master.mst_users AS m
+    WHERE m.email = @__request_Email_0)
+2025-08-29 20:07:03.334 +07:00 [INF] Executed DbCommand (27ms) [Parameters=[@__request_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM master.mst_users AS m
+    WHERE m.email = @__request_Email_0)
+2025-08-29 20:07:03.339 +07:00 [DBG] Closing data reader to 'my_app' on server 'tcp://localhost:5432'.
+2025-08-29 20:07:03.342 +07:00 [DBG] A data reader for 'my_app' on server 'tcp://localhost:5432' is being disposed after spending 6ms reading results.
+2025-08-29 20:07:03.343 +07:00 [DBG] Closing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2025-08-29 20:07:03.345 +07:00 [DBG] Closed connection to database 'my_app' on server 'tcp://localhost:5432' (1ms).
+2025-08-29 20:07:03.346 +07:00 [DBG] Compiling query expression: 
+'DbSet<User>()
+    .Any(u => u.UserName == __request_UserName_0)'
+2025-08-29 20:07:03.348 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT EXISTS (
+            SELECT 1
+            FROM master.mst_users AS m
+            WHERE m.username == @__request_UserName_0)), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+    BaseDotnet.Core.DbContext.BaseDotnetDbContext, 
+    False, 
+    False, 
+    True
+)
+    .Single()'
+2025-08-29 20:07:03.349 +07:00 [DBG] Opening connection to database 'my_app' on server 'tcp://localhost:5432'.
+2025-08-29 20:07:03.349 +07:00 [DBG] Opened connection to database 'my_app' on server 'tcp://localhost:5432'.
+2025-08-29 20:07:03.349 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-08-29 20:07:03.349 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-08-29 20:07:03.349 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-08-29 20:07:03.349 +07:00 [DBG] Executing DbCommand [Parameters=[@__request_UserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM master.mst_users AS m
+    WHERE m.username = @__request_UserName_0)
+2025-08-29 20:07:03.350 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__request_UserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM master.mst_users AS m
+    WHERE m.username = @__request_UserName_0)
+2025-08-29 20:07:03.350 +07:00 [DBG] Closing data reader to 'my_app' on server 'tcp://localhost:5432'.
+2025-08-29 20:07:03.350 +07:00 [DBG] A data reader for 'my_app' on server 'tcp://localhost:5432' is being disposed after spending 0ms reading results.
+2025-08-29 20:07:03.350 +07:00 [DBG] Closing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2025-08-29 20:07:03.350 +07:00 [DBG] Closed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2025-08-29 20:07:03.360 +07:00 [DBG] 'BaseDotnetDbContext' generated a temporary value for the property 'User.UserID'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-08-29 20:07:03.379 +07:00 [DBG] Context 'BaseDotnetDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-08-29 20:07:03.381 +07:00 [DBG] SaveChanges starting for 'BaseDotnetDbContext'.
+2025-08-29 20:07:03.381 +07:00 [DBG] DetectChanges starting for 'BaseDotnetDbContext'.
+2025-08-29 20:07:03.387 +07:00 [DBG] DetectChanges completed for 'BaseDotnetDbContext'.
+2025-08-29 20:07:03.408 +07:00 [DBG] Opening connection to database 'my_app' on server 'tcp://localhost:5432'.
+2025-08-29 20:07:03.409 +07:00 [DBG] Opened connection to database 'my_app' on server 'tcp://localhost:5432'.
+2025-08-29 20:07:03.411 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-08-29 20:07:03.411 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-08-29 20:07:03.411 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-08-29 20:07:03.411 +07:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = DateTime), @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Int32), @p6='?', @p7='?', @p8='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO master.mst_users (created_date, display_name, email, last_login, password, role_id, salt, status, username)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8)
+RETURNING user_id;
+2025-08-29 20:07:03.420 +07:00 [ERR] Failed executing DbCommand (9ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Int32), @p6='?', @p7='?', @p8='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO master.mst_users (created_date, display_name, email, last_login, password, role_id, salt, status, username)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8)
+RETURNING user_id;
+2025-08-29 20:07:03.423 +07:00 [DBG] Closing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2025-08-29 20:07:03.423 +07:00 [DBG] Closed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2025-08-29 20:07:03.430 +07:00 [ERR] An exception occurred in the database while saving changes for context type 'BaseDotnet.Core.DbContext.BaseDotnetDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23503: insert or update on table "mst_users" violates foreign key constraint "fk_user_role"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23503
+    MessageText: insert or update on table "mst_users" violates foreign key constraint "fk_user_role"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: master
+    TableName: mst_users
+    ConstraintName: fk_user_role
+    File: ri_triggers.c
+    Line: 2539
+    Routine: ri_ReportViolation
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23503: insert or update on table "mst_users" violates foreign key constraint "fk_user_role"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23503
+    MessageText: insert or update on table "mst_users" violates foreign key constraint "fk_user_role"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: master
+    TableName: mst_users
+    ConstraintName: fk_user_role
+    File: ri_triggers.c
+    Line: 2539
+    Routine: ri_ReportViolation
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-08-29 20:07:03.437 +07:00 [ERR] User Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23503: insert or update on table "mst_users" violates foreign key constraint "fk_user_role"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23503
+    MessageText: insert or update on table "mst_users" violates foreign key constraint "fk_user_role"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: master
+    TableName: mst_users
+    ConstraintName: fk_user_role
+    File: ri_triggers.c
+    Line: 2539
+    Routine: ri_ReportViolation
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at BaseDotnet.Modules.Users.Services.UserService.Add(CreateUserRequest request) in /Users/reihanrenaldi/Documents/ReihanSigma/projects/dotnet/base-dotnet/Modules/Users/Services/UserService.cs:line 143
+   at BaseDotnet.Modules.Users.Controllers.UserController.Create(CreateUserRequest item) in /Users/reihanrenaldi/Documents/ReihanSigma/projects/dotnet/base-dotnet/Modules/Users/Controllers/UserController.cs:line 66
+2025-08-29 20:07:03.439 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-08-29 20:07:03.439 +07:00 [DBG] No information found on request to perform content negotiation.
+2025-08-29 20:07:03.439 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-08-29 20:07:03.439 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-08-29 20:07:03.440 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-08-29 20:07:03.440 +07:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType2`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-29 20:07:03.444 +07:00 [INF] Executed action BaseDotnet.Modules.Users.Controllers.UserController.Create (base-dotnet) in 512.8202ms
+2025-08-29 20:07:03.444 +07:00 [INF] Executed endpoint 'BaseDotnet.Modules.Users.Controllers.UserController.Create (base-dotnet)'
+2025-08-29 20:07:03.445 +07:00 [DBG] Connection id "0HNF6VJLNNPUJ" completed keep alive response.
+2025-08-29 20:07:03.446 +07:00 [DBG] 'BaseDotnetDbContext' disposed.
+2025-08-29 20:07:03.448 +07:00 [DBG] Disposing connection to database 'my_app' on server 'tcp://localhost:5432'.
+2025-08-29 20:07:03.449 +07:00 [DBG] Disposed connection to database 'my_app' on server 'tcp://localhost:5432' (0ms).
+2025-08-29 20:07:03.449 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5245/User - 400 null application/json; charset=utf-8 627.6614ms
+2025-08-29 20:08:22.894 +07:00 [DBG] Connection id "0HNF6VJLNNPUK" received FIN.
+2025-08-29 20:08:22.896 +07:00 [DBG] Connection id "0HNF6VJLNNPUK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-29 20:08:22.899 +07:00 [DBG] Connection id "0HNF6VJLNNPUK" disconnecting.
+2025-08-29 20:08:22.901 +07:00 [DBG] Connection id "0HNF6VJLNNPUK" stopped.
+2025-08-29 20:09:14.318 +07:00 [DBG] Connection id "0HNF6VJLNNPUJ" disconnecting.
+2025-08-29 20:09:14.319 +07:00 [DBG] Connection id "0HNF6VJLNNPUJ" stopped.
+2025-08-29 20:09:14.320 +07:00 [DBG] Connection id "0HNF6VJLNNPUJ" sending FIN because: "The Socket transport's send loop completed gracefully."

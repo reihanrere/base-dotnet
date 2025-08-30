@@ -1,64 +1,46 @@
-
 using BaseDotnet.Core.Entities;
-using BaseDotnet.Modules.Role.Services;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Filters;
 
 namespace BaseDotnet.Core.Helpers;
 
-using BaseDotnet.Core.Models.Enum;
-using BaseDotnet.Modules.User.Services;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Filters;
-using System.IdentityModel.Tokens.Jwt;
-
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method)]
 public class AuthorizeAttribute : Attribute, IAuthorizationFilter
-
 {
+    private readonly string[]? _allowedRoles;
 
-    private readonly Page _page;
-    private readonly Action _action;
-
-    private IUserService _userService;
-
-    public AuthorizeAttribute(Page page, Action action)
+    public AuthorizeAttribute(params string[] allowedRoles)
     {
-        _page = page;
-        _action = action;
+        _allowedRoles = allowedRoles;
     }
-    public async void OnAuthorization(AuthorizationFilterContext context)
-    {
-        var allow = true;
-        var user = (User)context.HttpContext.Items["User"];
-        if (user == null)
-            allow = false;
-        else
-        {
-            var roleService = context.HttpContext.RequestServices.GetService(typeof(IRoleService)) as IRoleService;
-            var page = await roleService.GetPageAccessByPageCode(_page, user.RoleID);
-            if (page == null)
-                allow = false;
-            else
-            {
-                string[] actionList = page.Action.Split(",");
-                var hasAction = false;
-                foreach (string action in actionList)
-                {
-                    if (action.Equals(_action.ToString()))
-                    {
-                        hasAction = true;
-                        break;
-                    }
-                }
 
-                if (!hasAction)
-                    allow = false;
-            }
+    public AuthorizeAttribute()
+    {
+        _allowedRoles = null;
+    }
+
+    public void OnAuthorization(AuthorizationFilterContext context)
+    {
+        var user = (User)context.HttpContext.Items["User"];
+        
+        if (user == null)
+        {
+            context.Result = new JsonResult(new { message = "Unauthorized - Please login" }) 
+                { StatusCode = StatusCodes.Status401Unauthorized };
+            return;
         }
 
-        if (!allow)
-            context.Result = new JsonResult(new { message = "Unauthorized" }) { StatusCode = StatusCodes.Status401Unauthorized };
+        if (_allowedRoles != null && _allowedRoles.Length > 0)
+        {
+            var hasAccess = _allowedRoles.Any(role => 
+                string.Equals(role, user.RoleName, StringComparison.OrdinalIgnoreCase));
 
+            if (!hasAccess)
+            {
+                context.Result = new JsonResult(new { message = "Forbidden - Insufficient permissions" }) 
+                    { StatusCode = StatusCodes.Status403Forbidden };
+                return;
+            }
+        }
     }
-
-
 }
